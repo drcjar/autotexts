@@ -1,0 +1,24 @@
+name: Review due
+
+# The site's claim is that each block reflects current guidance. Guidance moves
+# and nobody notices, so this runs the validator in strict mode monthly, where a
+# block unreviewed for 18 months is a failure rather than a warning. It does not
+# touch the deployed site — it exists to put a red mark on the repository when
+# something needs a human to look at it.
+
+on:
+  schedule:
+    - cron: '0 7 1 * *'
+  workflow_dispatch:
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install -r requirements.txt
+      - name: Flag blocks due a review
+        run: python3 validate.py --strict

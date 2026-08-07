@@ -1,0 +1,93 @@
+title: Asthma review
+topic: asthma
+kind: consultation
+summary: >-
+  The routine review, ordered so that control, technique and adherence are
+  settled before anyone reaches for the next inhaler.
+updated: 2026-08-06
+
+body: |
+  Asthma review.
+
+  Control since last seen:
+  Daytime symptoms: [days per week]
+  Night waking due to asthma: [nights per month]
+  Reliever use: [doses per week]
+  Activity limited by asthma: [yes or no]
+  Asthma control questionnaire score: [ACQ or ACT, and which]
+
+  Attacks since last review:
+  Oral steroid courses: []
+  Unscheduled care, A and E or admission: []
+  Time off work or school: []
+
+  Treatment:
+  Current inhalers: [drug, device, dose, doses per day]
+  Prescription collections in the last 12 months: [preventer and reliever]
+  Inhaler technique observed today: [adequate, or the specific error seen]
+  Spacer: [in use, replaced or not needed]
+
+  Anything making it worse:
+  Smoking or vaping: []
+  Nasal symptoms or polyps: []
+  Reflux symptoms: []
+  Weight and BMI: []
+  Occupational or home exposures: []
+  Beta blockers, aspirin or NSAIDs: []
+
+  Measurements:
+  Peak flow [] L/min ([]% of best, best [])
+  FEV1 [] L ([]%)
+  FeNO [] ppb
+  Blood eosinophils [] x10^9/L
+
+  Impression:
+  [controlled on current treatment, or uncontrolled with the reason]
+
+  Plan:
+  1. Treatment: [unchanged, stepped up to, or stepped down to]
+  2. Inhaler technique rechecked: []
+  3. Action plan reviewed and reissued: [yes]
+  4. Vaccination: [influenza, COVID-19, pneumococcal as indicated]
+  5. Review in [] months, sooner if [specific trigger to come back]
+
+notes: >-
+  Escalation before the basics is how someone ends up on triple therapy for a
+  disease that was never uncontrolled: check technique, check collections, and
+  check that the preventer is being taken at all before adding to it. The
+  guideline is equally clear in the other direction — asthma that has been
+  controlled for two to three months should be stepped down, and the step-down
+  conversation only happens if something in the template asks for it. Record
+  reliever use as doses per week rather than "as required": three or more
+  canisters of short-acting reliever in a year is a marker of risk that the word
+  "occasional" hides. Reissuing the action plan is not paperwork; it is the one
+  intervention with a mortality signal behind it.
+
+evidence:
+  - name: "NICE/BTS/SIGN NG245 - Asthma: diagnosis, monitoring and chronic asthma management"
+    url: https://www.nice.org.uk/guidance/ng245
+    note: >-
+      Monitoring at review with symptoms, attack history, inhaler technique and
+      adherence; step down when control has been maintained for two to three
+      months; refer if uncontrolled on moderate-dose MART after trials of a
+      leukotriene receptor antagonist and a long-acting muscarinic antagonist.
+  - name: GINA global strategy for asthma management and prevention
+    url: https://ginasthma.org/
+    note: >-
+      Assessment of control, future risk and modifiable risk factors as three
+      separate questions rather than one impression.
+  - name: "National Review of Asthma Deaths (RCP, 2014)"
+    url: https://www.rcp.ac.uk/improving-care/resources/why-asthma-still-kills/
+    note: >-
+      Excessive reliever use and under-collection of preventers were repeatedly
+      visible in the records before death, and repeatedly not acted on.
+
+trials:
+  - SYGMA 2
+  - MANDALA
+  - START
+
+see_also:
+  - asthma-new-patient
+  - difficult-asthma-assessment
+  - asthma-patient-information

@@ -1,0 +1,74 @@
+# Local overlay: Homerton Healthcare NHS Foundation Trust.
+#
+# Everything in this file is a fact about one building rather than about
+# medicine: phone numbers, booking systems, where to drop a sample. It is kept
+# separate from data/autotexts/ so that deleting this directory removes every
+# organisation-specific detail from the site in one step, and so that anyone
+# forking this for another trust knows exactly which file to rewrite.
+#
+# These details go out of date faster than anything else here. Check them before
+# putting them in a letter.
+
+name: Homerton Healthcare NHS Foundation Trust
+short_name: Homerton
+blurb: >-
+  The blocks Angshu Bhowmik's originals were written around, kept in their local
+  form because a template with the wrong number in it wastes a patient's morning.
+contact: >-
+  Homerton respiratory department, huh-tr.respiratory.department@nhs.net.
+  Corrections welcome - these details change without notice.
+
+blocks:
+  - title: Booking a blood test
+    note: For a letter telling a patient how to get the bloods you have just requested.
+    body: |
+      Booking your blood test
+
+      Homerton Healthcare uses an online booking system called Swiftqueue. If you
+      have been asked to have a blood test by your GP or by a Homerton clinician,
+      please book an appointment at www.swiftqueue.co.uk/homerton.php
+
+      Appointments are available at Lower Clapton Health Centre, 36 Lower Clapton
+      Road, London E5 0PQ.
+
+      If you would rather book by speaking to someone, telephone 07342 068 763,
+      Monday to Friday, 8am to 4pm.
+
+      Please bring your blood form and some identification with you.
+
+  - title: Lung cancer nurse specialist contact
+    note: >-
+      For the end of a letter about a suspected or confirmed lung cancer. Check
+      the names before sending - post-holders change.
+    body: |
+      If you have any questions, please contact the lung cancer nurse specialists
+      on 020 8510 7819, or 07788 226556, or 020 8510 5555 bleep 018.
+
+  - title: Stop smoking service
+    note: For any letter where smoking has been discussed.
+    body: |
+      Hackney Stop Smoking Service can help you stop, with both medication and
+      support. This is free, and it roughly triples the chance of a successful
+      quit compared with willpower alone.
+
+      Telephone: 0800 046 9946
+      Email: smokefreehackney@nhs.net
+      Website: www.smokefreehackney.org
+
+  - title: Where to return sputum samples
+    note: Pairs with the sputum collection instructions.
+    body: |
+      Please bring your samples to Homerton Hospital, Homerton Row, London E9 6SR.
+
+      Ask at the main reception where to take them, so that they reach the
+      laboratory promptly.
+
+  - title: Respiratory department contact
+    note: The standard footer contact block.
+    body: |
+      Homerton Healthcare NHS Foundation Trust
+      Homerton Row
+      London E9 6SR
+
+      Respiratory department: huh-tr.respiratory.department@nhs.net
+      Secretary: []

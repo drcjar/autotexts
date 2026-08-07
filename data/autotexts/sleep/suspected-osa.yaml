@@ -1,0 +1,101 @@
+title: Suspected obstructive sleep apnoea
+topic: sleep
+kind: consultation
+summary: >-
+  The sleep history with the scores that decide priority, and the driving
+  question asked properly.
+updated: 2026-08-06
+
+body: |
+  Referred with suspected obstructive sleep apnoea.
+
+  Sleep history:
+  Snoring: [nightly, and whether reported by a bed partner]
+  Witnessed apnoeas or choking or gasping at night: []
+  Waking unrefreshed, morning headache, dry mouth: []
+  Nocturia: [times per night]
+  Usual bedtime and rising time, and hours actually asleep: []
+  Shift work: []
+  Naps: []
+  Insomnia symptoms, and whether sleep onset or maintenance: []
+  Restless legs or limb movements: []
+  Alcohol in the evening: [units and timing]
+  Sedatives or opioids: []
+
+  Sleepiness:
+  Epworth Sleepiness Scale [] out of 24
+  Impact on work, home and mood: []
+
+  Driving:
+  Holds a driving licence: [no, group 1, or group 2]
+  Occupational driver: [yes or no]
+  Has fallen asleep or come close to it while driving: []
+  Advice given about not driving while sleepy, and about the duty to notify
+  the licensing authority if excessive sleepiness is present: [given]
+
+  Risk factors and consequences:
+  Weight [] kg, height [] cm, BMI [], collar size []
+  Weight change: []
+  Neck, jaw and airway: [Mallampati, retrognathia, tonsils, nasal patency]
+  Hypertension, and how many agents: []
+  Atrial fibrillation, ischaemic heart disease, stroke: []
+  Type 2 diabetes: []
+  Hypothyroidism: []
+  Acromegaly: []
+  Resistant hypertension or unexplained polycythaemia: []
+
+  Screening score:
+  STOP-BANG [] out of 8
+
+  Considered instead of, or as well as, obstructive sleep apnoea:
+  Obesity hypoventilation: [daytime SpO2, bicarbonate]
+  Neuromuscular or chest wall disease: []
+  COPD, and possible overlap: []
+  Narcolepsy or other central hypersomnia: []
+  Depression, anaemia, thyroid disease: []
+
+  Plan:
+  1. [home oximetry, home respiratory polygraphy, or inpatient polysomnography]
+  2. Priority: [urgent if occupational driver, or symptomatic with high
+  Epworth, or significant comorbidity]
+  3. Weight, alcohol, sleep timing and positional advice given: []
+  4. Follow-up with results: []
+
+notes: >-
+  Ask the driving question explicitly and record both the answer and the advice
+  you gave. The duty to notify the licensing authority sits with the patient, but
+  the duty to tell them clearly sits with you, and a line in the letter is the
+  only evidence either happened. Epworth measures sleepiness, not apnoea: a low
+  score in someone with a high STOP-BANG does not exclude the diagnosis, and a
+  high score with normal studies should send you looking at sleep duration,
+  shift work, mood and drugs rather than repeating the study. Check a bicarbonate
+  in anyone with a high BMI — hypoventilation is missed for years and needs
+  different treatment.
+
+evidence:
+  - name: "NICE NG202 - Obstructive sleep apnoea/hypopnoea syndrome and obesity hypoventilation syndrome in over 16s"
+    url: https://www.nice.org.uk/guidance/ng202
+    note: >-
+      Assessment, the place of home respiratory polygraphy and oximetry,
+      prioritisation of people whose job involves driving, and the separate
+      pathway for obesity hypoventilation.
+  - name: "DVLA assessing fitness to drive"
+    url: https://www.gov.uk/guidance/assessing-fitness-to-drive-a-guide-for-medical-professionals
+    note: >-
+      Excessive sleepiness with confirmed sleep apnoea syndrome must be notified,
+      and driving must stop until symptoms are controlled.
+  - name: "STOP-BANG questionnaire (Chung et al, 2008)"
+    url: https://pubmed.ncbi.nlm.nih.gov/18431116/
+    note: The screening score recorded here, validated for stratifying risk.
+  - name: "Epworth Sleepiness Scale (Johns, Sleep 1991)"
+    url: https://pubmed.ncbi.nlm.nih.gov/1798888/
+    note: A measure of sleep propensity, not a diagnostic test for apnoea.
+
+trials:
+  - SAVE
+  - MARIN 2005
+  - SURMOUNT-OSA
+
+see_also:
+  - osa-cpap-information
+  - sleep-and-snoring-advice

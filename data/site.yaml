@@ -1,0 +1,199 @@
+# Site configuration and taxonomy.
+#
+# Every autotext has exactly one `topic` (what it is about) and one `kind`
+# (what it is for). Topics drive navigation; kinds drive the filter chips and
+# tell the reader at a glance whether a block is meant for the notes, for the
+# patient, or for the person booking the test.
+
+title: Respiratory Autotexts
+short_title: Autotexts
+tagline: Evidence-based text blocks for the respiratory clinic
+description: >-
+  Ready-to-paste consultation templates, patient information and test explainers
+  for respiratory clinics, grounded in current national and international
+  guidelines and the trials behind them.
+base_url: https://autotexts.respiratorytrials.org
+domain: autotexts.respiratorytrials.org
+language: en-GB
+
+# Sister site. Trial references in an autotext's evidence panel link here.
+trials_site: https://respiratorytrials.org
+
+# The block the front page opens with. It should be the one most people came for.
+hero: new-respiratory-outpatient
+
+# The placeholder convention. Angshu's originals use empty square brackets
+# because Dragon's "Manage auto-texts" treats them as fields you jump between
+# with F1 and F2; keeping the convention means these paste into an existing
+# Dragon workflow unchanged.
+field_open: "["
+field_close: "]"
+
+groups:
+  - name: Airways
+    topics: [asthma, copd, bronchiectasis]
+  - name: Parenchyma & pleura
+    topics: [ild, pleural]
+  - name: Thoracic oncology
+    topics: [lung-cancer, nodules]
+  - name: Sleep & infection
+    topics: [sleep, tb]
+  - name: Tests & procedures
+    topics: [tests, smoking]
+  - name: Clinic
+    topics: [clinic]
+
+kinds:
+  - slug: consultation
+    name: Consultation template
+    verb: structures a consultation
+    blurb: >-
+      A skeleton for the encounter and the letter that follows it. Headings in the
+      order you actually ask them, with fields left empty.
+  - slug: patient-info
+    name: Patient information
+    verb: explains something to a patient
+    blurb: >-
+      Written to be read by the patient in a clinic letter. Plain English, no
+      abbreviations, and every instruction actionable.
+  - slug: test-info
+    name: Test explainer
+    verb: explains a test
+    blurb: >-
+      What the test is, why it is being done, how to prepare, and what happens
+      to the result.
+  - slug: results
+    name: Results block
+    verb: lays out a result
+    blurb: >-
+      A fixed layout for numbers, so the same values appear in the same order in
+      every letter and can be read down a column across visits.
+  - slug: letter
+    name: Letter
+    verb: is a whole letter
+    blurb: >-
+      Complete correspondence — discharge, non-attendance, handover to primary
+      care — needing only the fields filled.
+  - slug: admin
+    name: Admin & booking
+    verb: supports a booking or referral
+    blurb: >-
+      Checklists and referral proformas: the information the person at the other
+      end always has to come back and ask for.
+
+topics:
+  - slug: asthma
+    name: Asthma
+    blurb: >-
+      New patient, annual review, and the difficult-asthma assessment that has to
+      happen before anyone says the word biologic.
+    guidelines:
+      - name: NICE/BTS/SIGN NG245
+        url: https://www.nice.org.uk/guidance/ng245
+      - name: GINA strategy report
+        url: https://ginasthma.org/
+
+  - slug: copd
+    name: COPD
+    blurb: >-
+      Diagnosis and the annual review, written around the interventions that
+      actually change outcomes rather than the inhaler.
+    guidelines:
+      - name: NICE NG115
+        url: https://www.nice.org.uk/guidance/ng115
+      - name: GOLD report
+        url: https://goldcopd.org/
+
+  - slug: bronchiectasis
+    name: Bronchiectasis
+    blurb: >-
+      The aetiology bundle, the self-management plan, and what to tell someone
+      who has just been told they have it for life.
+    guidelines:
+      - name: BTS bronchiectasis guideline 2019
+        url: https://thorax.bmj.com/content/74/Suppl_1/1
+      - name: ERS clinical practice guideline 2025
+        url: https://publications.ersnet.org/content/erj/66/6/2501126
+
+  - slug: ild
+    name: Interstitial lung disease
+    short: ILD
+    blurb: >-
+      The occupational and drug history that makes the diagnosis, and how to
+      explain fibrosis without taking away the ground someone stands on.
+    guidelines:
+      - name: NICE CG163 (IPF)
+        url: https://www.nice.org.uk/guidance/cg163
+      - name: ATS/ERS/JRS/ALAT IPF and PPF guideline 2022
+        url: https://www.atsjournals.org/doi/10.1164/rccm.202202-0399ST
+
+  - slug: pleural
+    name: Pleural disease
+    blurb: >-
+      Effusion workup, pneumothorax, and the indwelling catheter conversation.
+    guidelines:
+      - name: BTS pleural disease guideline 2023
+        url: https://thorax.bmj.com/content/78/Suppl_3/s1
+
+  - slug: lung-cancer
+    name: Lung cancer
+    blurb: >-
+      Performance status in every letter, the staging pathway explained once
+      properly, and what to say the week of diagnosis.
+    guidelines:
+      - name: NICE NG122
+        url: https://www.nice.org.uk/guidance/ng122
+
+  - slug: nodules
+    name: Pulmonary nodules
+    blurb: >-
+      Surveillance intervals, and telling someone their scan found something
+      that is probably nothing.
+    guidelines:
+      - name: BTS pulmonary nodule guideline 2015
+        url: https://thorax.bmj.com/content/70/Suppl_2/ii1
+
+  - slug: sleep
+    name: Sleep & ventilation
+    short: Sleep
+    blurb: >-
+      Suspected OSA, the CPAP conversation, and the sleep advice that helps the
+      people whose studies come back normal.
+    guidelines:
+      - name: NICE NG202
+        url: https://www.nice.org.uk/guidance/ng202
+
+  - slug: tb
+    name: TB & mycobacteria
+    short: TB
+    blurb: >-
+      Sputum collection that actually yields a result, and contact-tracing and
+      treatment explained to the person taking the tablets.
+    guidelines:
+      - name: NICE NG33
+        url: https://www.nice.org.uk/guidance/ng33
+
+  - slug: tests
+    name: Tests & procedures
+    short: Tests
+    blurb: >-
+      Lung function, blood gases and bronchoscopy — the results blocks that keep
+      numbers in the same order in every letter, and the explainers that go to
+      the patient.
+
+  - slug: smoking
+    name: Smoking & vaping
+    short: Smoking
+    blurb: >-
+      Very brief advice recorded in a way that counts, and treatment offered
+      rather than mentioned.
+    guidelines:
+      - name: NICE NG209
+        url: https://www.nice.org.uk/guidance/ng209
+
+  - slug: clinic
+    name: Clinic letters & admin
+    short: Clinic
+    blurb: >-
+      The general clerking skeleton, non-attendance and discharge letters, and
+      the blocks that sit at the bottom of every letter you send.

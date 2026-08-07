@@ -1,0 +1,115 @@
+title: Lung cancer tests - what each one is for
+topic: lung-cancer
+kind: test-info
+summary: >-
+  PET-CT, EBUS, biopsy and the rest, explained to a patient who has been told
+  they need "some more scans".
+updated: 2026-08-06
+
+body: |
+  About the tests we have arranged
+
+  We need to answer two questions before we can recommend treatment: what
+  exactly the abnormality is, and whether it has spread. Different tests answer
+  different parts of that, which is why there is usually more than one.
+
+  It can feel slow. Each test has to be done, reported, and then discussed by the
+  team, and the order matters because each one tells us where to look next.
+
+  CT scan
+  A detailed x-ray picture of the chest and upper abdomen, usually with an
+  injection of dye into a vein. It shows the size and position of the
+  abnormality and whether the lymph nodes are enlarged. It takes a few minutes.
+
+  PET-CT scan
+  A scan that shows how active tissue is, not just what it looks like. You are
+  given an injection of a small amount of radioactive sugar and rested quietly
+  for about an hour, then scanned. Cancer cells usually take up more of the sugar
+  and appear bright.
+
+  PET-CT is very good at finding areas we would otherwise miss, but inflammation
+  and infection also light up, so a bright area is not proof of cancer. That is
+  why we often still need a sample.
+
+  If you have diabetes, tell us, because the preparation needs adjusting.
+
+  Getting a sample
+
+  Looking at cells under a microscope is the only way to be certain what
+  something is, and modern lung cancer treatment depends on tests done on the
+  tissue itself. We choose the method that gives the most information with the
+  least risk, which depends on where the abnormality is.
+
+  Bronchoscopy: a thin camera passed into the airways, with samples taken from
+  inside them.
+
+  EBUS, or endobronchial ultrasound: a bronchoscopy with an ultrasound probe at
+  the tip, which lets us see the lymph nodes in the centre of the chest through
+  the airway wall and pass a fine needle into them. This is the standard way of
+  checking whether lymph nodes are involved, which matters a great deal for
+  treatment.
+
+  CT-guided biopsy: a needle passed through the skin into the abnormality, using
+  the CT scanner to guide it. Used when the abnormality is near the outside of
+  the lung. There is a risk of causing a leak of air from the lung, which
+  sometimes needs a drain and an overnight stay.
+
+  Draining fluid: if there is fluid around the lung, a sample is taken with a
+  needle and examined for cancer cells.
+
+  Other tests you may be offered
+
+  MRI of the head, to check whether the brain is involved.
+  Breathing tests and sometimes an exercise test, to see how well you would
+  cope with surgery or radiotherapy.
+  Blood tests, including kidney and liver function.
+
+  What happens to the results
+
+  Everything is brought together at a meeting called the lung cancer
+  multidisciplinary team, or MDT. Chest doctors, surgeons, cancer specialists,
+  radiologists, pathologists and specialist nurses meet weekly to agree a
+  recommendation, which we then discuss with you.
+
+  Your lung cancer nurse specialist is your point of contact throughout, and is
+  the person to ring with questions between appointments.
+
+  If you smoke
+
+  Stopping smoking now still helps, even at this stage. It reduces complications
+  from surgery, improves how well radiotherapy and chemotherapy are tolerated, and
+  improves outcomes. We can arrange support and medication straight away.
+
+notes: >-
+  This block is for the week between the first clinic and the MDT, which is when
+  people are most frightened and least informed. Two sentences do most of the
+  work: that a bright spot on PET is not proof of cancer, and that a sample is
+  needed before anything can be said with certainty — both pre-empt the phone
+  call that follows a partially understood result. Mentioning that treatment
+  depends on tests done on the tissue helps people understand why a repeat biopsy
+  is sometimes needed rather than experiencing it as a mistake.
+
+evidence:
+  - name: "NICE NG122 - Lung cancer: diagnosis and management"
+    url: https://www.nice.org.uk/guidance/ng122
+    note: >-
+      Choose investigations that give the most information about diagnosis and
+      staging with the least risk; EBUS-guided sampling for mediastinal staging;
+      PET-CT before treatment with radical intent.
+  - name: "BTS guideline for advanced diagnostic and therapeutic flexible bronchoscopy in adults"
+    url: https://thorax.bmj.com/content/66/Suppl_3/iii1
+    note: The role and yield of endobronchial ultrasound in mediastinal staging.
+  - name: "BTS guideline on the radical management of patients with lung cancer"
+    url: https://thorax.bmj.com/content/65/Suppl_3/iii1
+    note: Lung function and cardiopulmonary exercise testing before radical treatment.
+  - name: "Royal College of Radiologists: standards for PET-CT"
+    url: https://www.rcr.ac.uk/
+    note: What patients should be told about preparation and the meaning of uptake.
+
+trials:
+  - ASTER
+  - PACIFIC
+
+see_also:
+  - suspected-lung-cancer
+  - lung-cancer-diagnosis-information

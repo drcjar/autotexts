@@ -1,0 +1,2116 @@
+{
+  "3CPO": {
+    "acronym": "3CPO",
+    "slug": "3cpo",
+    "summary": "Non-invasive ventilation made patients with pulmonary oedema feel better faster without saving lives",
+    "topic": "ventilation",
+    "year": 2008
+  },
+  "3SITES": {
+    "acronym": "3SITES",
+    "slug": "3sites",
+    "summary": "Subclavian lines had fewer infections and clots but more pneumothoraces",
+    "topic": "procedures",
+    "year": 2015
+  },
+  "A2B": {
+    "acronym": "A2B",
+    "slug": "a2b",
+    "summary": "Neither dexmedetomidine nor clonidine beat propofol for time to extubation",
+    "topic": "sedation",
+    "year": 2025
+  },
+  "ABRA": {
+    "acronym": "ABRA",
+    "slug": "abra",
+    "summary": "A single dose of benralizumab at the time of an eosinophilic exacerbation beat prednisolone",
+    "topic": "asthma",
+    "year": 2025
+  },
+  "ACTT-1": {
+    "acronym": "ACTT-1",
+    "slug": "actt-1",
+    "summary": "Remdesivir shortened time to recovery by five days without a clear mortality benefit",
+    "topic": "covid",
+    "year": 2020
+  },
+  "ACTT-2": {
+    "acronym": "ACTT-2",
+    "slug": "actt-2",
+    "summary": "Adding baricitinib to remdesivir shortened recovery by a day, most in those on high-flow oxygen",
+    "topic": "covid",
+    "year": 2021
+  },
+  "ACURASYS": {
+    "acronym": "ACURASYS",
+    "slug": "acurasys",
+    "summary": "Early cisatracurium improved adjusted 90-day survival in severe ARDS",
+    "topic": "ards",
+    "year": 2010
+  },
+  "ADAPT-SEPSIS": {
+    "acronym": "ADAPT-Sepsis",
+    "slug": "adapt-sepsis",
+    "summary": "Procalcitonin-guided stopping shortened antibiotic courses without increasing deaths",
+    "topic": "sepsis",
+    "year": 2025
+  },
+  "ADJUST-PE": {
+    "acronym": "ADJUST-PE",
+    "slug": "adjust-pe",
+    "summary": "Age-adjusting the D-dimer nearly quintupled the proportion of over-75s who could avoid imaging",
+    "topic": "pulmonary-embolism",
+    "year": 2014
+  },
+  "ADRENAL": {
+    "acronym": "ADRENAL",
+    "slug": "adrenal",
+    "summary": "Hydrocortisone resolved shock faster without reducing mortality",
+    "topic": "sepsis",
+    "year": 2018
+  },
+  "ADVENT-HF": {
+    "acronym": "ADVENT-HF",
+    "slug": "advent-hf",
+    "summary": "Adaptive servo-ventilation was neutral in heart failure, and crucially showed none of the harm seen in SERVE-HF",
+    "topic": "sleep",
+    "year": 2024
+  },
+  "AID-ICU": {
+    "acronym": "AID-ICU",
+    "slug": "aid-icu",
+    "summary": "Haloperidol did not improve outcomes in ICU delirium",
+    "topic": "sedation",
+    "year": 2022
+  },
+  "AKIKI 2": {
+    "acronym": "AKIKI 2",
+    "slug": "akiki-2",
+    "summary": "Waiting even longer than a delayed strategy caused harm without benefit",
+    "topic": "nephrology-cc",
+    "year": 2021
+  },
+  "ALVEOLI": {
+    "acronym": "ALVEOLI",
+    "slug": "alveoli",
+    "summary": "Higher PEEP added nothing once tidal volume and plateau pressure were already limited",
+    "topic": "ards",
+    "year": 2004
+  },
+  "AMAZES": {
+    "acronym": "AMAZES",
+    "slug": "amazes",
+    "summary": "Azithromycin cut asthma exacerbations by 41% and improved quality of life, at the cost of diarrhoea",
+    "topic": "asthma",
+    "year": 2017
+  },
+  "AMBITION": {
+    "acronym": "AMBITION",
+    "slug": "ambition",
+    "summary": "Starting two vasodilators at once halved clinical failure compared with either alone",
+    "topic": "pulmonary-hypertension",
+    "year": 2015
+  },
+  "AMPLE": {
+    "acronym": "AMPLE",
+    "slug": "ample",
+    "summary": "Indwelling pleural catheters kept patients out of hospital more than talc pleurodesis",
+    "topic": "pleural",
+    "year": 2017
+  },
+  "ANDERSON 2007": {
+    "acronym": "Anderson 2007",
+    "slug": "anderson-2007",
+    "summary": "CT and V/Q were equally safe for exclusion, but CT diagnosed a third more emboli",
+    "topic": "pulmonary-embolism",
+    "year": 2007
+  },
+  "ANDROMEDA-SHOCK-2": {
+    "acronym": "ANDROMEDA-SHOCK-2",
+    "slug": "andromeda-shock-2",
+    "summary": "Resuscitating towards capillary refill time beat usual care on a hierarchical composite",
+    "topic": "sepsis",
+    "year": 2025
+  },
+  "ANTHONISEN 1987": {
+    "acronym": "Anthonisen 1987",
+    "slug": "anthonisen-1987",
+    "summary": "Antibiotics helped exacerbations defined by increased dyspnoea, sputum volume and purulence",
+    "topic": "copd",
+    "year": 1987
+  },
+  "APROCCHSS": {
+    "acronym": "APROCCHSS",
+    "slug": "aprocchss",
+    "summary": "Hydrocortisone with fludrocortisone reduced 90-day mortality by 6 percentage points",
+    "topic": "sepsis",
+    "year": 2018
+  },
+  "ARCASOY 2003": {
+    "acronym": "Arcasoy 2003",
+    "slug": "arcasoy-2003",
+    "summary": "Echocardiography misclassified half of patients with advanced lung disease as having pulmonary hypertension",
+    "topic": "pulmonary-hypertension",
+    "year": 2003
+  },
+  "ARISE": {
+    "acronym": "ARISE",
+    "slug": "arise",
+    "summary": "Early goal-directed therapy did not reduce 90-day mortality",
+    "topic": "sepsis",
+    "year": 2014
+  },
+  "ARMA": {
+    "acronym": "ARMA",
+    "slug": "arma",
+    "summary": "Ventilating at 6 mL/kg instead of 12 cut ARDS mortality from 40% to 31%",
+    "topic": "ards",
+    "year": 2000
+  },
+  "ART": {
+    "acronym": "ART",
+    "slug": "art",
+    "summary": "Aggressive recruitment with titrated PEEP increased mortality",
+    "topic": "ards",
+    "year": 2017
+  },
+  "ARTEMIS": {
+    "acronym": "Artemis",
+    "slug": "artemis",
+    "summary": "A pregnancy-adapted YEARS algorithm safely avoided CT in a third to two thirds of pregnant women",
+    "topic": "pulmonary-embolism",
+    "year": 2019
+  },
+  "ASCEND": {
+    "acronym": "ASCEND",
+    "slug": "ascend",
+    "summary": "Pirfenidone slowed FVC decline and improved progression-free survival in IPF",
+    "topic": "ild",
+    "year": 2014
+  },
+  "ASPEN": {
+    "acronym": "ASPEN",
+    "slug": "aspen",
+    "summary": "Brensocatib cut exacerbations by about 20% — the first drug licensed specifically for bronchiectasis",
+    "topic": "bronchiectasis",
+    "year": 2025
+  },
+  "ASTER": {
+    "acronym": "ASTER",
+    "slug": "aster",
+    "summary": "Endosonography before surgical staging raised sensitivity to 94% and halved unnecessary thoracotomies",
+    "topic": "lung-cancer",
+    "year": 2010
+  },
+  "ATACH-2": {
+    "acronym": "ATACH-2",
+    "slug": "atach-2",
+    "summary": "Aggressive blood pressure lowering in intracerebral haemorrhage gave no benefit",
+    "topic": "neurology-cc",
+    "year": 2016
+  },
+  "ATHOS-3": {
+    "acronym": "ATHOS-3",
+    "slug": "athos-3",
+    "summary": "Angiotensin II raised blood pressure in catecholamine-refractory shock",
+    "topic": "sepsis",
+    "year": 2017
+  },
+  "AZOULAY 2010": {
+    "acronym": "Azoulay 2010",
+    "slug": "azoulay-2010",
+    "summary": "Bronchoscopy added no diagnostic yield over non-invasive testing, and did not precipitate intubation",
+    "topic": "immunocompromised",
+    "year": 2010
+  },
+  "BAKER 2021": {
+    "acronym": "Baker 2021",
+    "slug": "baker-2021",
+    "summary": "Neither adding a nicotine patch to varenicline nor doubling the treatment duration helped",
+    "topic": "smoking-cessation",
+    "year": 2021
+  },
+  "BALANCE": {
+    "acronym": "BALANCE",
+    "slug": "balance",
+    "summary": "A week of antibiotics matched a fortnight for bloodstream infection",
+    "topic": "sepsis",
+    "year": 2025
+  },
+  "BARBE 2012": {
+    "acronym": "Barbe 2012",
+    "slug": "barbe-2012",
+    "summary": "CPAP did not significantly reduce incident hypertension or cardiovascular events in non-sleepy OSA",
+    "topic": "sleep",
+    "year": 2012
+  },
+  "BASICS": {
+    "acronym": "BaSICS",
+    "slug": "basics",
+    "summary": "Balanced solution did not improve survival over saline in over ten thousand patients",
+    "topic": "nephrology-cc",
+    "year": 2021
+  },
+  "BAT": {
+    "acronym": "BAT",
+    "slug": "bat",
+    "summary": "Maintenance azithromycin roughly halved the proportion of patients having any exacerbation",
+    "topic": "bronchiectasis",
+    "year": 2013
+  },
+  "BERSTEN 1991": {
+    "acronym": "Bersten 1991",
+    "slug": "bersten-1991",
+    "summary": "Face-mask CPAP rapidly improved physiology and reduced intubation in cardiogenic pulmonary oedema",
+    "topic": "ventilation",
+    "year": 1991
+  },
+  "BLESS": {
+    "acronym": "BLESS",
+    "slug": "bless",
+    "summary": "Erythromycin modestly cut exacerbations, including in Pseudomonas-infected patients, at the cost of increased macrolide resistance",
+    "topic": "bronchiectasis",
+    "year": 2013
+  },
+  "BLUE PROTOCOL": {
+    "acronym": "BLUE protocol",
+    "slug": "blue-protocol",
+    "summary": "A structured lung ultrasound protocol distinguished the causes of acute respiratory failure at the bedside",
+    "topic": "ultrasound",
+    "year": 2008
+  },
+  "BOREAS": {
+    "acronym": "BOREAS",
+    "slug": "boreas",
+    "summary": "Dupilumab cut exacerbations by 30% in eosinophilic COPD already on triple therapy",
+    "topic": "copd",
+    "year": 2023
+  },
+  "BOURNE 2023": {
+    "acronym": "Bourne 2023",
+    "slug": "bourne-2023",
+    "summary": "Home telerehabilitation and unsupervised training both cut readmissions by around 40%",
+    "topic": "pulmonary-rehabilitation",
+    "year": 2023
+  },
+  "BOZZETTE 1990": {
+    "acronym": "Bozzette 1990",
+    "slug": "bozzette-1990",
+    "summary": "Early steroids improved survival in severe Pneumocystis pneumonia in AIDS",
+    "topic": "immunocompromised",
+    "year": 1990
+  },
+  "BRAIN-ICU": {
+    "acronym": "BRAIN-ICU",
+    "slug": "brain-icu",
+    "summary": "Three quarters became delirious, and 40% had brain-injury-level cognitive impairment three months later",
+    "topic": "sedation",
+    "year": 2013
+  },
+  "BRANT": {
+    "acronym": "BRANT",
+    "slug": "brant",
+    "summary": "Oral nimodipine reduced cerebral infarction and improved outcome after subarachnoid haemorrhage",
+    "topic": "neurology-cc",
+    "year": 1989
+  },
+  "BREATHE": {
+    "acronym": "Breathe",
+    "slug": "breathe",
+    "summary": "Extubating early onto non-invasive ventilation did not shorten total time to liberation",
+    "topic": "ventilation",
+    "year": 2018
+  },
+  "BROCHARD 1994": {
+    "acronym": "Brochard 1994",
+    "slug": "brochard-1994",
+    "summary": "Gradual pressure support weaning outperformed T-piece trials and SIMV in difficult-to-wean patients",
+    "topic": "ventilation",
+    "year": 1994
+  },
+  "BROCHARD 1995": {
+    "acronym": "Brochard 1995",
+    "slug": "brochard-1995",
+    "summary": "Non-invasive ventilation cut intubation, length of stay and mortality in COPD exacerbations",
+    "topic": "ventilation",
+    "year": 1995
+  },
+  "CALGB 140503": {
+    "acronym": "CALGB 140503",
+    "slug": "calgb-140503",
+    "summary": "Sublobar resection matched lobectomy for small peripheral node-negative lung cancers",
+    "topic": "lung-cancer",
+    "year": 2023
+  },
+  "CALORIES": {
+    "acronym": "CALORIES",
+    "slug": "calories",
+    "summary": "Parenteral and enteral routes gave identical mortality",
+    "topic": "nutrition-cc",
+    "year": 2014
+  },
+  "CANPAP": {
+    "acronym": "CANPAP",
+    "slug": "canpap",
+    "summary": "CPAP improved every surrogate measure in central sleep apnoea and did not improve survival",
+    "topic": "sleep",
+    "year": 2005
+  },
+  "CAPE COD": {
+    "acronym": "CAPE COD",
+    "slug": "cape-cod",
+    "summary": "Hydrocortisone roughly halved 28-day mortality in severe community-acquired pneumonia",
+    "topic": "pneumonia",
+    "year": 2023
+  },
+  "CARSON 2016": {
+    "acronym": "Carson 2016",
+    "slug": "carson-2016",
+    "summary": "Palliative care-led family meetings did not reduce distress and increased post-traumatic stress symptoms",
+    "topic": "palliative",
+    "year": 2016
+  },
+  "CASEY 2021": {
+    "acronym": "Casey 2021",
+    "slug": "casey-2021",
+    "summary": "Giving every extubated patient respiratory support prevented no reintubations",
+    "topic": "ventilation",
+    "year": 2021
+  },
+  "CATNAP": {
+    "acronym": "CATNAP",
+    "slug": "catnap",
+    "summary": "CPAP improved daily function in sleepy patients with only mild to moderate apnoea",
+    "topic": "sleep",
+    "year": 2012
+  },
+  "CCCTG VAP": {
+    "acronym": "CCCTG VAP",
+    "slug": "ccctg-vap",
+    "summary": "Invasive quantitative sampling gave no advantage over a simple endotracheal aspirate",
+    "topic": "pneumonia",
+    "year": 2006
+  },
+  "CESAR": {
+    "acronym": "CESAR",
+    "slug": "cesar",
+    "summary": "Referral to an ECMO centre improved 6-month survival without disability in severe respiratory failure",
+    "topic": "ards",
+    "year": 2009
+  },
+  "CHECKLIST-ICU": {
+    "acronym": "CHECKLIST-ICU",
+    "slug": "checklist-icu",
+    "summary": "Daily checklists and clinician prompting did not reduce mortality",
+    "topic": "icu-administration",
+    "year": 2016
+  },
+  "CLASSIC": {
+    "acronym": "CLASSIC",
+    "slug": "classic",
+    "summary": "Restricting fluid in established septic shock did not reduce mortality",
+    "topic": "sepsis",
+    "year": 2022
+  },
+  "CLEAR": {
+    "acronym": "CLEAR",
+    "slug": "clear",
+    "summary": "Neither hypertonic saline nor carbocisteine reduced exacerbations in bronchiectasis",
+    "topic": "bronchiectasis",
+    "year": 2025
+  },
+  "CLOVERS": {
+    "acronym": "CLOVERS",
+    "slug": "clovers",
+    "summary": "Neither restrictive nor liberal early fluid strategy was better in sepsis-induced hypotension",
+    "topic": "sepsis",
+    "year": 2023
+  },
+  "CODEX": {
+    "acronym": "CoDEX",
+    "slug": "codex",
+    "summary": "Dexamethasone gave 2.6 more ventilator-free days in COVID-19 ARDS",
+    "topic": "covid",
+    "year": 2020
+  },
+  "COLD": {
+    "acronym": "COLD",
+    "slug": "cold",
+    "summary": "Cryobiopsy first, surgery only if needed, matched immediate surgery with less burden",
+    "topic": "ild",
+    "year": 2024
+  },
+  "COLDICE": {
+    "acronym": "COLDICE",
+    "slug": "coldice",
+    "summary": "Cryobiopsy agreed closely with surgical lung biopsy, especially when the diagnosis was made with high confidence",
+    "topic": "ild",
+    "year": 2020
+  },
+  "CONFIRM": {
+    "acronym": "CONFIRM",
+    "slug": "confirm",
+    "summary": "Terlipressin reversed hepatorenal syndrome in a third of patients, at the cost of respiratory failure",
+    "topic": "gastroenterology-cc",
+    "year": 2021
+  },
+  "CONVERT": {
+    "acronym": "CONVERT",
+    "slug": "convert",
+    "summary": "Inhaled liposomal amikacin tripled culture conversion in refractory MAC lung disease, at the cost of frequent airway side effects",
+    "topic": "mycobacterial",
+    "year": 2018
+  },
+  "COPLIN 2000": {
+    "acronym": "Coplin 2000",
+    "slug": "coplin-2000",
+    "summary": "Delaying extubation in brain-injured patients who were ready nearly doubled pneumonia and doubled ICU stay",
+    "topic": "neurology-cc",
+    "year": 2000
+  },
+  "COPPLER 2016": {
+    "acronym": "Coppler 2016",
+    "slug": "coppler-2016",
+    "summary": "Three objective criteria identified cardiac arrest patients with essentially no chance of survival",
+    "topic": "neurology-cc",
+    "year": 2016
+  },
+  "CORRAL 2017": {
+    "acronym": "Corral 2017",
+    "slug": "corral-2017",
+    "summary": "Home sleep studies managed patients as well as full polysomnography, far more cheaply",
+    "topic": "sleep",
+    "year": 2017
+  },
+  "COURTRIGHT 2024": {
+    "acronym": "Courtright 2024",
+    "slug": "courtright-2024",
+    "summary": "Making palliative care consultation the default sharply increased referrals",
+    "topic": "palliative",
+    "year": 2024
+  },
+  "COVID STEROID 2": {
+    "acronym": "COVID STEROID 2",
+    "slug": "covid-steroid-2",
+    "summary": "Doubling the dexamethasone dose added nothing over the standard 6 mg",
+    "topic": "covid",
+    "year": 2021
+  },
+  "CRRT IN ACUTE LIVER FAILURE": {
+    "acronym": "CRRT in acute liver failure",
+    "slug": "crrt-in-acute-liver-failure",
+    "summary": "Continuous renal replacement therapy lowered ammonia and was associated with better transplant-free survival; intermittent therapy was associated with worse",
+    "topic": "gastroenterology-cc",
+    "year": 2018
+  },
+  "DANGER SHOCK": {
+    "acronym": "DanGer Shock",
+    "slug": "danger-shock",
+    "summary": "A microaxial flow pump reduced 180-day mortality in infarct-related cardiogenic shock",
+    "topic": "cardiology-cc",
+    "year": 2024
+  },
+  "DAVIES 2012": {
+    "acronym": "Davies 2012",
+    "slug": "davies-2012",
+    "summary": "Post-pyloric feeding delivered no more calories than the nasogastric tube already in place",
+    "topic": "nutrition-cc",
+    "year": 2012
+  },
+  "DAWN": {
+    "acronym": "DAWN",
+    "slug": "dawn",
+    "summary": "Thrombectomy worked up to 24 hours out when imaging showed salvageable brain",
+    "topic": "neurology-cc",
+    "year": 2018
+  },
+  "DE SMET 2009": {
+    "acronym": "de Smet 2009",
+    "slug": "de-smet-2009",
+    "summary": "Selective decontamination reduced adjusted mortality in a low-resistance setting",
+    "topic": "infection-control",
+    "year": 2009
+  },
+  "DEFERRED ARTERIAL CATHETER": {
+    "acronym": "Deferred arterial catheter",
+    "slug": "deferred-arterial-catheter",
+    "summary": "Deferring the arterial line in shock was as safe as inserting one early",
+    "topic": "sepsis",
+    "year": 2025
+  },
+  "DETSKY 2017": {
+    "acronym": "Detsky 2017",
+    "slug": "detsky-2017",
+    "summary": "Clinicians predicted survival reasonably well and functional recovery poorly",
+    "topic": "palliative",
+    "year": 2017
+  },
+  "DEVICE": {
+    "acronym": "DEVICE",
+    "slug": "device",
+    "summary": "Video laryngoscopy improved first-attempt intubation success enough to stop the trial early",
+    "topic": "procedures",
+    "year": 2023
+  },
+  "DEXA-ARDS": {
+    "acronym": "DEXA-ARDS",
+    "slug": "dexa-ards",
+    "summary": "Dexamethasone reduced ventilator days and mortality in established moderate-to-severe ARDS",
+    "topic": "ards",
+    "year": 2020
+  },
+  "DOREMI": {
+    "acronym": "DOREMI",
+    "slug": "doremi",
+    "summary": "Milrinone and dobutamine performed identically in cardiogenic shock",
+    "topic": "cardiology-cc",
+    "year": 2021
+  },
+  "DRAKULOVIC 1999": {
+    "acronym": "Drakulovic 1999",
+    "slug": "drakulovic-1999",
+    "summary": "Sitting ventilated patients up at 45 degrees cut nosocomial pneumonia fourfold",
+    "topic": "infection-control",
+    "year": 1999
+  },
+  "DRIVING PRESSURE": {
+    "acronym": "Driving pressure",
+    "slug": "driving-pressure",
+    "summary": "Driving pressure predicted survival better than tidal volume or PEEP, even within protective settings",
+    "topic": "ards",
+    "year": 2015
+  },
+  "EARLY TIPS": {
+    "acronym": "Early TIPS",
+    "slug": "early-tips",
+    "summary": "Early TIPS almost abolished rebleeding and improved survival in high-risk variceal bleeding",
+    "topic": "gastroenterology-cc",
+    "year": 2010
+  },
+  "ECASS III": {
+    "acronym": "ECASS III",
+    "slug": "ecass-iii",
+    "summary": "Alteplase still worked between 3 and 4.5 hours, with the same bleeding cost",
+    "topic": "neurology-cc",
+    "year": 2008
+  },
+  "ECLS-SHOCK": {
+    "acronym": "ECLS-SHOCK",
+    "slug": "ecls-shock",
+    "summary": "Veno-arterial ECMO did not reduce mortality in infarct-related cardiogenic shock",
+    "topic": "cardiology-cc",
+    "year": 2023
+  },
+  "ECMO-CS": {
+    "acronym": "ECMO-CS",
+    "slug": "ecmo-cs",
+    "summary": "Immediate ECMO was no better than a conservative strategy with ECMO in reserve",
+    "topic": "cardiology-cc",
+    "year": 2023
+  },
+  "EDEN": {
+    "acronym": "EDEN",
+    "slug": "eden",
+    "summary": "Trophic feeding matched full feeding, with less gastrointestinal intolerance",
+    "topic": "nutrition-cc",
+    "year": 2012
+  },
+  "EFFORT PROTEIN": {
+    "acronym": "EFFORT Protein",
+    "slug": "effort-protein",
+    "summary": "High-dose protein did not help and may have harmed patients with kidney injury",
+    "topic": "nutrition-cc",
+    "year": 2023
+  },
+  "ELKINS 2006": {
+    "acronym": "Elkins 2006",
+    "slug": "elkins-2006",
+    "summary": "Hypertonic saline did not change the slope of decline but improved lung function and cut exacerbations",
+    "topic": "cystic-fibrosis",
+    "year": 2006
+  },
+  "EMBRACE": {
+    "acronym": "EMBRACE",
+    "slug": "embrace",
+    "summary": "Azithromycin cut exacerbations by 62% without improving lung function or quality of life",
+    "topic": "bronchiectasis",
+    "year": 2012
+  },
+  "ENHANCE": {
+    "acronym": "ENHANCE",
+    "slug": "enhance",
+    "summary": "Ensifentrine improved lung function in both replicate trials and reduced exacerbations, with placebo-level tolerability",
+    "topic": "copd",
+    "year": 2023
+  },
+  "EOLIA": {
+    "acronym": "EOLIA",
+    "slug": "eolia",
+    "summary": "Immediate ECMO did not significantly beat conventional ventilation with ECMO held in reserve",
+    "topic": "ards",
+    "year": 2018
+  },
+  "EPANIC": {
+    "acronym": "EPaNIC",
+    "slug": "epanic",
+    "summary": "Waiting a week before starting parenteral nutrition led to faster recovery and fewer infections",
+    "topic": "nutrition-cc",
+    "year": 2011
+  },
+  "EPIC-HR": {
+    "acronym": "EPIC-HR",
+    "slug": "epic-hr",
+    "summary": "Nirmatrelvir-ritonavir cut hospitalisation or death by 89% in unvaccinated high-risk outpatients",
+    "topic": "covid",
+    "year": 2022
+  },
+  "EPIC-SR": {
+    "acronym": "EPIC-SR",
+    "slug": "epic-sr",
+    "summary": "Nirmatrelvir did nothing for symptoms in a largely vaccinated, standard-risk population",
+    "topic": "covid",
+    "year": 2024
+  },
+  "ESCAPE": {
+    "acronym": "ESCAPE",
+    "slug": "escape",
+    "summary": "The pulmonary artery catheter added adverse events and no benefit over careful clinical assessment",
+    "topic": "cardiology-cc",
+    "year": 2005
+  },
+  "ESTEBAN 2004": {
+    "acronym": "Esteban 2004",
+    "slug": "esteban-2004",
+    "summary": "Rescue non-invasive ventilation for established post-extubation failure did not work and delayed reintubation",
+    "topic": "ventilation",
+    "year": 2004
+  },
+  "ETHOS": {
+    "acronym": "ETHOS",
+    "slug": "ethos",
+    "summary": "Triple therapy beat both dual therapies, and the lower steroid dose worked as well as the higher",
+    "topic": "copd",
+    "year": 2020
+  },
+  "EVER-ILD": {
+    "acronym": "EVER-ILD",
+    "slug": "ever-ild",
+    "summary": "Adding rituximab to mycophenolate improved lung function in NSIP-pattern ILD, with more viral infection",
+    "topic": "ild",
+    "year": 2023
+  },
+  "EXPRESS": {
+    "acronym": "ExPress",
+    "slug": "express",
+    "summary": "Recruitment-oriented PEEP did not reduce mortality but shortened ventilation and organ failure",
+    "topic": "ards",
+    "year": 2008
+  },
+  "EXTEND": {
+    "acronym": "EXTEND",
+    "slug": "extend",
+    "summary": "Perfusion imaging identified patients who benefited from thrombolysis up to 9 hours out",
+    "topic": "neurology-cc",
+    "year": 2019
+  },
+  "FERRER 2003": {
+    "acronym": "Ferrer 2003",
+    "slug": "ferrer-2003",
+    "summary": "Non-invasive ventilation reduced intubation and mortality in severe hypoxaemic respiratory failure",
+    "topic": "ventilation",
+    "year": 2003
+  },
+  "FERRER 2009": {
+    "acronym": "Ferrer 2009",
+    "slug": "ferrer-2009",
+    "summary": "Prophylactic non-invasive ventilation after extubation prevented respiratory failure and deaths in hypercapnic patients",
+    "topic": "ventilation",
+    "year": 2009
+  },
+  "FEV1 TRAJECTORIES": {
+    "acronym": "FEV1 trajectories",
+    "slug": "fev1-trajectories",
+    "summary": "Distinct patterns of FEV1 decline after transplant predicted different outcomes",
+    "topic": "lung-transplant",
+    "year": 2025
+  },
+  "FIBRONEER-ILD": {
+    "acronym": "FIBRONEER-ILD",
+    "slug": "fibroneer-ild",
+    "summary": "Nerandomilast slowed FVC decline in progressive pulmonary fibrosis, including on top of nintedanib",
+    "topic": "ild",
+    "year": 2025
+  },
+  "FIBRONEER-IPF": {
+    "acronym": "FIBRONEER-IPF",
+    "slug": "fibroneer-ipf",
+    "summary": "Nerandomilast slowed FVC decline on top of existing antifibrotics — the first genuinely additive agent in IPF",
+    "topic": "ild",
+    "year": 2025
+  },
+  "FISHER 2009": {
+    "acronym": "Fisher 2009",
+    "slug": "fisher-2009",
+    "summary": "Doppler estimates of pulmonary pressure were out by more than 10 mmHg in half of cases",
+    "topic": "pulmonary-hypertension",
+    "year": 2009
+  },
+  "FLAME": {
+    "acronym": "FLAME",
+    "slug": "flame",
+    "summary": "Dual bronchodilation beat LABA/ICS for exacerbation prevention, with less pneumonia",
+    "topic": "copd",
+    "year": 2016
+  },
+  "FLORALI": {
+    "acronym": "FLORALI",
+    "slug": "florali",
+    "summary": "High-flow oxygen did not reduce intubation but was associated with lower 90-day mortality",
+    "topic": "ventilation",
+    "year": 2015
+  },
+  "FUCHS 1994": {
+    "acronym": "Fuchs 1994",
+    "slug": "fuchs-1994",
+    "summary": "Dornase alfa cut exacerbations by about a third and gave a small lung function gain",
+    "topic": "cystic-fibrosis",
+    "year": 1994
+  },
+  "GAJIC 2008": {
+    "acronym": "Gajic 2008",
+    "slug": "gajic-2008",
+    "summary": "Continuous on-site intensivist presence improved processes of care and staff satisfaction",
+    "topic": "icu-administration",
+    "year": 2008
+  },
+  "GRIPHON": {
+    "acronym": "GRIPHON",
+    "slug": "griphon",
+    "summary": "Selexipag cut disease progression and hospitalisation by 40%, without a mortality difference",
+    "topic": "pulmonary-hypertension",
+    "year": 2015
+  },
+  "HALPERN 2018": {
+    "acronym": "Halpern 2018",
+    "slug": "halpern-2018",
+    "summary": "Only financial incentives worked; free cessation aids and free e-cigarettes alone did essentially nothing",
+    "topic": "smoking-cessation",
+    "year": 2018
+  },
+  "HALT-IT": {
+    "acronym": "HALT-IT",
+    "slug": "halt-it",
+    "summary": "Tranexamic acid did not reduce death from gastrointestinal bleeding and caused more clots",
+    "topic": "gastroenterology-cc",
+    "year": 2020
+  },
+  "HEJBLUM 2009": {
+    "acronym": "Hejblum 2009",
+    "slug": "hejblum-2009",
+    "summary": "Ordering chest films on demand cut radiographs by a third with no loss of safety",
+    "topic": "ventilation",
+    "year": 2009
+  },
+  "HEMODIAFE": {
+    "acronym": "Hemodiafe",
+    "slug": "hemodiafe",
+    "summary": "Intermittent haemodialysis matched continuous therapy when delivered carefully",
+    "topic": "nephrology-cc",
+    "year": 2006
+  },
+  "HEMOTION": {
+    "acronym": "HEMOTION",
+    "slug": "hemotion",
+    "summary": "A liberal transfusion threshold did not improve outcomes in traumatic brain injury",
+    "topic": "neurology-cc",
+    "year": 2024
+  },
+  "HERNANDEZ 2016": {
+    "acronym": "Hernandez 2016",
+    "slug": "hernandez-2016",
+    "summary": "High-flow nasal oxygen was non-inferior to non-invasive ventilation after extubation, and better tolerated",
+    "topic": "ventilation",
+    "year": 2016
+  },
+  "HERTH 2002": {
+    "acronym": "Herth 2002",
+    "slug": "herth-2002",
+    "summary": "Aspirin did not increase bleeding after transbronchial biopsy",
+    "topic": "procedures",
+    "year": 2002
+  },
+  "HI-PRO": {
+    "acronym": "HI-PRO",
+    "slug": "hi-pro",
+    "summary": "Low-dose apixaban prevented recurrence after provoked VTE with enduring risk factors",
+    "topic": "pulmonary-embolism",
+    "year": 2025
+  },
+  "HOLLAND 2017": {
+    "acronym": "Holland 2017",
+    "slug": "holland-2017",
+    "summary": "Home-based rehabilitation matched centre-based programmes on short-term outcomes",
+    "topic": "pulmonary-rehabilitation",
+    "year": 2017
+  },
+  "HOPE": {
+    "acronym": "HOPE",
+    "slug": "hope",
+    "summary": "Imaging-selected thrombolysis worked as late as 24 hours from onset",
+    "topic": "neurology-cc",
+    "year": 2025
+  },
+  "HOT-HMV": {
+    "acronym": "HOT-HMV",
+    "slug": "hot-hmv",
+    "summary": "Home non-invasive ventilation tripled the time to readmission or death after a hypercapnic exacerbation",
+    "topic": "sleep",
+    "year": 2017
+  },
+  "HYATT 2011": {
+    "acronym": "Hyatt 2011",
+    "slug": "hyatt-2011",
+    "summary": "The nonspecific pattern is stable in two thirds of patients and is not early obstruction",
+    "topic": "pulmonary-function",
+    "year": 2011
+  },
+  "HYPERION": {
+    "acronym": "HYPERION",
+    "slug": "hyperion",
+    "summary": "Sotatercept reduced clinical worsening when given within a year of diagnosis",
+    "topic": "pulmonary-hypertension",
+    "year": 2025
+  },
+  "IABP-SHOCK II": {
+    "acronym": "IABP-SHOCK II",
+    "slug": "iabp-shock-ii",
+    "summary": "The intra-aortic balloon pump did not reduce mortality in infarct-related cardiogenic shock",
+    "topic": "cardiology-cc",
+    "year": 2012
+  },
+  "ICU-ROX": {
+    "acronym": "ICU-ROX",
+    "slug": "icu-rox",
+    "summary": "Conservative oxygen therapy made no difference to ventilator-free days",
+    "topic": "ventilation",
+    "year": 2020
+  },
+  "IMPACT": {
+    "acronym": "IMPACT",
+    "slug": "impact",
+    "summary": "Triple therapy reduced exacerbations versus either dual therapy, at the cost of more pneumonia",
+    "topic": "copd",
+    "year": 2018
+  },
+  "INBUILD": {
+    "acronym": "INBUILD",
+    "slug": "inbuild",
+    "summary": "Nintedanib slowed FVC decline across progressive fibrosing ILD, whatever the underlying diagnosis",
+    "topic": "ild",
+    "year": 2019
+  },
+  "INBUILD SUBGROUPS": {
+    "acronym": "INBUILD subgroups",
+    "slug": "inbuild-subgroups",
+    "summary": "Nintedanib's benefit in progressive fibrosing ILD held across diagnoses, though no subgroup was individually powered",
+    "topic": "ild",
+    "year": 2020
+  },
+  "INCEPTION": {
+    "acronym": "INCEPTION",
+    "slug": "inception",
+    "summary": "Extracorporeal CPR did not improve neurologically intact survival after refractory cardiac arrest",
+    "topic": "cardiology-cc",
+    "year": 2023
+  },
+  "INCREASE": {
+    "acronym": "INCREASE",
+    "slug": "increase",
+    "summary": "Inhaled treprostinil improved walk distance in PH due to interstitial lung disease",
+    "topic": "pulmonary-hypertension",
+    "year": 2021
+  },
+  "INPULSIS": {
+    "acronym": "INPULSIS",
+    "slug": "inpulsis",
+    "summary": "Nintedanib roughly halved the annual rate of FVC decline in IPF, at the cost of diarrhoea",
+    "topic": "ild",
+    "year": 2014
+  },
+  "INSPIRATION": {
+    "acronym": "INSPIRATION",
+    "slug": "inspiration",
+    "summary": "Intermediate-dose prophylaxis was no better than standard dose in critically ill COVID-19",
+    "topic": "covid",
+    "year": 2021
+  },
+  "JABER 2016": {
+    "acronym": "Jaber 2016",
+    "slug": "jaber-2016",
+    "summary": "Non-invasive ventilation reduced reintubation after abdominal surgery",
+    "topic": "ventilation",
+    "year": 2016
+  },
+  "JUBRAN 2013": {
+    "acronym": "Jubran 2013",
+    "slug": "jubran-2013",
+    "summary": "Unassisted breathing through a tracheostomy collar weaned patients faster than pressure support",
+    "topic": "ventilation",
+    "year": 2013
+  },
+  "KBP-2020": {
+    "acronym": "KBP-2020",
+    "slug": "kbp-2020",
+    "summary": "Three-year survival in lung adenocarcinoma improved markedly over twenty years of real-world care",
+    "topic": "lung-cancer",
+    "year": 2025
+  },
+  "KERLIN 2013": {
+    "acronym": "Kerlin 2013",
+    "slug": "kerlin-2013",
+    "summary": "Having an intensivist in the hospital overnight did not improve outcomes",
+    "topic": "icu-administration",
+    "year": 2013
+  },
+  "KETAMINE OR ETOMIDATE": {
+    "acronym": "Ketamine or etomidate",
+    "slug": "ketamine-or-etomidate",
+    "summary": "Ketamine and etomidate produced identical mortality at intubation",
+    "topic": "procedures",
+    "year": 2026
+  },
+  "KEYSTONE ICU": {
+    "acronym": "Keystone ICU",
+    "slug": "keystone-icu",
+    "summary": "A simple five-step bundle cut catheter bloodstream infections by two thirds and kept them down",
+    "topic": "infection-control",
+    "year": 2006
+  },
+  "KOHNLEIN 2014": {
+    "acronym": "Kohnlein 2014",
+    "slug": "kohnlein-2014",
+    "summary": "Home ventilation targeted at lowering CO2 cut one-year mortality from 33% to 12%",
+    "topic": "sleep",
+    "year": 2014
+  },
+  "KRESS 2000": {
+    "acronym": "Kress 2000",
+    "slug": "kress-2000",
+    "summary": "Waking patients daily cut two and a half days off mechanical ventilation",
+    "topic": "sedation",
+    "year": 2000
+  },
+  "KUMAR 2006": {
+    "acronym": "Kumar 2006",
+    "slug": "kumar-2006",
+    "summary": "Every hour of delay to effective antibiotics in septic shock was associated with higher mortality",
+    "topic": "sepsis",
+    "year": 2006
+  },
+  "LASRS": {
+    "acronym": "LaSRS",
+    "slug": "lasrs",
+    "summary": "Steroids for persistent ARDS improved physiology, did not improve survival, and harmed late starters",
+    "topic": "ards",
+    "year": 2006
+  },
+  "LEVY 2020": {
+    "acronym": "Levy 2020",
+    "slug": "levy-2020",
+    "summary": "Leaving a first episode of minimal subclinical rejection untreated did not increase allograft loss or death",
+    "topic": "lung-transplant",
+    "year": 2020
+  },
+  "LIBERATE": {
+    "acronym": "LIBERATE",
+    "slug": "liberate",
+    "summary": "Endobronchial valves improved lung function and exercise capacity in emphysema without collateral ventilation",
+    "topic": "copd",
+    "year": 2018
+  },
+  "LIBERATE-D": {
+    "acronym": "LIBERATE-D",
+    "slug": "liberate-d",
+    "summary": "Dialysing less often led to faster recovery of kidney function and less hypotension",
+    "topic": "nephrology-cc",
+    "year": 2026
+  },
+  "LILLY 2011": {
+    "acronym": "Lilly 2011",
+    "slug": "lilly-2011",
+    "summary": "Tele-ICU with process reengineering was associated with lower mortality and shorter stays",
+    "topic": "icu-administration",
+    "year": 2011
+  },
+  "LINDENAUER 2021": {
+    "acronym": "Lindenauer 2021",
+    "slug": "lindenauer-2021",
+    "summary": "Starting rehabilitation within 90 days of a COPD admission was associated with 17% fewer readmissions",
+    "topic": "pulmonary-rehabilitation",
+    "year": 2021
+  },
+  "LOCO2": {
+    "acronym": "LOCO2",
+    "slug": "loco2",
+    "summary": "Targeting a low PaO2 in ARDS did not help and raised safety concerns",
+    "topic": "ards",
+    "year": 2020
+  },
+  "LOTT": {
+    "acronym": "LOTT",
+    "slug": "lott",
+    "summary": "Oxygen for moderate desaturation did nothing for survival, admissions, or quality of life",
+    "topic": "copd",
+    "year": 2016
+  },
+  "LOVS": {
+    "acronym": "LOVS",
+    "slug": "lovs",
+    "summary": "An open-lung strategy with recruitment and high PEEP did not improve mortality",
+    "topic": "ards",
+    "year": 2008
+  },
+  "LUNG HEALTH STUDY": {
+    "acronym": "Lung Health Study",
+    "slug": "lung-health-study",
+    "summary": "A cessation programme that worked for one in five participants still reduced all-cause mortality over 14.5 years",
+    "topic": "smoking-cessation",
+    "year": 2005
+  },
+  "MACRO": {
+    "acronym": "MACRO",
+    "slug": "macro",
+    "summary": "Daily azithromycin for a year cut exacerbations and improved quality of life, at the cost of hearing loss and resistance concerns",
+    "topic": "copd",
+    "year": 2011
+  },
+  "MANDALA": {
+    "acronym": "MANDALA",
+    "slug": "mandala",
+    "summary": "Adding budesonide to the albuterol reliever cut severe exacerbations by a quarter",
+    "topic": "asthma",
+    "year": 2022
+  },
+  "MAPPET-3": {
+    "acronym": "MAPPET-3",
+    "slug": "mappet-3",
+    "summary": "Alteplase reduced treatment escalation in submassive PE, but the benefit was almost entirely in that soft endpoint",
+    "topic": "pulmonary-embolism",
+    "year": 2002
+  },
+  "MARIN 2005": {
+    "acronym": "Marin 2005",
+    "slug": "marin-2005",
+    "summary": "Observationally, untreated severe apnoea tripled cardiovascular events and CPAP appeared to abolish the excess",
+    "topic": "sleep",
+    "year": 2005
+  },
+  "MARTINEZ 2005": {
+    "acronym": "Martinez 2005",
+    "slug": "martinez-2005",
+    "summary": "IPF killed a fifth of patients through sudden deterioration while their lung function looked stable",
+    "topic": "ild",
+    "year": 2005
+  },
+  "MATINEE": {
+    "acronym": "MATINEE",
+    "slug": "matinee",
+    "summary": "Mepolizumab reduced exacerbations by 21% in eosinophilic COPD on triple therapy, without improving symptoms",
+    "topic": "copd",
+    "year": 2025
+  },
+  "MCC-652": {
+    "acronym": "MCC-652",
+    "slug": "mcc-652",
+    "summary": "Every 10 µg/m3 of particulate pollution raised daily mortality by about half a percent, worldwide",
+    "topic": "occupational",
+    "year": 2019
+  },
+  "MENDS2": {
+    "acronym": "MENDS2",
+    "slug": "mends2",
+    "summary": "Dexmedetomidine and propofol were equivalent when sedation was kept light",
+    "topic": "sedation",
+    "year": 2021
+  },
+  "MENSA": {
+    "acronym": "MENSA",
+    "slug": "mensa",
+    "summary": "Mepolizumab roughly halved exacerbations in severe eosinophilic asthma",
+    "topic": "asthma",
+    "year": 2014
+  },
+  "MIDEX-PRODEX": {
+    "acronym": "MIDEX-PRODEX",
+    "slug": "midex-prodex",
+    "summary": "Dexmedetomidine matched midazolam for sedation depth but caused less delirium and shorter ventilation",
+    "topic": "sedation",
+    "year": 2009
+  },
+  "MIND-USA": {
+    "acronym": "MIND-USA",
+    "slug": "mind-usa",
+    "summary": "Neither antipsychotic shortened ICU delirium",
+    "topic": "sedation",
+    "year": 2018
+  },
+  "MINT": {
+    "acronym": "MINT",
+    "slug": "mint",
+    "summary": "A liberal transfusion threshold after myocardial infarction gave no significant benefit, but harm could not be excluded",
+    "topic": "cardiology-cc",
+    "year": 2023
+  },
+  "MIST1": {
+    "acronym": "MIST1",
+    "slug": "mist1",
+    "summary": "Intrapleural streptokinase alone did not work, and caused more serious adverse events",
+    "topic": "pleural",
+    "year": 2005
+  },
+  "MIST2": {
+    "acronym": "MIST2",
+    "slug": "mist2",
+    "summary": "Combined t-PA and DNase improved drainage and cut surgical referral; neither drug worked alone",
+    "topic": "pleural",
+    "year": 2011
+  },
+  "MORRIS 2016": {
+    "acronym": "Morris 2016",
+    "slug": "morris-2016",
+    "summary": "Standardised rehabilitation did not shorten hospital stay or improve strength",
+    "topic": "ventilation",
+    "year": 2016
+  },
+  "MOSS 2016": {
+    "acronym": "Moss 2016",
+    "slug": "moss-2016",
+    "summary": "Nearly five times as much physiotherapy produced no functional gain",
+    "topic": "ventilation",
+    "year": 2016
+  },
+  "MRC OXYGEN": {
+    "acronym": "MRC oxygen",
+    "slug": "mrc-oxygen",
+    "summary": "Domiciliary oxygen for at least 15 hours a day improved survival in hypoxaemic cor pulmonale",
+    "topic": "copd",
+    "year": 1981
+  },
+  "MRC-ICU": {
+    "acronym": "MRC-ICU",
+    "slug": "mrc-icu",
+    "summary": "Higher pharmacist workload was associated with less care delivered and worse outcomes",
+    "topic": "icu-administration",
+    "year": 2022
+  },
+  "NAC IN NON-PARACETAMOL ALF": {
+    "acronym": "NAC in non-paracetamol ALF",
+    "slug": "nac-in-non-paracetamol-alf",
+    "summary": "N-acetylcysteine improved transplant-free survival in early non-paracetamol liver failure only",
+    "topic": "gastroenterology-cc",
+    "year": 2009
+  },
+  "NAVIGATOR": {
+    "acronym": "NAVIGATOR",
+    "slug": "navigator",
+    "summary": "Tezepelumab halved exacerbations in severe asthma, including in patients with low eosinophils",
+    "topic": "asthma",
+    "year": 2021
+  },
+  "NELSON": {
+    "acronym": "NELSON",
+    "slug": "nelson",
+    "summary": "Volume CT screening reduced lung cancer mortality with a 2.1% referral rate",
+    "topic": "lung-cancer",
+    "year": 2020
+  },
+  "NETT": {
+    "acronym": "NETT",
+    "slug": "nett",
+    "summary": "No overall survival benefit, but a real one for upper-lobe emphysema with low exercise capacity",
+    "topic": "copd",
+    "year": 2003
+  },
+  "NICE-SUGAR": {
+    "acronym": "NICE-SUGAR",
+    "slug": "nice-sugar",
+    "summary": "Tight glucose control killed people; a target of 180 mg/dL or less was safer",
+    "topic": "endocrine-cc",
+    "year": 2009
+  },
+  "NINDS T-PA": {
+    "acronym": "NINDS t-PA",
+    "slug": "ninds-t-pa",
+    "summary": "Thrombolysis within 3 hours improved outcome despite causing more intracranial bleeding",
+    "topic": "neurology-cc",
+    "year": 1995
+  },
+  "NIX-TB": {
+    "acronym": "Nix-TB",
+    "slug": "nix-tb",
+    "summary": "An all-oral six-month regimen cured 90% of extensively drug-resistant tuberculosis",
+    "topic": "mycobacterial",
+    "year": 2020
+  },
+  "NLST": {
+    "acronym": "NLST",
+    "slug": "nlst",
+    "summary": "Low-dose CT screening reduced lung cancer mortality — at the cost of a 96% false-positive rate",
+    "topic": "lung-cancer",
+    "year": 2011
+  },
+  "NOTO 2015": {
+    "acronym": "Noto 2015",
+    "slug": "noto-2015",
+    "summary": "Daily chlorhexidine bathing did not reduce healthcare-associated infections",
+    "topic": "infection-control",
+    "year": 2015
+  },
+  "NOTT": {
+    "acronym": "NOTT",
+    "slug": "nott",
+    "summary": "Continuous oxygen halved mortality compared with nocturnal-only oxygen in hypoxaemic COPD",
+    "topic": "copd",
+    "year": 1980
+  },
+  "PACER": {
+    "acronym": "PACER",
+    "slug": "pacer",
+    "summary": "Skipping prophylactic platelets before a central line caused more bleeding",
+    "topic": "procedures",
+    "year": 2023
+  },
+  "PACIFIC": {
+    "acronym": "PACIFIC",
+    "slug": "pacific",
+    "summary": "Consolidation durvalumab tripled progression-free survival after chemoradiotherapy in stage III lung cancer",
+    "topic": "lung-cancer",
+    "year": 2017
+  },
+  "PANTHER-IPF": {
+    "acronym": "PANTHER-IPF",
+    "slug": "panther-ipf",
+    "summary": "The standard immunosuppressive regimen for IPF was killing patients",
+    "topic": "ild",
+    "year": 2012
+  },
+  "PARTNER": {
+    "acronym": "PARTNER",
+    "slug": "partner",
+    "summary": "Structured family support improved communication and shortened ICU stay without easing families' distress",
+    "topic": "palliative",
+    "year": 2018
+  },
+  "PATENT-1": {
+    "acronym": "PATENT-1",
+    "slug": "patent-1",
+    "summary": "Riociguat improved walk distance by 36 m, including on top of existing therapy",
+    "topic": "pulmonary-hypertension",
+    "year": 2013
+  },
+  "PEERLESS": {
+    "acronym": "PEERLESS",
+    "slug": "peerless",
+    "summary": "Mechanical thrombectomy beat catheter-directed lysis on a composite driven by less ICU use, with no mortality difference",
+    "topic": "pulmonary-embolism",
+    "year": 2025
+  },
+  "PEGED": {
+    "acronym": "PEGeD",
+    "slug": "peged",
+    "summary": "A D-dimer under 1000 with low clinical probability safely excluded PE without imaging",
+    "topic": "pulmonary-embolism",
+    "year": 2019
+  },
+  "PEITHO": {
+    "acronym": "PEITHO",
+    "slug": "peitho",
+    "summary": "Thrombolysis prevented decompensation in intermediate-risk PE but caused major bleeding and stroke",
+    "topic": "pulmonary-embolism",
+    "year": 2014
+  },
+  "PEPTIC": {
+    "acronym": "PEPTIC",
+    "slug": "peptic",
+    "summary": "Proton pump inhibitors and H2 blockers gave equivalent mortality as default prophylaxis",
+    "topic": "gastroenterology-cc",
+    "year": 2020
+  },
+  "PERMIT": {
+    "acronym": "PermiT",
+    "slug": "permit",
+    "summary": "Deliberately underfeeding calories made no difference to survival",
+    "topic": "nutrition-cc",
+    "year": 2015
+  },
+  "PHILLIPS 2013": {
+    "acronym": "Phillips 2013",
+    "slug": "phillips-2013",
+    "summary": "An oral appliance matched CPAP on health outcomes: less effective per hour, but worn for more of them",
+    "topic": "sleep",
+    "year": 2013
+  },
+  "PIC": {
+    "acronym": "PIC",
+    "slug": "pic",
+    "summary": "Steroids did not significantly reduce mortality in non-HIV Pneumocystis pneumonia",
+    "topic": "immunocompromised",
+    "year": 2025
+  },
+  "PILOT": {
+    "acronym": "PILOT",
+    "slug": "pilot",
+    "summary": "Lower, intermediate and higher oxygen saturation targets gave identical ventilator-free days",
+    "topic": "ventilation",
+    "year": 2022
+  },
+  "PIOPED": {
+    "acronym": "PIOPED",
+    "slug": "pioped",
+    "summary": "V/Q scanning was only decisive when it agreed with the clinical impression — a minority of cases",
+    "topic": "pulmonary-embolism",
+    "year": 1990
+  },
+  "PLEURAL MANOMETRY": {
+    "acronym": "Pleural manometry",
+    "slug": "pleural-manometry",
+    "summary": "Manometry during large-volume drainage did not reduce chest discomfort",
+    "topic": "pleural",
+    "year": 2019
+  },
+  "PLUS": {
+    "acronym": "PLUS",
+    "slug": "plus",
+    "summary": "Balanced fluid was no better than saline in critically ill adults",
+    "topic": "nephrology-cc",
+    "year": 2022
+  },
+  "PNEUMA": {
+    "acronym": "PneumA",
+    "slug": "pneuma",
+    "summary": "Eight days of antibiotics matched fifteen for ventilator-associated pneumonia, except in non-fermenting gram-negatives",
+    "topic": "pneumonia",
+    "year": 2003
+  },
+  "POET-COPD": {
+    "acronym": "POET-COPD",
+    "slug": "poet-copd",
+    "summary": "Tiotropium prevented exacerbations better than salmeterol",
+    "topic": "copd",
+    "year": 2011
+  },
+  "PREDMETH": {
+    "acronym": "PREDMETH",
+    "slug": "predmeth",
+    "summary": "Methotrexate matched prednisone as first-line treatment for pulmonary sarcoidosis, with a different side-effect profile",
+    "topic": "ild",
+    "year": 2025
+  },
+  "PREOXI": {
+    "acronym": "PREOXI",
+    "slug": "preoxi",
+    "summary": "Preoxygenating with non-invasive ventilation halved hypoxaemia during intubation",
+    "topic": "procedures",
+    "year": 2024
+  },
+  "PREPIC2": {
+    "acronym": "PREPIC2",
+    "slug": "prepic2",
+    "summary": "Adding a retrievable IVC filter to anticoagulation prevented nothing",
+    "topic": "pulmonary-embolism",
+    "year": 2015
+  },
+  "PREVENT": {
+    "acronym": "PReVENT",
+    "slug": "prevent",
+    "summary": "Low tidal volumes gave no benefit in ventilated patients who did not have ARDS",
+    "topic": "ventilation",
+    "year": 2018
+  },
+  "PREVENT (BAG-MASK)": {
+    "acronym": "PreVent (bag-mask)",
+    "slug": "prevent-bag-mask",
+    "summary": "Bag-mask ventilating between induction and laryngoscopy raised saturations without causing aspiration",
+    "topic": "procedures",
+    "year": 2019
+  },
+  "PREVENT-IPC": {
+    "acronym": "PREVENT-IPC",
+    "slug": "prevent-ipc",
+    "summary": "Adding pneumatic compression to drug prophylaxis prevented no clots",
+    "topic": "pulmonary-embolism",
+    "year": 2019
+  },
+  "PRIMOTINA-ASTHMA": {
+    "acronym": "PrimoTinA-asthma",
+    "slug": "primotina-asthma",
+    "summary": "Adding tiotropium to ICS/LABA gave modest bronchodilation and 21% fewer severe exacerbations",
+    "topic": "asthma",
+    "year": 2012
+  },
+  "PROCESS": {
+    "acronym": "ProCESS",
+    "slug": "process",
+    "summary": "Protocolised resuscitation did not beat usual care in septic shock",
+    "topic": "sepsis",
+    "year": 2014
+  },
+  "PROMIS": {
+    "acronym": "PROMIS",
+    "slug": "promis",
+    "summary": "Inhaled colistimethate reduced exacerbations in one trial and not in its replicate",
+    "topic": "bronchiectasis",
+    "year": 2024
+  },
+  "PROMISE": {
+    "acronym": "ProMISe",
+    "slug": "promise",
+    "summary": "Strict EGDT gave identical 90-day mortality at higher cost",
+    "topic": "sepsis",
+    "year": 2015
+  },
+  "PROPHY-VAP": {
+    "acronym": "PROPHY-VAP",
+    "slug": "prophy-vap",
+    "summary": "One dose of ceftriaxone after intubation prevented early pneumonia in brain-injured patients",
+    "topic": "infection-control",
+    "year": 2024
+  },
+  "PROSEVA": {
+    "acronym": "PROSEVA",
+    "slug": "proseva",
+    "summary": "Prone positioning halved mortality in severe ARDS",
+    "topic": "ards",
+    "year": 2013
+  },
+  "PSP": {
+    "acronym": "PSP",
+    "slug": "psp",
+    "summary": "Most primary spontaneous pneumothoraces resolved without any intervention, though the non-inferiority result is fragile",
+    "topic": "pleural",
+    "year": 2020
+  },
+  "QUEST": {
+    "acronym": "QUEST",
+    "slug": "quest",
+    "summary": "Dupilumab halved severe exacerbations and improved lung function, most in eosinophilic patients",
+    "topic": "asthma",
+    "year": 2018
+  },
+  "RAMPP": {
+    "acronym": "RAMPP",
+    "slug": "rampp",
+    "summary": "Ambulatory devices sent most patients home the same day, but caused more adverse events",
+    "topic": "pleural",
+    "year": 2020
+  },
+  "RAMSEY 1999": {
+    "acronym": "Ramsey 1999",
+    "slug": "ramsey-1999",
+    "summary": "Cycled inhaled tobramycin improved FEV1 by 10% and reduced hospitalisation in Pseudomonas infection",
+    "topic": "cystic-fibrosis",
+    "year": 1999
+  },
+  "REACT": {
+    "acronym": "REACT",
+    "slug": "react",
+    "summary": "Roflumilast missed its primary endpoint by a whisker and hit it on the sensitivity analysis",
+    "topic": "copd",
+    "year": 2015
+  },
+  "REALITY": {
+    "acronym": "REALITY",
+    "slug": "reality",
+    "summary": "A restrictive transfusion strategy was non-inferior after myocardial infarction",
+    "topic": "cardiology-cc",
+    "year": 2021
+  },
+  "RECOVERY DEXAMETHASONE": {
+    "acronym": "RECOVERY dexamethasone",
+    "slug": "recovery-dexamethasone",
+    "summary": "Dexamethasone reduced mortality in COVID-19 patients needing oxygen, and not in those who did not",
+    "topic": "covid",
+    "year": 2021
+  },
+  "RECOVERY-RS": {
+    "acronym": "RECOVERY-RS",
+    "slug": "recovery-rs",
+    "summary": "CPAP reduced intubation or death in COVID-19; high-flow nasal oxygen did not",
+    "topic": "covid",
+    "year": 2022
+  },
+  "REDECAP": {
+    "acronym": "REDECAP",
+    "slug": "redecap",
+    "summary": "Deciding decannulation on suctioning frequency rather than capping trials halved time to decannulation",
+    "topic": "ventilation",
+    "year": 2020
+  },
+  "REDOX": {
+    "acronym": "REDOX",
+    "slug": "redox",
+    "summary": "24 hours a day of oxygen was no better than 15 in severe hypoxaemia",
+    "topic": "copd",
+    "year": 2024
+  },
+  "REDUCE MRSA": {
+    "acronym": "REDUCE MRSA",
+    "slug": "reduce-mrsa",
+    "summary": "Decolonising everyone beat screening and isolating carriers",
+    "topic": "infection-control",
+    "year": 2013
+  },
+  "REIGNIER 2013": {
+    "acronym": "Reignier 2013",
+    "slug": "reignier-2013",
+    "summary": "Stopping routine gastric residual checks did not increase pneumonia",
+    "topic": "nutrition-cc",
+    "year": 2013
+  },
+  "REMAP-CAP ANTICOAGULATION": {
+    "acronym": "REMAP-CAP anticoagulation",
+    "slug": "remap-cap-anticoagulation",
+    "summary": "Full-dose anticoagulation did not help critically ill COVID-19 patients",
+    "topic": "covid",
+    "year": 2021
+  },
+  "REMAP-CAP IL-6": {
+    "acronym": "REMAP-CAP IL-6",
+    "slug": "remap-cap-il-6",
+    "summary": "IL-6 receptor blockade improved organ support-free days and survival in critical COVID-19",
+    "topic": "covid",
+    "year": 2021
+  },
+  "REMOXTB": {
+    "acronym": "REMoxTB",
+    "slug": "remoxtb",
+    "summary": "Moxifloxacin cleared cultures faster and still failed to allow four-month treatment",
+    "topic": "mycobacterial",
+    "year": 2014
+  },
+  "RENOVE": {
+    "acronym": "RENOVE",
+    "slug": "renove",
+    "summary": "Reduced-dose anticoagulation failed formal non-inferiority for recurrence but bled much less",
+    "topic": "pulmonary-embolism",
+    "year": 2025
+  },
+  "REVISE": {
+    "acronym": "REVISE",
+    "slug": "revise",
+    "summary": "Pantoprazole cut clinically important gastrointestinal bleeding from 3.5% to 1.0%",
+    "topic": "gastroenterology-cc",
+    "year": 2024
+  },
+  "RHDNASE IN BRONCHIECTASIS": {
+    "acronym": "rhDNase in bronchiectasis",
+    "slug": "rhdnase-in-bronchiectasis",
+    "summary": "DNase made idiopathic bronchiectasis worse, not better",
+    "topic": "bronchiectasis",
+    "year": 1998
+  },
+  "RIVERS EGDT": {
+    "acronym": "Rivers EGDT",
+    "slug": "rivers-egdt",
+    "summary": "A protocolised resuscitation bundle appeared to cut mortality dramatically in early septic shock",
+    "topic": "sepsis",
+    "year": 2001
+  },
+  "ROSE": {
+    "acronym": "ROSE",
+    "slug": "rose",
+    "summary": "Routine early paralysis added nothing when the comparator was lighter sedation",
+    "topic": "ards",
+    "year": 2019
+  },
+  "SAHARA": {
+    "acronym": "SAHaRA",
+    "slug": "sahara",
+    "summary": "Liberal transfusion did not improve outcomes after subarachnoid haemorrhage",
+    "topic": "neurology-cc",
+    "year": 2025
+  },
+  "SAVE": {
+    "acronym": "SAVE",
+    "slug": "save",
+    "summary": "CPAP did not prevent cardiovascular events, though it treated the apnoea and improved symptoms",
+    "topic": "sleep",
+    "year": 2016
+  },
+  "SCANCLAD": {
+    "acronym": "ScanCLAD",
+    "slug": "scanclad",
+    "summary": "Once-daily tacrolimus reduced chronic lung allograft dysfunction versus ciclosporin",
+    "topic": "lung-transplant",
+    "year": 2024
+  },
+  "SCHIKOWSKI 2013": {
+    "acronym": "Schikowski 2013",
+    "slug": "schikowski-2013",
+    "summary": "Traffic-related particulates and woodsmoke were both associated with COPD hospitalisation and death",
+    "topic": "occupational",
+    "year": 2013
+  },
+  "SENSCIS": {
+    "acronym": "SENSCIS",
+    "slug": "senscis",
+    "summary": "Nintedanib slowed lung function decline in scleroderma ILD, but the result is fragile and skin disease was unchanged",
+    "topic": "ild",
+    "year": 2019
+  },
+  "SERAPHIN": {
+    "acronym": "SERAPHIN",
+    "slug": "seraphin",
+    "summary": "Macitentan cut morbidity and mortality events by 45% in pulmonary arterial hypertension",
+    "topic": "pulmonary-hypertension",
+    "year": 2013
+  },
+  "SERVE-HF": {
+    "acronym": "SERVE-HF",
+    "slug": "serve-hf",
+    "summary": "Adaptive servo-ventilation abolished the central apnoeas and increased mortality",
+    "topic": "sleep",
+    "year": 2015
+  },
+  "SHINE": {
+    "acronym": "SHINE",
+    "slug": "shine",
+    "summary": "Four months cured children with non-severe tuberculosis as well as six",
+    "topic": "mycobacterial",
+    "year": 2022
+  },
+  "SIMPLIFY": {
+    "acronym": "SIMPLIFY",
+    "slug": "simplify",
+    "summary": "Patients on triple modulator therapy could stop hypertonic saline or dornase alfa without losing lung function",
+    "topic": "cystic-fibrosis",
+    "year": 2023
+  },
+  "SIROCCO": {
+    "acronym": "SIROCCO",
+    "slug": "sirocco",
+    "summary": "Benralizumab cut exacerbations by around half in eosinophilic severe asthma",
+    "topic": "asthma",
+    "year": 2016
+  },
+  "SKYLINE": {
+    "acronym": "SKYLINE",
+    "slug": "skyline",
+    "summary": "The once-daily triple matched the twice-daily standard on lung function",
+    "topic": "cystic-fibrosis",
+    "year": 2025
+  },
+  "SLEAP": {
+    "acronym": "SLEAP",
+    "slug": "sleap",
+    "summary": "Sedation holds added nothing once sedation was already protocolised and light",
+    "topic": "sedation",
+    "year": 2012
+  },
+  "SOAP II": {
+    "acronym": "SOAP II",
+    "slug": "soap-ii",
+    "summary": "Dopamine matched noradrenaline for mortality but caused far more arrhythmias",
+    "topic": "cardiology-cc",
+    "year": 2010
+  },
+  "SOHO-COVID": {
+    "acronym": "SOHO-COVID",
+    "slug": "soho-covid",
+    "summary": "High-flow nasal oxygen did not reduce mortality in COVID-19 respiratory failure",
+    "topic": "covid",
+    "year": 2022
+  },
+  "SORT 1999": {
+    "acronym": "Sort 1999",
+    "slug": "sort-1999",
+    "summary": "Albumin with antibiotics prevented renal failure and death in spontaneous bacterial peritonitis",
+    "topic": "gastroenterology-cc",
+    "year": 1999
+  },
+  "SPICE III": {
+    "acronym": "SPICE III",
+    "slug": "spice-iii",
+    "summary": "Early dexmedetomidine did not reduce mortality and often needed topping up",
+    "topic": "sedation",
+    "year": 2019
+  },
+  "STAR": {
+    "acronym": "STAR",
+    "slug": "star",
+    "summary": "Hypoglossal nerve stimulation cut the AHI by two thirds — in an uncontrolled cohort",
+    "topic": "sleep",
+    "year": 2014
+  },
+  "STARRT-AKI": {
+    "acronym": "STARRT-AKI",
+    "slug": "starrt-aki",
+    "summary": "Starting dialysis early did not save lives and left more patients dialysis-dependent",
+    "topic": "nephrology-cc",
+    "year": 2020
+  },
+  "START": {
+    "acronym": "START",
+    "slug": "start",
+    "summary": "Low-dose daily budesonide nearly halved severe exacerbations in mild asthma",
+    "topic": "asthma",
+    "year": 2003
+  },
+  "STOP2": {
+    "acronym": "STOP2",
+    "slug": "stop2",
+    "summary": "Ten days of intravenous antibiotics matched fourteen in early responders, and twenty-one beat nothing in slow responders",
+    "topic": "cystic-fibrosis",
+    "year": 2021
+  },
+  "STORM-PE": {
+    "acronym": "STORM-PE",
+    "slug": "storm-pe",
+    "summary": "Catheter thrombectomy improved right ventricular strain at 48 hours without excess adverse events",
+    "topic": "pulmonary-embolism",
+    "year": 2026
+  },
+  "STRIVE": {
+    "acronym": "STRIVE",
+    "slug": "strive",
+    "summary": "Ivacaftor produced a 10-point FEV1 gain in G551D cystic fibrosis — the first drug to correct the basic defect",
+    "topic": "cystic-fibrosis",
+    "year": 2011
+  },
+  "STUDY 31/A5349": {
+    "acronym": "Study 31/A5349",
+    "slug": "study-31a5349",
+    "summary": "A four-month rifapentine-moxifloxacin regimen matched six months of standard therapy",
+    "topic": "mycobacterial",
+    "year": 2021
+  },
+  "SUDDICU": {
+    "acronym": "SuDDICU",
+    "slug": "suddicu",
+    "summary": "Selective digestive decontamination did not reduce mortality in a large international trial",
+    "topic": "infection-control",
+    "year": 2026
+  },
+  "SUNSET": {
+    "acronym": "SUNSET",
+    "slug": "sunset",
+    "summary": "Stopping inhaled steroids cost a little lung function but no extra exacerbations, except in eosinophilic patients",
+    "topic": "copd",
+    "year": 2018
+  },
+  "SUPER": {
+    "acronym": "SUPER",
+    "slug": "super",
+    "summary": "Abolishing 24-hour shifts increased serious medical errors rather than reducing them",
+    "topic": "icu-administration",
+    "year": 2020
+  },
+  "SUPER-1": {
+    "acronym": "SUPER-1",
+    "slug": "super-1",
+    "summary": "Sildenafil improved walk distance and haemodynamics, with no dose-response above 20 mg",
+    "topic": "pulmonary-hypertension",
+    "year": 2005
+  },
+  "SURMOUNT-OSA": {
+    "acronym": "SURMOUNT-OSA",
+    "slug": "surmount-osa",
+    "summary": "Tirzepatide halved the apnoea-hypopnoea index in obese patients with OSA",
+    "topic": "sleep",
+    "year": 2024
+  },
+  "SWIDEREK 2010": {
+    "acronym": "Swiderek 2010",
+    "slug": "swiderek-2010",
+    "summary": "Sending 10 mL of pleural fluid misses malignancy that 60 mL would find",
+    "topic": "procedures",
+    "year": 2010
+  },
+  "SWIFT": {
+    "acronym": "SWIFT",
+    "slug": "swift",
+    "summary": "Two injections a year roughly halved exacerbations in eosinophilic severe asthma",
+    "topic": "asthma",
+    "year": 2024
+  },
+  "SYGMA 1": {
+    "acronym": "SYGMA 1",
+    "slug": "sygma-1",
+    "summary": "As-needed ICS/formoterol beat reliever alone on symptoms and exacerbations, but lost to daily ICS on symptom control",
+    "topic": "asthma",
+    "year": 2018
+  },
+  "SYGMA 2": {
+    "acronym": "SYGMA 2",
+    "slug": "sygma-2",
+    "summary": "As-needed ICS/formoterol matched daily ICS for exacerbations on a quarter of the steroid dose",
+    "topic": "asthma",
+    "year": 2018
+  },
+  "TAPPS": {
+    "acronym": "TAPPS",
+    "slug": "tapps",
+    "summary": "Talc poudrage at thoracoscopy was no better than talc slurry down a chest drain",
+    "topic": "pleural",
+    "year": 2020
+  },
+  "TARGET PROTEIN": {
+    "acronym": "TARGET Protein",
+    "slug": "target-protein",
+    "summary": "Augmenting enteral protein delivered no benefit",
+    "topic": "nutrition-cc",
+    "year": 2025
+  },
+  "TASC": {
+    "acronym": "TASC",
+    "slug": "tasc",
+    "summary": "Therapeutic-dose anticoagulation shortened acute chest syndrome and nearly halved opioid use without causing bleeding",
+    "topic": "haematology-cc",
+    "year": 2025
+  },
+  "TB-PRACTECAL": {
+    "acronym": "TB-PRACTECAL",
+    "slug": "tb-practecal",
+    "summary": "A 24-week all-oral regimen beat standard care for rifampicin-resistant TB and was safer",
+    "topic": "mycobacterial",
+    "year": 2022
+  },
+  "TEAM": {
+    "acronym": "TEAM",
+    "slug": "team",
+    "summary": "Pushing mobilisation harder gave no benefit and more than doubled adverse events",
+    "topic": "ventilation",
+    "year": 2022
+  },
+  "TEC": {
+    "acronym": "TEC",
+    "slug": "tec",
+    "summary": "E-cigarettes nearly doubled one-year quit rates compared with nicotine replacement",
+    "topic": "smoking-cessation",
+    "year": 2019
+  },
+  "TENECTEPLASE BEFORE THROMBECTOMY": {
+    "acronym": "Tenecteplase before thrombectomy",
+    "slug": "tenecteplase-before-thrombectomy",
+    "summary": "Giving tenecteplase before thrombectomy beat thrombectomy alone",
+    "topic": "neurology-cc",
+    "year": 2025
+  },
+  "TERRAGNI 2010": {
+    "acronym": "Terragni 2010",
+    "slug": "terragni-2010",
+    "summary": "Early tracheostomy did not significantly reduce ventilator-associated pneumonia",
+    "topic": "ventilation",
+    "year": 2010
+  },
+  "TETON-2": {
+    "acronym": "TETON-2",
+    "slug": "teton-2",
+    "summary": "Inhaled treprostinil slowed FVC decline in IPF, in patients mostly already on antifibrotics",
+    "topic": "ild",
+    "year": 2026
+  },
+  "THILLE 2019": {
+    "acronym": "Thille 2019",
+    "slug": "thille-2019",
+    "summary": "Adding non-invasive ventilation to high-flow oxygen cut reintubation in the highest-risk patients",
+    "topic": "ventilation",
+    "year": 2019
+  },
+  "THOMAS 2009": {
+    "acronym": "Thomas 2009",
+    "slug": "thomas-2009",
+    "summary": "Remote ICU monitoring alone did not improve mortality or length of stay",
+    "topic": "icu-administration",
+    "year": 2009
+  },
+  "TIME2": {
+    "acronym": "TIME2",
+    "slug": "time2",
+    "summary": "Catheters and talc relieved breathlessness equally at 6 weeks, with catheters better at 6 months and no admission",
+    "topic": "pleural",
+    "year": 2012
+  },
+  "TIP-EX": {
+    "acronym": "TIP-EX",
+    "slug": "tip-ex",
+    "summary": "Pressure support and T-piece breathing trials produced the same ventilator-free days",
+    "topic": "ventilation",
+    "year": 2022
+  },
+  "TORCH": {
+    "acronym": "TORCH",
+    "slug": "torch",
+    "summary": "Salmeterol/fluticasone narrowly missed a mortality benefit but reduced exacerbations, at the cost of more pneumonia",
+    "topic": "copd",
+    "year": 2007
+  },
+  "TRAAEN 2021": {
+    "acronym": "Traaen 2021",
+    "slug": "traaen-2021",
+    "summary": "CPAP did not reduce atrial fibrillation burden despite the strong observational association",
+    "topic": "sleep",
+    "year": 2021
+  },
+  "TRACMAN": {
+    "acronym": "TracMan",
+    "slug": "tracman",
+    "summary": "Early tracheostomy did not improve survival, and over half the late group never needed one",
+    "topic": "ventilation",
+    "year": 2013
+  },
+  "TRAIN": {
+    "acronym": "TRAIN",
+    "slug": "train",
+    "summary": "A liberal transfusion threshold improved neurological outcome in acute brain injury",
+    "topic": "neurology-cc",
+    "year": 2024
+  },
+  "TRANSDERMAL NICOTINE STUDY GROUP": {
+    "acronym": "Transdermal Nicotine Study Group",
+    "slug": "transdermal-nicotine-study-group",
+    "summary": "Nicotine patches more than doubled short-term quit rates against placebo",
+    "topic": "smoking-cessation",
+    "year": 1991
+  },
+  "TRIBUTE": {
+    "acronym": "TRIBUTE",
+    "slug": "tribute",
+    "summary": "Extrafine triple therapy modestly reduced exacerbations versus dual bronchodilation, without excess pneumonia",
+    "topic": "copd",
+    "year": 2018
+  },
+  "TRICC": {
+    "acronym": "TRICC",
+    "slug": "tricc",
+    "summary": "Transfusing at 7 rather than 10 g/dL was at least as good, and possibly better",
+    "topic": "haematology-cc",
+    "year": 1999
+  },
+  "TTM2": {
+    "acronym": "TTM2",
+    "slug": "ttm2",
+    "summary": "Cooling to 33°C after cardiac arrest was no better than simply preventing fever",
+    "topic": "neurology-cc",
+    "year": 2021
+  },
+  "UK-ROX": {
+    "acronym": "UK-ROX",
+    "slug": "uk-rox",
+    "summary": "Conservative oxygen targets changed nothing, in the largest ICU oxygen trial yet run",
+    "topic": "ventilation",
+    "year": 2025
+  },
+  "VAN DEN BERGHE 2006": {
+    "acronym": "Van den Berghe 2006",
+    "slug": "van-den-berghe-2006",
+    "summary": "Tight glucose control reduced morbidity but not mortality, and the responders could not be identified in advance",
+    "topic": "endocrine-cc",
+    "year": 2006
+  },
+  "VAN NIEUWENHOVEN 2006": {
+    "acronym": "van Nieuwenhoven 2006",
+    "slug": "van-nieuwenhoven-2006",
+    "summary": "45 degrees proved unachievable in practice, and the 28 degrees actually delivered prevented nothing",
+    "topic": "infection-control",
+    "year": 2006
+  },
+  "VANCS": {
+    "acronym": "VANCS",
+    "slug": "vancs",
+    "summary": "Vasopressin as first-line agent outperformed noradrenaline in post-cardiac-surgery vasoplegia",
+    "topic": "cardiology-cc",
+    "year": 2017
+  },
+  "VASST": {
+    "acronym": "VASST",
+    "slug": "vasst",
+    "summary": "Adding low-dose vasopressin to catecholamines did not improve survival",
+    "topic": "sepsis",
+    "year": 2008
+  },
+  "VERITAS": {
+    "acronym": "VERITAS",
+    "slug": "veritas",
+    "summary": "Navigational bronchoscopy matched needle biopsy for accuracy with a tenth of the pneumothorax rate",
+    "topic": "lung-cancer",
+    "year": 2025
+  },
+  "VILLANUEVA 2013": {
+    "acronym": "Villanueva 2013",
+    "slug": "villanueva-2013",
+    "summary": "Transfusing less in upper gastrointestinal bleeding improved survival",
+    "topic": "gastroenterology-cc",
+    "year": 2013
+  },
+  "VX17-445-102": {
+    "acronym": "VX17-445-102",
+    "slug": "vx17-445-102",
+    "summary": "Triple modulator therapy gave a 14-point FEV1 gain to the 90% of CF patients with a single Phe508del allele",
+    "topic": "cystic-fibrosis",
+    "year": 2019
+  },
+  "VX18-445-104": {
+    "acronym": "VX18-445-104",
+    "slug": "vx18-445-104",
+    "summary": "Triple therapy added a further 3.7 points of FEV1 even in patients already on an effective modulator",
+    "topic": "cystic-fibrosis",
+    "year": 2021
+  },
+  "WAKE UP AND BREATHE": {
+    "acronym": "Wake up and breathe",
+    "slug": "wake-up-and-breathe",
+    "summary": "Pairing daily sedation interruption with a breathing trial got patients off ventilators sooner and improved survival",
+    "topic": "ventilation",
+    "year": 2008
+  },
+  "WAKE-UP": {
+    "acronym": "WAKE-UP",
+    "slug": "wake-up",
+    "summary": "MRI mismatch identified wake-up strokes that still benefited from thrombolysis",
+    "topic": "neurology-cc",
+    "year": 2018
+  },
+  "WALKER 2020": {
+    "acronym": "Walker 2020",
+    "slug": "walker-2020",
+    "summary": "Adding a nicotine e-cigarette to patches gave a modest improvement in quitting",
+    "topic": "smoking-cessation",
+    "year": 2020
+  },
+  "WOMAN": {
+    "acronym": "WOMAN",
+    "slug": "woman",
+    "summary": "Tranexamic acid reduced death from bleeding in post-partum haemorrhage, with no excess thrombosis",
+    "topic": "obstetric-cc",
+    "year": 2017
+  },
+  "YANG AND TOBIN": {
+    "acronym": "Yang and Tobin",
+    "slug": "yang-and-tobin",
+    "summary": "The rapid shallow breathing index outperformed every other weaning predictor",
+    "topic": "ventilation",
+    "year": 1991
+  },
+  "YEARS": {
+    "acronym": "YEARS",
+    "slug": "years",
+    "summary": "The YEARS algorithm safely excluded PE while avoiding 14% more CT scans",
+    "topic": "pulmonary-embolism",
+    "year": 2017
+  },
+  "ZENITH": {
+    "acronym": "ZENITH",
+    "slug": "zenith",
+    "summary": "Sotatercept cut death, transplant or hospitalisation by three quarters in high-risk PAH",
+    "topic": "pulmonary-hypertension",
+    "year": 2025
+  },
+  "ZENIX": {
+    "acronym": "ZeNix",
+    "slug": "zenix",
+    "summary": "Halving the linezolid dose preserved 91% cure and cut neuropathy from 38% to 24%",
+    "topic": "mycobacterial",
+    "year": 2022
+  }
+}

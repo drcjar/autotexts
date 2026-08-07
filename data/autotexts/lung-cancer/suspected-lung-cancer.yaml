@@ -1,0 +1,109 @@
+title: Suspected lung cancer
+topic: lung-cancer
+kind: consultation
+summary: >-
+  First clinic assessment, written so the letter contains everything the MDT
+  will ask for - starting with performance status.
+updated: 2026-08-06
+
+body: |
+  Seen in the suspected lung cancer clinic.
+
+  Referred with: [imaging finding, symptom, or screening result]
+  Date of first suspicion of cancer or referral: []
+
+  History:
+  Cough, and any change in a long-standing cough: []
+  Haemoptysis: [amount, frequency, duration]
+  Breathlessness, MRC [1 to 5]
+  Chest, shoulder or back pain: []
+  Hoarseness: []
+  Weight loss: [] kg over [] months
+  Appetite and swallowing: []
+  Bone pain: []
+  Headache, seizures, focal neurology or personality change: []
+  Fatigue: []
+
+  Risk and background:
+  Smoking: [current or ex, pack-years, quit date]
+  Occupational exposure, particularly asbestos: [job, years, and what was done]
+  Previous cancer, and treatment received: []
+  Family history: []
+  Previous imaging available for comparison, and dates: []
+
+  Comorbidity relevant to treatment:
+  Cardiac disease: []
+  COPD or ILD, and lung function: []
+  Renal and liver function: []
+  Autoimmune disease, or immunosuppressive treatment: []
+  Anticoagulation: []
+  Cognition, and any concerns about capacity: []
+  Who is at home, and what support there is: []
+
+  ECOG performance status []
+  Weight [] kg   Height [] cm   BMI []
+  SpO2 []% on air
+
+  Examination:
+  Cervical and supraclavicular lymph nodes: []
+  Chest: []
+  Clubbing: []
+  Liver edge, skin nodules, bone tenderness: []
+  Neurological examination: []
+
+  Investigations to date:
+  Chest x-ray [date and finding]
+  CT chest and upper abdomen with contrast [date and finding]
+  Bloods including full blood count, renal, liver, bone profile and LDH: []
+
+  Impression:
+  [radiological stage and the differential], with an ECOG performance status of
+  [], suitable for [radical intent, systemic anticancer therapy, or best
+  supportive care] pending staging and tissue.
+
+  Plan:
+  1. [PET-CT, EBUS, CT-guided biopsy, bronchoscopy, pleural sampling, MRI head]
+  2. Lung cancer nurse specialist informed: []
+  3. Discussed at lung cancer MDT on []
+  4. Patient told: [what has been said today about the likely diagnosis]
+  5. Next contact: [who, when, and how]
+  6. Lung function and fitness assessment if radical treatment is possible: []
+
+notes: >-
+  Put the performance status in the letter every time. The regional MDT plans
+  treatment from the referral, and without it the discussion stalls or the
+  patient is deferred a week — surgeons and oncologists cannot select a treatment
+  they have no fitness assessment for. Record what the patient has actually been
+  told, in their words if possible: the commonest cause of distress in this
+  pathway is a mismatch between what one clinician said and what the next assumed
+  had been said. The asbestos question needs the job and the years, not a yes or
+  no, because both compensation and the differential depend on the detail. Name
+  the date of first suspicion — the pathway targets run from it.
+
+evidence:
+  - name: "NICE NG122 - Lung cancer: diagnosis and management"
+    url: https://www.nice.org.uk/guidance/ng122
+    note: >-
+      The diagnostic and staging pathway, and the principle that investigation
+      should be chosen to give the most information about diagnosis and staging
+      with the least risk.
+  - name: "NICE NG12 - Suspected cancer: recognition and referral"
+    url: https://www.nice.org.uk/guidance/ng12
+    note: The symptoms and thresholds that should have triggered the referral.
+  - name: "ECOG performance status (Oken et al, Am J Clin Oncol 1982)"
+    url: https://ecog-acrin.org/resources/ecog-performance-status/
+    note: >-
+      The scale itself. Every systemic anticancer therapy decision and most trial
+      eligibility criteria are written against it.
+  - name: "BTS guideline on the radical management of patients with lung cancer"
+    url: https://thorax.bmj.com/content/65/Suppl_3/iii1
+    note: Fitness assessment for surgery and radical radiotherapy.
+
+trials:
+  - PACIFIC
+  - CALGB 140503
+  - NELSON
+
+see_also:
+  - lung-cancer-staging-tests
+  - lung-cancer-diagnosis-information

@@ -1,0 +1,116 @@
+title: How to collect a sputum sample for TB testing
+topic: tb
+kind: test-info
+summary: >-
+  Three early morning samples, done properly, with the practical detail that
+  decides whether the test works.
+updated: 2026-08-06
+credit: >-
+  Angshu Bhowmik's original, which already contained the two details most
+  instructions leave out: not starting on a Thursday, and what to do if you can
+  only produce one sample.
+
+body: |
+  How to collect a sputum sample for a TB test
+
+  What the test is for
+
+  We are testing your phlegm for a group of bacteria that includes the one that
+  causes tuberculosis, and for related bacteria called non-tuberculous
+  mycobacteria. These related bacteria live in soil and water and are usually
+  harmless, but they can settle in lungs that are already damaged.
+
+  What we need
+
+  Three separate samples, collected on three different days, at least 24 hours
+  apart. First thing in the morning is best, because phlegm collects in the
+  lungs overnight and the morning sample is the one most likely to give an
+  answer.
+
+  We have given you three pots with labels that have your details on them, and a
+  bag for each.
+
+  How to collect a good sample
+
+  1. Do not open the pot until you are ready to use it. It is sterile inside.
+
+  2. As soon as you wake up, before you eat or drink anything, brush your teeth
+  and rinse your mouth with water. Do not use mouthwash - it can kill the
+  bacteria we are trying to grow.
+
+  3. Take three deep breaths in through your nose, breathing out slowly through
+  pursed lips each time.
+
+  4. After the third breath, cough deeply from your chest and spit what comes up
+  into the pot.
+
+  5. What we need is phlegm from your lungs, not saliva from your mouth. Saliva
+  cannot be tested. It usually takes a few good coughs, and it may take a couple
+  of minutes.
+
+  6. Screw the lid on firmly so it cannot leak. Write the date on the pot and put
+  it in its bag.
+
+  Storing and returning the samples
+
+  If you can bring each sample in on the day you produce it, that is best.
+
+  Otherwise, keep the pot in the fridge, in its bag, away from food, and bring it
+  in as soon as you can. Do not keep samples at home for more than three days.
+
+  Bring them to [] .
+
+  Practical points
+
+  Try not to start on a Thursday or Friday, because the third day then falls at
+  the weekend.
+
+  If you cannot produce phlegm three days running, bring in two, or even one. One
+  good sample is far better than none.
+
+  If you cannot cough anything up at all, contact us. There are other ways of
+  getting a sample, including a saline mist that helps bring phlegm up, and we
+  can arrange this.
+
+  Tell other people in your household not to open the pots, and keep them out of
+  reach of children.
+
+  Your results
+
+  Some results are available within a few days. Growing these bacteria in the
+  laboratory is slow, and a final result can take up to eight weeks. We will
+  contact you with the results, and we will not wait for the final culture before
+  starting treatment if you need it sooner.
+
+  Thank you - this is a test where the care you take with the sample really does
+  decide whether it gives us an answer.
+
+notes: >-
+  The yield of mycobacterial culture depends almost entirely on sample quality,
+  which is decided by the patient in their bathroom rather than by anyone in the
+  hospital, so the instructions are worth giving properly. The mouthwash warning
+  and the saliva-versus-sputum distinction are the two errors that most often
+  produce an uninterpretable sample. Angshu's Thursday-and-Friday note is kept
+  because it is the kind of thing only someone who has run the clinic for years
+  would think to write down. The eight-week culture time is stated up front to
+  prevent a fortnight of anxious phone calls.
+
+evidence:
+  - name: "NICE NG33 - Tuberculosis"
+    url: https://www.nice.org.uk/guidance/ng33
+    note: >-
+      Send multiple respiratory samples, including at least one early morning
+      sample, for smear and culture before starting treatment where possible.
+  - name: "WHO consolidated guidelines on tuberculosis: diagnosis"
+    url: https://www.who.int/publications/i/item/9789240089488
+    note: >-
+      Specimen quality and handling, and the role of rapid molecular testing
+      alongside culture.
+  - name: "BTS guideline for the management of non-tuberculous mycobacterial pulmonary disease"
+    url: https://thorax.bmj.com/content/72/Suppl_2/ii1
+    note: >-
+      Diagnosis requires two separate positive sputum cultures, which is why
+      three samples are collected rather than one.
+
+see_also:
+  - bronchiectasis-exacerbation-plan

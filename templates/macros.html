@@ -1,0 +1,47 @@
+{# The paste block. Everything else on the page exists to get you here. #}
+{% macro block(body_html, field_count, id, label) %}
+<div class="block">
+  <div class="block__head">
+    <span class="block__label">{{ label }}</span>
+    <span class="block__count">
+      {% if field_count %}{{ field_count }} field{{ '' if field_count == 1 else 's' }}{% else %}no fields{% endif %}
+    </span>
+    <button class="copy" type="button" data-copy="{{ id }}">
+      <span class="copy__text">Copy</span>
+    </button>
+  </div>
+  <pre class="paste" id="{{ id }}" tabindex="0">{{ body_html|safe }}</pre>
+</div>
+{% endmacro %}
+
+{# Fields in the order Dragon walks them with F1 and F2, so you know what the
+   block is going to ask for before you paste it. #}
+{% macro fieldstrip(fields, limit=16) %}
+{% if fields %}
+<div class="fields">
+  <span class="fields__label">Fills in order</span>
+  <ol class="fields__list">
+    {% for field in fields[:limit] %}
+    <li><span class="fields__n">{{ loop.index }}</span>{{ field }}</li>
+    {% endfor %}
+  </ol>
+  {% if fields|length > limit %}
+  <p class="fields__more">and {{ fields|length - limit }} more, in the block below.</p>
+  {% endif %}
+</div>
+{% endif %}
+{% endmacro %}
+
+{% macro card(record) %}
+<li class="card" data-search="{{ (record.title ~ ' ' ~ record.summary ~ ' ' ~ record.topic_name ~ ' ' ~ record.kind_name)|lower }}">
+  <a class="card__link" href="/t/{{ record.slug }}/">
+    <span class="card__kind" data-kind="{{ record.kind }}">{{ record.kind_name }}</span>
+    <span class="card__title">{{ record.title }}</span>
+    <span class="card__summary">{{ record.summary }}</span>
+  </a>
+  <span class="card__meta">
+    <a href="/{{ record.topic }}/">{{ record.topic_name }}</a>
+    {% if record.field_count %}<span class="card__fields">{{ record.field_count }} fields</span>{% endif %}
+  </span>
+</li>
+{% endmacro %}

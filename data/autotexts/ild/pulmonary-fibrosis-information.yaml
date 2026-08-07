@@ -1,0 +1,126 @@
+title: Pulmonary fibrosis - information for patients
+topic: ild
+kind: patient-info
+summary: >-
+  What fibrosis is and what can be done about it, written without either false
+  reassurance or foreclosure.
+updated: 2026-08-06
+
+body: |
+  About pulmonary fibrosis
+
+  Fibrosis means scarring. In pulmonary fibrosis, the tissue between the tiny air
+  sacs of the lung becomes thickened and scarred. That makes the lungs stiffer
+  and makes it harder for oxygen to pass into the blood, which is why the main
+  symptoms are breathlessness on exertion and a dry cough.
+
+  There are many different causes. Some are related to an exposure - dusts at
+  work, birds, mould, or a medicine. Some occur alongside conditions such as
+  rheumatoid arthritis. In some, no cause is found, and the commonest of these is
+  called idiopathic pulmonary fibrosis. Which one you have matters, because the
+  treatments are different, which is why the tests have been thorough.
+
+  Your diagnosis, as it stands: []
+
+  What can be done
+
+  Scarring that has already formed does not reverse. But that is not the same as
+  nothing being possible, and several things genuinely help.
+
+  Treatments to slow it down. For some types of fibrosis there are medicines
+  called antifibrotics, which slow the rate at which lung function declines. For
+  fibrosis driven by inflammation or by an autoimmune condition, treatments that
+  damp down the immune system may be used instead. We will discuss which applies
+  to you.
+
+  Removing the cause, where there is one. If an exposure is contributing -
+  birds, mould, a medicine - stopping it is one of the most effective things
+  available, and the advice is worth following strictly.
+
+  Pulmonary rehabilitation. A supervised exercise and education programme. It
+  improves breathlessness and what you are able to do, and it is one of the
+  strongest recommendations in fibrosis care.
+
+  Oxygen. If your oxygen level falls when you exert yourself, oxygen can improve
+  what you can manage. We test for this rather than guess.
+
+  Treating other things that make breathlessness worse - reflux, heart disease,
+  anaemia, weight, and anxiety.
+
+  Vaccination, to reduce chest infections.
+
+  Stopping smoking, if you smoke.
+
+  Lung transplant is an option for a small number of people, and the assessment
+  needs to happen early rather than late. We will tell you if this is something
+  to consider for you.
+
+  Research. Fibrosis is an active area of research and there may be a trial you
+  are eligible for. Ask us - we will not always think to raise it.
+
+  What to expect
+
+  Pulmonary fibrosis behaves differently in different people. Some remain stable
+  for years; in others it progresses more quickly. We monitor with breathing
+  tests, usually every three to six months, and it is the change over time rather
+  than any single result that tells us what is happening.
+
+  It is reasonable to ask us about the future, and we will be honest with you,
+  including about what we do not know. You do not have to have that conversation
+  before you are ready, and you can come back to it.
+
+  Living with it
+
+  Breathlessness is frightening, and there are practical techniques that help -
+  breathing control, pacing, using a handheld fan. Ask, because these are taught
+  rather than obvious.
+
+  Cough can be the most wearing symptom, and there are treatments worth trying.
+
+  Tell us about low mood and anxiety. Both are common with this diagnosis and
+  both are treatable.
+
+  Ask about benefits, blue badge and support at home earlier than you think you
+  need to.
+
+  Contact us if
+
+  You become more breathless than usual over days or a few weeks, rather than
+  months. A sudden worsening needs to be assessed promptly and not waited out.
+
+  Further information: Asthma + Lung UK, www.asthmaandlung.org.uk, helpline
+  0300 222 5800. Action for Pulmonary Fibrosis, www.actionpf.org.
+
+notes: >-
+  Two failures are common when this diagnosis is explained. One is a false
+  reassurance that leaves people startled by their own trajectory; the other is
+  a delivery so bleak that people conclude nothing can be done and stop coming.
+  The block is built to avoid both: the scarring does not reverse, and here is a
+  specific list of things that help. The line inviting questions about the future
+  while not requiring them is deliberate — people ask when they are ready, and
+  the letter should not force it. The warning about worsening over days is the
+  practical safety net, since an acute exacerbation is a time-critical event that
+  patients otherwise sit on.
+
+evidence:
+  - name: "ATS/ERS/JRS/ALAT clinical practice guideline: idiopathic pulmonary fibrosis (an update) and progressive pulmonary fibrosis in adults (2022)"
+    url: https://www.atsjournals.org/doi/10.1164/rccm.202202-0399ST
+    note: >-
+      Antifibrotic treatment in IPF and in progressive pulmonary fibrosis of other
+      causes, and the framework for monitoring by serial lung function.
+  - name: "NICE CG163 - Idiopathic pulmonary fibrosis in adults"
+    url: https://www.nice.org.uk/guidance/cg163
+    note: >-
+      Pulmonary rehabilitation, oxygen assessment, symptom control, review
+      intervals, and information for patients as part of the care package.
+  - name: "Action for Pulmonary Fibrosis"
+    url: https://www.actionpf.org/
+    note: UK charity with patient support groups and written information.
+
+trials:
+  - INPULSIS
+  - ASCEND
+  - INBUILD
+
+see_also:
+  - ild-new-patient

@@ -1,0 +1,54 @@
+title: Blood gas result
+topic: tests
+kind: results
+summary: >-
+  Capillary or arterial, with the two things people forget to write down: what
+  they were breathing, and when.
+updated: 2026-08-06
+credit: Angshu Bhowmik's original layout.
+
+body: |
+  [Capillary or arterial] blood gas, [date and time]:
+
+  Sampled on [air, or oxygen at flow rate and device, FiO2]
+  pH             []
+  PaCO2          [] kPa
+  PaO2           [] kPa
+  Bicarbonate    [] mmol/L
+  Base excess    []
+  Lactate        [] mmol/L
+  SpO2 by pulse oximeter at the time []%
+
+  Interpretation:
+  []
+
+notes: >-
+  A gas without the inspired oxygen recorded cannot be interpreted, and a gas
+  without a time cannot be compared with the next one. Both are on the form here
+  because both are what goes missing when the result is dictated from memory.
+  Capillary earlobe sampling is well validated for pH and carbon dioxide and is
+  the right test for monitoring ventilation or assessing for home ventilation;
+  the oxygen value from an earlobe sample runs lower than arterial and should not
+  be used to decide about long-term oxygen therapy — the assessment for that
+  needs arterial sampling on two occasions at least three weeks apart when the
+  person is stable.
+
+evidence:
+  - name: "BTS guideline for oxygen use in adults in healthcare and emergency settings"
+    url: https://thorax.bmj.com/content/72/Suppl_1/ii1
+    note: >-
+      Record the inspired oxygen with every blood gas, and target saturation
+      ranges rather than treating oxygen as harmless.
+  - name: "BTS guideline for home oxygen use in adults"
+    url: https://thorax.bmj.com/content/70/Suppl_1/i1
+    note: >-
+      Arterial sampling when stable, on two occasions at least three weeks apart,
+      before long-term oxygen is prescribed.
+  - name: "BTS guideline for respiratory management of patients with neuromuscular weakness, and adult NIV guidance"
+    url: https://thorax.bmj.com/content/71/Suppl_2/ii1
+    note: >-
+      Capillary sampling as an acceptable alternative for pH and carbon dioxide
+      when monitoring ventilation.
+
+see_also:
+  - full-lung-function

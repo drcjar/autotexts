@@ -1,0 +1,133 @@
+title: New interstitial lung disease patient
+topic: ild
+kind: consultation
+summary: >-
+  The exposure, drug and connective tissue history that makes the diagnosis, in
+  the detail the ILD MDT will ask for.
+updated: 2026-08-06
+
+body: |
+  Referred with interstitial lung disease.
+
+  History:
+  Breathlessness: [onset, rate of change, MRC 1 to 5]
+  Cough: [dry or productive, duration]
+  Best exercise tolerance in the last year, and now: []
+  Weight loss, fever, fatigue: []
+  Chest pain: []
+
+  Occupational history, every job in order:
+  []
+  Asbestos: [trade, years, and the nature of the exposure]
+  Silica, coal, metal dust, welding fume: []
+  Wood dust, textile dust, grain: []
+  Personal protective equipment used: []
+
+  Environmental and antigen exposure:
+  Birds kept, now or in the past, including a partner's: [species, years]
+  Feather bedding, duvets and pillows: []
+  Damp, mould or water damage at home or work: []
+  Hot tub, humidifier or air conditioning: []
+  Farming, hay, compost, mushrooms: []
+  Any relationship between symptoms and being at home, at work, or away: []
+
+  Drugs, now and previously:
+  [amiodarone, methotrexate, nitrofurantoin, bleomycin, immune checkpoint
+  inhibitors, and any drug started within a year of symptoms]
+  Radiotherapy to the chest: []
+  Recreational drug use, including inhaled: []
+
+  Connective tissue disease review:
+  Joint pain, swelling or morning stiffness: []
+  Raynaud phenomenon: []
+  Dry eyes or dry mouth: []
+  Rash, photosensitivity, Gottron papules, mechanic's hands: []
+  Muscle weakness, difficulty rising from a chair or lifting arms: []
+  Reflux and dysphagia: []
+  Mouth ulcers, hair loss: []
+
+  Other:
+  Smoking: [pack-years, quit date]
+  Family history of pulmonary fibrosis or early grey hair or bone marrow
+  failure: []
+  Reflux: []
+  Cardiac history: []
+
+  Examination:
+  SpO2 []% at rest on air, [] after exertion
+  Height [] cm, weight [] kg
+  Crackles: [fine, velcro, distribution]
+  Clubbing: []
+  Joints, skin, nails and nailfold capillaries: []
+  Signs of pulmonary hypertension or right heart failure: []
+
+  Investigations:
+  High resolution CT: [pattern, distribution, honeycombing, traction
+  bronchiectasis, ground glass, mosaicism, air trapping on expiration]
+  Full lung function: FVC [] L ([]%), TLCO []%, and any previous values for
+  comparison
+  Walk test with oximetry: [distance, nadir SpO2]
+  Autoimmune screen: [ANA, ENA, rheumatoid factor, anti-CCP, myositis panel,
+  ANCA, CK]
+  Serum precipitins or specific IgG to relevant antigens: []
+  Echocardiogram: []
+  Bronchoscopy with lavage or biopsy, if indicated: []
+
+  Impression:
+  [radiological pattern] on CT, with [] % predicted FVC and [] % predicted
+  TLCO, most consistent with [], to be discussed at the ILD MDT.
+
+  Plan:
+  1. Discussed at ILD multidisciplinary meeting on []
+  2. Antifibrotic or immunosuppressive treatment: [considered, started, or not
+  indicated]
+  3. Antigen avoidance: [specific advice given]
+  4. Oxygen assessment: []
+  5. Pulmonary rehabilitation: []
+  6. Vaccination: []
+  7. Smoking cessation: []
+  8. Lung transplant discussion, or referral: [yes, no, with reason]
+  9. Clinical trial eligibility considered: []
+  10. Review in [] months with repeat lung function
+
+notes: >-
+  The history is the investigation here. A drug list and a bird question take a
+  minute and change the diagnosis often enough to justify asking every time —
+  including about a partner's birds and about feather bedding, which patients do
+  not volunteer because they do not consider them exposures. Ask about every job
+  in order rather than "what do you do": the exposure that matters was usually
+  forty years ago. Record baseline FVC and TLCO as numbers, because the diagnosis
+  of progressive fibrosis and the decision to treat both rest on the change from
+  this visit's values. Raise transplant early in anyone who might be a candidate:
+  referral criteria are based on lung function and its trajectory, and late
+  referral is a common and irreversible error.
+
+evidence:
+  - name: "ATS/ERS/JRS/ALAT clinical practice guideline: idiopathic pulmonary fibrosis (an update) and progressive pulmonary fibrosis in adults (2022)"
+    url: https://www.atsjournals.org/doi/10.1164/rccm.202202-0399ST
+    note: >-
+      The diagnostic framework, the definition of progressive pulmonary fibrosis,
+      and the role of multidisciplinary discussion.
+  - name: "NICE CG163 - Idiopathic pulmonary fibrosis in adults"
+    url: https://www.nice.org.uk/guidance/cg163
+    note: >-
+      The UK pathway, including multidisciplinary diagnosis, symptom management
+      and review intervals.
+  - name: "ATS/JRS/ALAT clinical practice guideline: diagnosis of hypersensitivity pneumonitis in adults (2020)"
+    url: https://www.atsjournals.org/doi/10.1164/rccm.202005-2032ST
+    note: >-
+      Why the exposure history is structured this way, and the role of specific
+      IgG testing and lavage lymphocytosis.
+  - name: "ISHLT consensus document for the selection of lung transplant candidates (2021)"
+    url: https://www.jhltonline.org/article/S1053-2498(21)02407-4/fulltext
+    note: When to refer, which is earlier than most people assume.
+
+trials:
+  - INPULSIS
+  - ASCEND
+  - INBUILD
+  - PANTHER-IPF
+
+see_also:
+  - pulmonary-fibrosis-information
+  - full-lung-function

@@ -1,0 +1,59 @@
+{% extends "base.html" %}
+{% import "macros.html" as m %}
+
+{% block title %}{{ site.title }} — {{ site.tagline }}{% endblock %}
+
+{% block content %}
+
+<section class="hero">
+  <div class="hero__text">
+    <h1>Text blocks for the respiratory clinic, ready to paste.</h1>
+    <p class="hero__lede">
+      {{ total }} consultation templates, patient explanations and results layouts. Each one shows
+      what it is based on, so you can disagree with it on the evidence rather than on taste.
+      Search, copy, paste into the record.
+    </p>
+    <p class="hero__note">
+      Square brackets are fields. They are left empty on purpose — in Dragon, F1 and F2 walk you
+      from one to the next.
+    </p>
+  </div>
+  {% if hero %}
+  <div class="hero__demo">
+    {{ m.block(hero.body_html, hero.field_count, 'hero-block', hero.title) }}
+    <p class="hero__caption"><a href="/t/{{ hero.slug }}/">{{ hero.title }}</a> — {{ hero.summary }}</p>
+  </div>
+  {% endif %}
+</section>
+
+<section class="browse">
+  <div class="browse__head">
+    <h2>Every block</h2>
+    <p class="browse__hint">Type to filter. Press <kbd>/</kbd> from anywhere to search.</p>
+  </div>
+
+  <div class="chips" role="group" aria-label="Filter by use">
+    <button class="chip chip--on" type="button" data-filter="">All</button>
+    {% for kind in kind_list %}
+    <button class="chip" type="button" data-filter="{{ kind.name|lower }}" data-kind="{{ kind.slug }}">{{ kind.name }}</button>
+    {% endfor %}
+  </div>
+
+  {% for topic in topic_list %}
+  {% if by_topic[topic.slug] %}
+  <section class="topicblock" data-topic="{{ topic.slug }}">
+    <h3 class="topicblock__name"><a href="/{{ topic.slug }}/">{{ topic.name }}</a></h3>
+    <ul class="cards">
+      {% for record in by_topic[topic.slug] %}
+      {{ m.card(record) }}
+      {% endfor %}
+    </ul>
+  </section>
+  {% endif %}
+  {% endfor %}
+
+  <p id="noresults" class="noresults" hidden>No block matches that. Try a phrase you remember from
+  the text itself — the search reads the blocks, not just their titles.</p>
+</section>
+
+{% endblock %}

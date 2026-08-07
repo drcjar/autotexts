@@ -1,0 +1,103 @@
+title: New asthma patient
+topic: asthma
+kind: consultation
+summary: >-
+  First assessment, built around the objective test that confirms the diagnosis
+  and the four things that predict the next attack.
+updated: 2026-08-06
+
+body: |
+  Referred with: []
+
+  History:
+  Symptoms: [wheeze, breathlessness, chest tightness, cough]
+  Duration and pattern: []
+  Diurnal variation and night waking: [nights per week]
+  Triggers: [exercise, cold air, pollen, animals, dust, aspirin or NSAIDs, work]
+  Better away from work or on holiday: [yes, no or not applicable]
+  Atopy: [eczema, hay fever, food allergy]
+  Nasal symptoms and sense of smell: []
+
+  Attack history:
+  Courses of oral steroids in the last 12 months: []
+  Attendances at A and E in the last 12 months: []
+  Hospital admissions, ever, and any HDU or ITU care: []
+  Best ever peak flow, and when: []
+
+  Current treatment and how it is actually taken:
+  Preventer: [drug, device, dose, doses per day]
+  Reliever: [drug, and doses used per week]
+  Inhaler technique observed today: [adequate or the specific error seen]
+  Adherence, by prescription collection where available: [collections in last 12 months]
+  Spacer in use: [yes or no]
+
+  Other:
+  Smoking and vaping: []
+  Occupation and exposures: []
+  Reflux, nasal polyps, obesity, anxiety or depression: []
+  Beta blockers, aspirin or NSAIDs: []
+  Height [] cm   Weight [] kg   BMI []
+
+  Objective tests:
+  Blood eosinophils [] x10^9/L
+  FeNO [] ppb
+  Spirometry FEV1 [] L ([]%), FVC [] L ([]%), ratio []%
+  Bronchodilator reversibility: [change in FEV1 in ml and %]
+  Peak flow diary: [amplitude per cent mean over two weeks]
+  Total IgE and specific IgE or skin prick: []
+  Chest x-ray: []
+
+  Impression:
+  [asthma confirmed on which test, or diagnosis not yet established]
+
+  Plan:
+  1. []
+  2. Inhaler technique checked and spacer issued: []
+  3. Written personalised asthma action plan given: [yes]
+  4. Trigger and adherence discussion: []
+  5. Review in [] weeks with [test or diary]
+
+notes: >-
+  The diagnosis is made on a test, not on a story, and the test is easiest to
+  get right before treatment starts: a normal FeNO and normal eosinophils in
+  someone already on inhaled steroids proves very little. Objective confirmation
+  follows the order in the joint pathway — blood eosinophils or FeNO first, then
+  bronchodilator reversibility, then two weeks of peak flow variability, then
+  bronchial challenge — and the block leaves a line for each so it is clear which
+  one was used. The "better away from work" line takes one second and is the only
+  question that finds occupational asthma, which is worth finding while the person
+  still has the job. The attack-history block earns its place because previous
+  oral steroid courses, an admission, and any HDU or ITU care are the strongest
+  predictors of the next attack, whatever today's spirometry shows.
+
+evidence:
+  - name: "NICE/BTS/SIGN NG245 - Asthma: diagnosis, monitoring and chronic asthma management"
+    url: https://www.nice.org.uk/guidance/ng245
+    note: >-
+      Adults 16 and over: diagnose on blood eosinophils above the local reference
+      range or FeNO 50 ppb or more; if not confirmed, bronchodilator reversibility
+      (FEV1 rise of 12% and 200 ml, or 10% of predicted); if unavailable, peak flow
+      variability of 20% or more over two weeks; then bronchial challenge.
+  - name: "BTS/NICE/SIGN NG244 - Asthma pathway"
+    url: https://www.nice.org.uk/guidance/ng244
+    note: The pathway view of the same recommendations, useful in clinic.
+  - name: GINA global strategy for asthma management and prevention
+    url: https://ginasthma.org/
+    note: >-
+      The international counterpart, and the source of the position that no adult
+      should be treated with a short-acting beta agonist alone.
+  - name: "National Review of Asthma Deaths (RCP, 2014)"
+    url: https://www.rcp.ac.uk/improving-care/resources/why-asthma-still-kills/
+    note: >-
+      Why the attack history and the action plan are in the template rather than
+      in the notes: most of the people who died had none of it recorded.
+
+trials:
+  - SYGMA 1
+  - SYGMA 2
+  - START
+
+see_also:
+  - asthma-review
+  - asthma-patient-information
+  - hand-held-spirometry

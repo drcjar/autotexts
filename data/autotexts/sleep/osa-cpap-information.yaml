@@ -1,0 +1,130 @@
+title: Sleep apnoea and CPAP - information for patients
+topic: sleep
+kind: patient-info
+summary: >-
+  What the diagnosis means, what CPAP actually does, and the first fortnight
+  that decides whether someone keeps using it.
+updated: 2026-08-06
+
+body: |
+  About obstructive sleep apnoea
+
+  When you sleep, the muscles that hold your throat open relax. In obstructive
+  sleep apnoea, the throat narrows or closes completely for a few seconds at a
+  time, so breathing stops or becomes very shallow. Your brain briefly wakes you
+  to reopen the airway - usually without you knowing - and this can happen
+  dozens or hundreds of times a night.
+
+  The result is broken sleep. That is why people with sleep apnoea feel
+  unrefreshed and sleepy during the day despite spending long enough in bed, and
+  why their partner may notice loud snoring and pauses in breathing.
+
+  It is common, it is treatable, and treating it usually makes people feel
+  substantially better.
+
+  About CPAP
+
+  CPAP stands for continuous positive airway pressure. A small machine by the bed
+  blows air through a tube into a mask you wear at night. The gentle pressure
+  holds your throat open, so the airway does not collapse.
+
+  It is not oxygen, and it does not breathe for you. It is a splint made of air.
+
+  Used regularly, CPAP reduces daytime sleepiness, improves concentration and
+  mood, improves quality of life, and helps blood pressure control. Most people
+  who stick with it say they had forgotten what proper sleep felt like.
+
+  The first two weeks
+
+  This is the part worth knowing about in advance, because it is where most
+  people who give up do so.
+
+  The mask feels strange at first. Almost everyone finds it odd, and most people
+  get used to it within one to two weeks.
+
+  Common early problems, all of which we can fix:
+
+  - a leaking mask, or marks on the face: usually the wrong size or the wrong
+    style, and there are many alternatives
+  - a dry nose or mouth: a humidifier can be added
+  - a blocked nose: treatable, and worth telling us about
+  - feeling that the pressure is too much: the machine can be adjusted, and can
+    be set to build up gradually while you fall asleep
+  - taking the mask off in your sleep without remembering.
+
+  Please do not decide it is not for you in the first fortnight. Contact the
+  sleep service instead - almost every early problem has a straightforward
+  solution, and it is much easier to fix at two weeks than at six months.
+
+  Use it every night, for the whole night. Benefit depends on hours of use.
+  Using it for a few hours at the start of the night gives you a fraction of the
+  benefit.
+
+  Driving
+
+  This matters, so please read it carefully.
+
+  Do not drive when you feel sleepy. That applies to everyone, always.
+
+  If you have sleep apnoea and are excessively sleepy, you must tell the DVLA,
+  and you must not drive until your symptoms are controlled. You can be
+  prosecuted if you do not. Once you are established on treatment and no longer
+  sleepy, most people return to driving normally.
+
+  If you drive for a living, tell us, because the rules for bus, coach and lorry
+  licences are stricter and we can prioritise your assessment.
+
+  We will tell you what applies to you and will support your licence
+  application. Insurers need to know as well.
+
+  Other things that help
+
+  Losing weight, if you are overweight, can substantially reduce sleep apnoea and
+  in some people resolves it. It is the only treatment that alters the underlying
+  problem rather than holding the airway open.
+
+  Avoid alcohol in the evening; it relaxes the throat muscles.
+
+  Avoid sleeping tablets and sedatives unless they have been prescribed for you
+  knowing you have sleep apnoea.
+
+  Sleeping on your side rather than your back helps some people, particularly
+  those whose apnoea is mild or mainly happens on their back.
+
+  Stop smoking, which contributes to airway irritation and swelling.
+
+  Further information: Sleep Apnoea Trust, www.sleep-apnoea-trust.org.
+
+notes: >-
+  Adherence is decided in the first fortnight, so most of this block is about the
+  first fortnight rather than about the physiology. The specific list of early
+  problems with the specific fixes is there to convert "I couldn't get on with it"
+  into a phone call. The driving section is written with the legal duty stated
+  plainly and the reassurance immediately after it, because clinicians often soften
+  the duty for fear of frightening people out of treatment, which is the worst of
+  both outcomes.
+
+evidence:
+  - name: "NICE NG202 - Obstructive sleep apnoea/hypopnoea syndrome and obesity hypoventilation syndrome in over 16s"
+    url: https://www.nice.org.uk/guidance/ng202
+    note: >-
+      CPAP as first-line treatment for symptomatic disease, with support to
+      establish use, and advice on weight, alcohol, position and sedatives.
+  - name: "DVLA assessing fitness to drive"
+    url: https://www.gov.uk/guidance/assessing-fitness-to-drive-a-guide-for-medical-professionals
+    note: >-
+      The notification duty, the requirement to stop driving while excessively
+      sleepy, and the stricter group 2 standards.
+  - name: "Sleep Apnoea Trust patient information"
+    url: https://sleep-apnoea-trust.org/
+    note: Practical, patient-written material on masks, machines and licensing.
+
+trials:
+  - SAVE
+  - MARIN 2005
+  - SURMOUNT-OSA
+  - BARBE 2012
+
+see_also:
+  - suspected-osa
+  - sleep-and-snoring-advice

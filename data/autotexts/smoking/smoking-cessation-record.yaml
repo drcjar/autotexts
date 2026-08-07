@@ -1,0 +1,81 @@
+title: Smoking, vaping and what was offered
+topic: smoking
+kind: consultation
+summary: >-
+  A record of treatment offered rather than advice given, in the form an audit
+  and the next clinician can both read.
+updated: 2026-08-06
+credit: Expanded from Angshu Bhowmik's original social history block.
+
+body: |
+  Tobacco and nicotine:
+
+  Smoking status: [current, ex or never]
+  Type: [cigarettes, roll-ups, cigars, pipe, waterpipe, cannabis with tobacco]
+  Amount and duration: [] per day for [] years
+  Pack-years: []
+  Age started: []
+  Quit date if ex-smoker: []
+  Previous quit attempts, and what was used: []
+  Longest previous quit: []
+  Other smokers in the household: []
+
+  E-cigarettes or vaping: [never, current or ex]
+  Device and nicotine strength: []
+  Used to quit smoking, alongside smoking, or independently: []
+
+  Motivation to stop today: [ready now, thinking about it, not now]
+  Confidence in stopping, out of 10: []
+
+  Offered today:
+  Very brief advice given: [yes]
+  Referral to stop smoking service: [accepted, declined, or already under]
+  Pharmacotherapy discussed: [nicotine replacement therapy - patch plus a
+  short-acting form, varenicline, cytisinicline, bupropion, or a vaping product]
+  Prescribed or supplied: []
+  Follow-up arranged: []
+
+  Carbon monoxide reading: [] ppm
+
+notes: >-
+  Advice given is not an intervention; treatment offered is. Recording status
+  alone is what most templates do, and it is why smoking appears in every letter
+  and changes nothing. The three offer lines make it visible whether anything was
+  actually put in the patient's hands, and they make the omission visible too.
+  Combination nicotine replacement — a patch plus a short-acting form — is more
+  effective than a patch alone and is still routinely under-prescribed. Record
+  vaping separately from smoking rather than collapsing both into one line: they
+  need different advice, and someone who has switched entirely to vaping has
+  achieved something worth acknowledging in the letter. Never-smokers get the
+  block too, because a never-smoker with airflow obstruction should send you
+  looking for another explanation.
+
+evidence:
+  - name: "NICE NG209 - Tobacco: preventing uptake, promoting quitting and treating dependence"
+    url: https://www.nice.org.uk/guidance/ng209
+    note: >-
+      Offer advice and treatment at every opportunity; offer behavioural support
+      with pharmacotherapy rather than either alone; nicotine-containing
+      e-cigarettes are among the options that may be discussed with adults who
+      want to stop smoking.
+  - name: "NCSCT very brief advice on smoking"
+    url: https://www.ncsct.co.uk/
+    note: >-
+      The ask, advise, act structure this block records, in the 30 seconds it
+      actually takes.
+  - name: "NHS long term plan: tobacco dependence treatment services"
+    url: https://www.england.nhs.uk/
+    note: >-
+      Every admitted patient and every relevant outpatient should be offered
+      treatment, which is why the offer needs to be in the letter.
+
+trials:
+  - TEC
+  - HALPERN 2018
+  - WALKER 2020
+  - BAKER 2021
+  - LUNG HEALTH STUDY
+
+see_also:
+  - new-respiratory-outpatient
+  - copd-new-patient

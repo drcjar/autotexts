@@ -1,0 +1,79 @@
+title: Asking the GP to arrange nodule follow-up
+topic: nodules
+kind: letter
+summary: >-
+  Handing surveillance of a low-risk nodule to primary care, with the safety net
+  written down rather than assumed.
+updated: 2026-08-06
+credit: >-
+  Angshu Bhowmik's original, generalised and with the safety-netting made
+  explicit.
+
+body: |
+  Dear Dr [],
+
+  Re: [patient name, date of birth, NHS number]
+
+  This patient was referred to the [] team. The CT scan performed on [] showed
+  an incidental [sub-solid or solid] nodule of [] mm in the [] lobe.
+
+  The appearances are of a low-risk nodule. The calculated risk of malignancy
+  was []%. Nodules of this kind are usually harmless, and an operation is not
+  recommended at this size: in the great majority of cases the nodule turns out
+  to be benign, and the treatment would be worse than the disease. If it grows on
+  follow-up imaging, we would then recommend further investigation and possible
+  removal.
+
+  Under an arrangement agreed with [commissioner or ICB], follow-up CT for
+  nodules of this type may be requested in primary care, to avoid unnecessary
+  secondary care appointments.
+
+  I would be grateful if you would arrange a non-contrast CT thorax [annually,
+  or at the intervals below] for a total of [] years:
+
+  Scan due []
+  Scan due []
+  Scan due []
+  Scan due []
+
+  Surveillance can stop after [] provided the nodule remains unchanged.
+
+  If any report shows growth or a change in character, the radiologist will
+  recommend re-referral, and the chest clinic will also be notified. Please refer
+  the patient back to us at that point, or sooner if they develop new or
+  worsening cough, haemoptysis, breathlessness or unexplained weight loss.
+
+  The patient has been given written information explaining the nodule, the plan,
+  and when the surveillance ends.
+
+  If you would prefer that we retain follow-up in secondary care, please let me
+  know and we will arrange it.
+
+  Please do not hesitate to contact me on the number below with any queries.
+
+  Yours sincerely,
+
+notes: >-
+  Handing surveillance to primary care only works if three things are written
+  down and not assumed: the exact dates, who acts if the report shows growth, and
+  when it stops. The original of this letter had all three implied; making them
+  explicit is the difference between a shared plan and a dropped one. Two lines
+  are deliberately included — the offer to keep follow-up in secondary care, and
+  the sentence confirming the patient has their own written copy — because both
+  make it harder for the plan to fail silently. Do not send this for nodules that
+  are not genuinely low risk, and check that the local arrangement actually
+  exists before citing it.
+
+evidence:
+  - name: "BTS guideline for the investigation and management of pulmonary nodules (2015)"
+    url: https://thorax.bmj.com/content/70/Suppl_2/ii1
+    note: >-
+      Surveillance intervals and duration, including annual CT to four years for
+      subsolid nodules that persist.
+  - name: "Fleischner Society 2017 guidelines for management of incidental pulmonary nodules"
+    url: https://pubs.rsna.org/doi/10.1148/radiol.2017161659
+    note: The alternative interval schedule, where local radiology follows it.
+
+see_also:
+  - nodule-surveillance-plan
+  - nodule-patient-information

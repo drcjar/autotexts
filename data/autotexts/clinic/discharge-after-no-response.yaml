@@ -1,0 +1,55 @@
+title: Discharge after no response
+topic: clinic
+kind: letter
+summary: >-
+  Closing the loop when the window given in the previous letter has passed,
+  with the re-referral route stated.
+updated: 2026-08-06
+credit: Angshu Bhowmik's original.
+
+body: |
+  Dear [],
+
+  Further to my letter of [], I have not heard from you.
+
+  I very much hope that this means your symptoms have improved.
+
+  I am now discharging you from the chest clinic, and I have written to your GP
+  to let them know.
+
+  If you develop any of the following, please contact your GP, who can refer you
+  back to the chest clinic: a cough that persists or is getting worse, coughing
+  up blood, worsening breathlessness, chest pain that is not explained, or losing
+  weight without meaning to.
+
+  If you would still like to be seen and simply have not managed to get in touch,
+  please telephone the number below and we will help.
+
+  With all best wishes,
+
+  Yours sincerely,
+
+notes: >-
+  Send this only after a letter that gave a defined window, so the discharge is
+  the end of a process rather than the start of one. The last paragraph exists
+  because a proportion of people who do not respond to the first letter never
+  received it, or could not read it, or were in hospital elsewhere; leaving the
+  door open costs nothing. Keep the safety-netting list specific rather than
+  writing "any respiratory symptoms", which is not actionable by the reader and
+  will be ignored.
+
+evidence:
+  - name: "Academy of Medical Royal Colleges: please write to me"
+    url: https://www.aomrc.org.uk/reports-guidance/please-write-to-me-writing-outpatient-clinic-letters-to-patients/
+    note: >-
+      Letters written to the patient, in the second person, with clear actions and
+      no unexplained abbreviations.
+  - name: "NICE NG12 - Suspected cancer: recognition and referral"
+    url: https://www.nice.org.uk/guidance/ng12
+    note: >-
+      The symptoms in the safety-netting paragraph are those that should prompt
+      urgent reassessment for possible cancer.
+
+see_also:
+  - did-not-attend
+  - respiratory-follow-up

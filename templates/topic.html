@@ -1,0 +1,32 @@
+{% extends "base.html" %}
+{% import "macros.html" as m %}
+
+{% block description %}{{ topic.blurb or topic.name }}{% endblock %}
+
+{% block content %}
+
+<header class="pagehead">
+  <p class="eyebrow">Topic</p>
+  <h1>{{ topic.name }}</h1>
+  {% if topic.blurb %}<p class="pagehead__blurb">{{ topic.blurb }}</p>{% endif %}
+  {% if topic.guidelines %}
+  <p class="pagehead__guidelines">
+    Written against
+    {% for guideline in topic.guidelines %}
+      <a href="{{ guideline.url }}">{{ guideline.name }}</a>{% if not loop.last %}, {% endif %}
+    {% endfor %}.
+  </p>
+  {% endif %}
+</header>
+
+{% if records %}
+<ul class="cards">
+  {% for record in records %}
+  {{ m.card(record) }}
+  {% endfor %}
+</ul>
+{% else %}
+<p class="empty">Nothing here yet.</p>
+{% endif %}
+
+{% endblock %}

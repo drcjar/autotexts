@@ -1,0 +1,24 @@
+{% extends "base.html" %}
+{% import "macros.html" as m %}
+
+{% block description %}{{ kind.blurb or kind.name }}{% endblock %}
+
+{% block content %}
+
+<header class="pagehead">
+  <p class="eyebrow">By use</p>
+  <h1>{{ kind.name }}</h1>
+  {% if kind.blurb %}<p class="pagehead__blurb">{{ kind.blurb }}</p>{% endif %}
+</header>
+
+{% if records %}
+<ul class="cards">
+  {% for record in records %}
+  {{ m.card(record) }}
+  {% endfor %}
+</ul>
+{% else %}
+<p class="empty">Nothing here yet.</p>
+{% endif %}
+
+{% endblock %}

@@ -1,0 +1,61 @@
+title: Invitation for a repeat chest x-ray
+topic: clinic
+kind: letter
+summary: >-
+  The short letter that gets someone back for the follow-up film, with the
+  reason stated and the result loop closed.
+updated: 2026-08-06
+credit: Angshu Bhowmik's original.
+
+body: |
+  Dear [],
+
+  When I saw you on [], we agreed that you should have a repeat chest x-ray to
+  check that [the changes on the previous x-ray have cleared, or the specific
+  reason].
+
+  Please come for this on [] , or at any time within three weeks after that
+  date if that is more convenient, Monday to Friday between [] and [] .
+
+  You do not need an appointment. Please go to [department and location].
+
+  It may make things easier if you bring this letter with you.
+
+  You do not need to do anything to prepare, and you can eat and drink normally.
+  Please tell the radiographer if you are, or might be, pregnant.
+
+  We will write to you with the result, and to your GP. If you have not heard
+  from us within [] weeks of having the x-ray, please telephone the number below
+  rather than assuming that no news is good news.
+
+  With all best wishes,
+
+  Yours sincerely,
+
+notes: >-
+  Two things make the difference between this letter working and not working: a
+  window rather than a single date, which is Angshu's original and materially
+  improves attendance, and the instruction to chase if no result arrives. The
+  second is a genuine safety net — the failure mode for follow-up films is not
+  the patient failing to attend, it is an abnormal result attended, reported, and
+  never seen by anyone who knows the story. Say why the film is being repeated:
+  people are far more likely to attend for a stated reason than for an
+  unexplained one, and they will be told nothing else at the x-ray department.
+
+evidence:
+  - name: "Academy of Medical Royal Colleges: please write to me"
+    url: https://www.aomrc.org.uk/reports-guidance/please-write-to-me-writing-outpatient-clinic-letters-to-patients/
+    note: Letters written to the patient, with the reason and the action stated plainly.
+  - name: "NICE NG12 - Suspected cancer: recognition and referral"
+    url: https://www.nice.org.uk/guidance/ng12
+    note: >-
+      Repeat imaging after treated pneumonia or an unresolved abnormality, and the
+      requirement for a reliable result-tracking process behind it.
+  - name: "Royal College of Radiologists: standards for the communication of radiological reports and fail-safe alert notification"
+    url: https://www.rcr.ac.uk/
+    note: >-
+      Why the closing paragraph asks the patient to chase, as a backstop to the
+      system rather than a substitute for it.
+
+see_also:
+  - respiratory-follow-up

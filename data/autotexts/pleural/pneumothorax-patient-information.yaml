@@ -1,0 +1,112 @@
+title: Pneumothorax - information for patients
+topic: pleural
+kind: patient-info
+summary: >-
+  What a collapsed lung is, what happens next, and the rules about flying,
+  diving and smoking that people are rarely told clearly.
+updated: 2026-08-06
+
+body: |
+  About your pneumothorax
+
+  A pneumothorax is a collection of air between the lung and the chest wall. The
+  air takes up space, so the lung cannot expand fully. People often call it a
+  collapsed lung.
+
+  It happens when a small air leak develops on the surface of the lung. In
+  younger, taller people this often occurs without any injury or warning, from a
+  small bleb on the lung surface. In people with existing lung disease, such as
+  emphysema, it can happen because the lung tissue is already fragile.
+
+  Air that leaks out is gradually reabsorbed by the body once the leak seals.
+
+  What happens next
+
+  Treatment depends on how big the pneumothorax is, how breathless you are, and
+  whether you have other lung disease. Options are:
+
+  Observation. If you are not very breathless and the pneumothorax is small,
+  doing nothing except watching is often the best treatment. The air reabsorbs on
+  its own over days to a few weeks.
+
+  Aspiration. Air is drawn out through a needle under local anaesthetic.
+
+  A chest drain. A tube is placed between the ribs under local anaesthetic to let
+  the air out continuously, usually needing a stay in hospital.
+
+  Some people are suitable for a small device that lets them go home with the
+  drain in place. We will tell you if that applies to you.
+
+  Surgery. If the leak does not seal, or if the pneumothorax comes back, an
+  operation can seal the surface of the lung and stick it to the chest wall.
+
+  Your plan: []
+
+  After you go home
+
+  You may have some chest discomfort for a while. Simple painkillers usually
+  help.
+
+  Come back to hospital urgently, or call 999, if you become more breathless,
+  develop worse chest pain, feel faint, or your heart is racing. A pneumothorax
+  can enlarge again, and it can do so quickly.
+
+  Smoking
+
+  If you smoke, stopping matters more here than almost anywhere else. Smoking
+  substantially increases the chance of a pneumothorax happening again. We can
+  arrange support and medication, and this is the single most useful thing you
+  can do to avoid going through this a second time.
+
+  Flying
+
+  Do not fly until the pneumothorax has fully resolved and this has been
+  confirmed on a chest x-ray. Current guidance is that flying is reasonable once
+  the x-ray confirms resolution and you have recovered, and your team will tell
+  you the interval they advise. Check with your insurer as well.
+
+  Diving
+
+  Do not scuba dive again unless you have had surgery to prevent recurrence and
+  have been assessed as fit to dive. This is a permanent restriction otherwise,
+  and it is not a formality: a pneumothorax at depth can be fatal.
+
+  Coming back
+
+  A pneumothorax comes back in a substantial minority of people, most often in
+  the first year. Knowing the symptoms means you will recognise it quickly.
+  Sudden breathlessness or sudden one-sided chest pain should be assessed the
+  same day.
+
+notes: >-
+  Conservative management is now much more prominent than it was, so the block
+  explains observation first and as a treatment rather than as a delay — patients
+  who expect a drain and are sent home otherwise often assume they have been
+  fobbed off. The diving restriction is stated flatly because it is permanent
+  without surgery and is frequently softened into something the patient hears as
+  advisory. Fill in the local interval before flying rather than quoting a number
+  here; guidance varies and your team will have a position.
+
+evidence:
+  - name: "BTS guideline for pleural disease (2023)"
+    url: https://thorax.bmj.com/content/78/Suppl_3/s1
+    note: >-
+      Management directed by symptoms and by the presence of high-risk
+      characteristics rather than by size alone; conservative management as a
+      legitimate option in selected patients; ambulatory devices; smoking
+      cessation to reduce recurrence; advice on air travel and the permanent
+      restriction on diving.
+  - name: "BTS clinical statement on air travel for passengers with respiratory disease"
+    url: https://www.brit-thoracic.org.uk/quality-improvement/clinical-statements/air-travel/
+    note: When it is reasonable to fly after resolution.
+  - name: "UK Diving Medical Committee guidance"
+    url: https://www.ukdmc.org/medical-conditions/pneumothorax/
+    note: The basis for the diving restriction.
+
+trials:
+  - PSP
+  - RAMPP
+
+see_also:
+  - pleural-effusion-workup
+  - smoking-cessation-record

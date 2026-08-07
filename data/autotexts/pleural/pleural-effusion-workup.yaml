@@ -1,0 +1,102 @@
+title: Undiagnosed unilateral pleural effusion
+topic: pleural
+kind: consultation
+summary: >-
+  The workup in the order that avoids the two classic errors: draining before
+  imaging, and sending too little fluid.
+updated: 2026-08-06
+
+body: |
+  Unilateral pleural effusion, cause not yet established.
+
+  History:
+  Breathlessness, and over what period: []
+  Chest pain, and whether pleuritic: []
+  Cough and sputum: []
+  Fever, night sweats, weight loss: []
+  Orthopnoea, ankle swelling, known heart failure: []
+  Known malignancy, and treatment: []
+  Asbestos exposure: [job, years, and what was done]
+  Smoking: [pack-years]
+  Recent surgery, immobility or thromboembolism: []
+  Drug history, including anticoagulants and drugs causing effusions: []
+  Rheumatological or liver disease: []
+  Recent travel and TB contact: []
+
+  Examination:
+  SpO2 []% on air, observations []
+  Side and estimated size: []
+  Lymphadenopathy, clubbing, chest wall signs: []
+  Signs of heart failure, chronic liver disease or nephrotic syndrome: []
+
+  Imaging:
+  Chest x-ray: []
+  Thoracic ultrasound: [size, septations, echogenicity, pleural thickening,
+  diaphragmatic nodularity, safe site marked]
+  CT chest with contrast in the pleural phase, performed before full drainage:
+  []
+
+  Pleural fluid:
+  Appearance: []
+  pH [] (measured on a blood gas analyser, not a dipstick)
+  Protein [] g/L, serum protein [] g/L
+  LDH [] U/L, serum LDH [] U/L
+  Glucose []
+  Light's criteria: [transudate or exudate]
+  Cytology sent, volume: [] mL
+  Microscopy, culture and sensitivity, including into blood culture bottles: []
+  Mycobacterial culture: []
+  Other: [amylase, triglycerides, cholesterol, haematocrit]
+
+  Blood tests:
+  Full blood count, renal, liver, bone profile, LDH, CRP: []
+  NT-proBNP: []
+  Autoantibodies if indicated: []
+
+  Impression:
+  [transudate with likely cause, or exudate with differential]
+
+  Plan:
+  1. [therapeutic aspiration, chest drain, local anaesthetic thoracoscopy,
+  image-guided pleural biopsy, or observation]
+  2. Volume drained and symptomatic response: []
+  3. Discussed at [pleural or lung cancer MDT] on []
+  4. Follow-up: [] with [repeat imaging or results]
+
+notes: >-
+  Two errors account for most of the diagnostic delay in this pathway. The first
+  is draining the effusion completely before the CT: contrast-enhanced CT is much
+  more informative with fluid still present, and once the chest is dry the chance
+  to look for pleural nodularity has gone. The second is sending a token amount of
+  fluid for cytology — send 25 to 50 mL. Measure pH on a blood gas analyser
+  because it is the number that decides whether an infected effusion needs a
+  drain, and a dipstick will not do. In someone with a known malignancy and a
+  bilateral effusion or an obvious transudate, ask whether this needs a pleural
+  workup at all before starting one.
+
+evidence:
+  - name: "BTS guideline for pleural disease (2023)"
+    url: https://thorax.bmj.com/content/78/Suppl_3/s1
+    note: >-
+      Contrast-enhanced CT before complete drainage in suspected malignant or
+      infected effusions; 25 to 50 mL of fluid for cytology; pleural fluid into
+      blood culture bottles as well as plain tubes in suspected pleural infection.
+  - name: "Light's criteria (Light et al, Ann Intern Med 1972)"
+    url: https://pubmed.ncbi.nlm.nih.gov/4642731/
+    note: >-
+      The transudate-exudate separation the block records, still the first branch
+      point after the fluid is in the tube.
+  - name: "BTS clinical statement on pleural procedures (2023)"
+    url: https://thorax.bmj.com/content/78/Suppl_3/s43
+    note: >-
+      Ultrasound before every pleural intervention, with the site marked by the
+      person doing the procedure at the time of the procedure.
+
+trials:
+  - MIST1
+  - MIST2
+  - TAPPS
+
+see_also:
+  - indwelling-pleural-catheter-information
+  - pneumothorax-patient-information

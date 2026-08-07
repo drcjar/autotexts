@@ -1,0 +1,113 @@
+title: After a lung cancer diagnosis - information for patients
+topic: lung-cancer
+kind: patient-info
+summary: >-
+  What happens next in the days after the diagnosis is given, written to be
+  read again at home when the conversation has blurred.
+updated: 2026-08-06
+
+body: |
+  What we discussed today
+
+  We have told you that the tests show lung cancer. I am sorry to be giving you
+  this news.
+
+  Most people remember very little of a conversation like this one, which is why
+  it is written down here. Please read it again when you are ready, and share it
+  with whoever you want to.
+
+  What we know so far
+
+  The type of cancer: []
+  Where it is: []
+  What the tests have shown about whether it has spread: []
+  What we still need to find out: []
+
+  What happens next
+
+  []
+
+  Your lung cancer nurse specialist is []. Their number is []. They are your
+  main point of contact and you can ring them with any question, however small it
+  seems. Most people find they have questions a day or two later. That is
+  expected, and it is what the number is for.
+
+  Your case is discussed at a meeting of chest doctors, surgeons, cancer
+  specialists, radiologists, pathologists and specialist nurses. We will contact
+  you after that meeting with the recommendation and arrange to see you.
+
+  Questions people usually want to ask
+
+  You do not have to ask everything at once, and you can ask the same question
+  more than once. Common ones are: what type is it, has it spread, what treatment
+  is possible, what will the treatment involve, what will it do to how I feel,
+  and what does this mean for how long I have.
+
+  Some of these we can answer now and some we cannot answer until the remaining
+  tests are back. If we do not know, we will say so rather than guess.
+
+  It helps to write your questions down as you think of them, and to bring
+  someone with you to appointments.
+
+  Things that help now
+
+  If you smoke, stopping now still helps. It improves how well treatment is
+  tolerated and reduces complications from surgery. We can arrange support and
+  medication immediately, and this is not a criticism of you.
+
+  Keep as active as you comfortably can. Fitness affects which treatments are
+  possible.
+
+  Eat what you can manage. Tell us if you are losing weight.
+
+  Tell us about pain, breathlessness, cough or low mood. All of these can be
+  treated, and treating them is part of cancer care from the beginning, not
+  something that only happens later.
+
+  Practical and financial help
+
+  A cancer diagnosis often has immediate practical consequences - work, driving,
+  travel insurance, benefits, caring responsibilities. Your nurse specialist can
+  put you in touch with people who deal with this every day. Ask early rather
+  than when things are difficult.
+
+  Macmillan Cancer Support: 0808 808 00 00, www.macmillan.org.uk
+  Roy Castle Lung Cancer Foundation: 0333 323 7200, www.roycastle.org
+
+  If you are struggling
+
+  Feeling frightened, angry, numb or unable to sleep is a normal response, not a
+  weakness. Tell us if it is not easing, because there is help.
+
+notes: >-
+  Written for the letter that goes out the same day, and deliberately not
+  written as a summary of the disease: the patient can read about lung cancer
+  anywhere, and what they cannot get elsewhere is a written record of what was
+  said to them and who to ring. The blank fields near the top are the whole
+  point — a generic version of this block is worse than nothing. Saying that
+  supportive treatment starts now rather than later reflects the evidence that
+  early palliative care alongside oncology improves quality of life, and in one
+  landmark trial survival too.
+
+evidence:
+  - name: "NICE NG122 - Lung cancer: diagnosis and management"
+    url: https://www.nice.org.uk/guidance/ng122
+    note: >-
+      Access to a lung cancer nurse specialist at diagnosis and as a continuing
+      point of contact; information given in a form the patient can keep.
+  - name: "NICE CSG4 - Improving outcomes in lung cancer"
+    url: https://www.nice.org.uk/guidance/csg4
+    note: Communication of a cancer diagnosis, and the role of the specialist nurse.
+  - name: "Early palliative care in metastatic non-small-cell lung cancer (Temel et al, NEJM 2010)"
+    url: https://pubmed.ncbi.nlm.nih.gov/20818875/
+    note: >-
+      Palliative care introduced alongside standard oncological treatment improved
+      quality of life and mood, with a survival signal. It is why this letter
+      mentions symptom control at diagnosis rather than at progression.
+  - name: "Roy Castle Lung Cancer Foundation"
+    url: https://roycastle.org/
+    note: Patient support specific to lung cancer, including for people who never smoked.
+
+see_also:
+  - lung-cancer-staging-tests
+  - suspected-lung-cancer

@@ -1,0 +1,79 @@
+title: Respiratory follow-up review
+topic: clinic
+kind: consultation
+summary: >-
+  The general follow-up skeleton: what has changed, what the tests show, and
+  what the plan is now - with an explicit discharge question.
+updated: 2026-08-06
+
+body: |
+  Reviewed in the chest clinic.
+
+  Diagnosis: []
+  Last seen: []
+
+  Since last seen:
+  Symptoms: [better, unchanged, worse, and in what way]
+  Exercise tolerance now: []
+  Exacerbations, courses of antibiotics or steroids: []
+  Unscheduled care or admissions: []
+  New symptoms: []
+  Weight: [] kg, change of []
+
+  Treatment:
+  Current respiratory treatment: []
+  Taken as prescribed: [yes, or the specific problem]
+  Inhaler technique checked today: []
+  Side effects: []
+  Changes made since last review: []
+
+  Results since last seen:
+  Imaging: []
+  Lung function: []
+  Bloods: []
+  Microbiology: []
+
+  Examination:
+  SpO2 []% on air, observations []
+  []
+
+  Impression:
+  []
+
+  Plan:
+  1. []
+  2. Investigations requested: []
+  3. Discussed with the patient: []
+  4. Follow-up: [in [] months, patient-initiated, or discharge]
+  5. If discharged: safety-netting given, and the specific symptoms that should
+  prompt re-referral: []
+
+  Actions for the GP:
+  []
+
+notes: >-
+  Two lines here are load-bearing. The first is the explicit discharge option in
+  the follow-up field: clinics silently accumulate people who are attending out of
+  habit, and a template that only offers an interval will produce one. The second
+  is the separate list of actions for the GP — a letter that mentions a change of
+  treatment somewhere in a paragraph of prose gets missed, and a headed list at
+  the end does not. Record what was actually discussed with the patient rather
+  than what you concluded, so the next clinician knows what the person has already
+  been told.
+
+evidence:
+  - name: "Academy of Medical Royal Colleges: please write to me"
+    url: https://www.aomrc.org.uk/reports-guidance/please-write-to-me-writing-outpatient-clinic-letters-to-patients/
+    note: >-
+      Write to the patient in the second person and in plain English, with actions
+      clearly separated, since the patient is a recipient of this letter and not
+      just its subject.
+  - name: "NHS England guidance on patient-initiated follow-up"
+    url: https://www.england.nhs.uk/outpatient-transformation-programme/patient-initiated-follow-up-giving-patients-greater-control-over-their-hospital-follow-up-care/
+    note: >-
+      Patient-initiated follow-up as an alternative to a fixed interval, which is
+      why it is offered as an option in the plan rather than buried.
+
+see_also:
+  - new-respiratory-outpatient
+  - discharge-after-no-response

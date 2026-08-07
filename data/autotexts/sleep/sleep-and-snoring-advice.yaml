@@ -1,0 +1,119 @@
+title: Snoring and sleep advice
+topic: sleep
+kind: patient-info
+summary: >-
+  For the person whose sleep study was normal, or whose snoring is the problem
+  rather than the apnoea.
+updated: 2026-08-06
+credit: >-
+  From Angshu Bhowmik's collection, originally written by Dr Joshua Agbetile.
+
+body: |
+  Advice on snoring and sleeping better
+
+  Your sleep study did not show significant obstructive sleep apnoea. That is
+  good news, and it means CPAP is not the right treatment for you. It does not
+  mean the snoring or the poor sleep is imaginary, and there is a good deal that
+  helps.
+
+  Reducing snoring
+
+  Losing weight, if you are overweight, is the most effective single measure.
+  Even a modest loss can make a noticeable difference, because much of the
+  narrowing is caused by tissue around the throat.
+
+  Avoid sleeping on your back. Snoring is often much worse in that position. Some
+  people manage this with a pillow arrangement or by sewing something
+  uncomfortable into the back of a night shirt; there are also positional
+  devices.
+
+  Sleeping propped up slightly, rather than flat, helps some people.
+
+  Reduce alcohol, particularly in the evening. Alcohol relaxes the throat muscles
+  and reliably worsens snoring.
+
+  Stop smoking. Smoking irritates and swells the lining of the airway.
+
+  Avoid sleeping tablets and tranquillisers, which have the same effect on throat
+  muscle tone as alcohol.
+
+  Treat a blocked nose. Persistent nasal obstruction, hay fever or nasal polyps
+  make mouth breathing and snoring worse, and are treatable. Tell your GP if
+  your nose is constantly blocked.
+
+  A mandibular advancement splint - a device worn in the mouth at night that
+  holds the lower jaw slightly forward - helps many people who snore, and is also
+  a treatment option for mild sleep apnoea. The best results come from ones
+  fitted by a dentist with an interest in this; devices are also sold directly to
+  the public. Do not use one if you have significant dental disease or jaw joint
+  problems without getting advice first.
+
+  Sleeping better generally
+
+  Keep the same bedtime and rising time every day, including at weekends. Regular
+  timing does more for sleep quality than anything else on this list.
+
+  Get daylight early in the day, and be active during the day.
+
+  Do not exercise vigorously in the two hours before bed, but a gentle walk after
+  dinner is helpful.
+
+  Avoid screens and bright light for an hour or two before bed.
+
+  Keep the bedroom dark, quiet and cool. Too warm is a common and easily fixed
+  cause of broken sleep.
+
+  Avoid caffeine after the early afternoon, and avoid alcohol as a way of getting
+  to sleep - it helps you fall asleep and then fragments the second half of the
+  night.
+
+  If you cannot sleep, get up and do something quiet in low light rather than
+  lying there. Lying awake in bed trains the brain to associate bed with being
+  awake.
+
+  If poor sleep has become a long-term problem, ask about cognitive behavioural
+  therapy for insomnia. It works better than sleeping tablets and the benefit
+  lasts. It is available online as well as in person.
+
+  Come back to us if
+
+  - you or your partner notice pauses in your breathing at night
+  - you become sleepy during the day, particularly while driving
+  - you gain a significant amount of weight
+  - the snoring is causing difficulty in your relationship, which is a good
+    enough reason on its own.
+
+  Further information: NHS advice on snoring,
+  www.nhs.uk/live-well/sleep-and-tiredness
+
+notes: >-
+  This is the block for the large group who come through a sleep service and turn
+  out not to need CPAP, and who historically got a brief letter and nothing else.
+  Two additions to the original are worth keeping: CBT for insomnia, which is the
+  first-line treatment for chronic insomnia and is still under-offered, and the
+  explicit invitation to come back if the picture changes, since a negative study
+  in a snorer who then gains ten kilograms is not a permanent answer. The line
+  about relationships is deliberate — it is the commonest real reason people
+  attend, and rarely the one they give.
+
+evidence:
+  - name: "NICE NG202 - Obstructive sleep apnoea/hypopnoea syndrome and obesity hypoventilation syndrome in over 16s"
+    url: https://www.nice.org.uk/guidance/ng202
+    note: >-
+      Weight, alcohol, position and sedative advice; mandibular advancement
+      splints as an option for mild disease and for people who decline CPAP.
+  - name: "NICE guidance on digital cognitive behavioural therapy for insomnia"
+    url: https://www.nice.org.uk/guidance/mtg70
+    note: >-
+      CBT for insomnia before hypnotics, with digitally delivered programmes
+      recommended as an option.
+  - name: "NHS advice on snoring"
+    url: https://www.nhs.uk/live-well/sleep-and-tiredness/
+    note: The patient-facing source this block points people to.
+
+trials:
+  - CATNAP
+
+see_also:
+  - suspected-osa
+  - osa-cpap-information

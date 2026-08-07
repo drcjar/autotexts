@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="{{ site.language }}">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{% block title %}{{ page_title }} — {{ site.title }}{% endblock %}</title>
+<meta name="description" content="{% block description %}{{ site.description }}{% endblock %}">
+<link rel="canonical" href="{{ site.base_url }}{{ page_url }}">
+<link rel="stylesheet" href="/static/styles/main.css">
+<link rel="icon" href="/static/img/favicon.svg" type="image/svg+xml">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+
+<header class="masthead">
+  <div class="masthead__bar">
+    <a class="wordmark" href="/">
+      <span class="wordmark__name">Respiratory</span><span class="wordmark__field">[autotexts]</span>
+    </a>
+    <form class="search" role="search" action="/" method="get">
+      <label class="visually-hidden" for="search">Search autotexts</label>
+      <input id="search" type="search" placeholder="Search blocks, topics, phrases" autocomplete="off" spellcheck="false">
+      <kbd class="search__hint">/</kbd>
+      <div id="search-results" class="search__results" hidden></div>
+    </form>
+  </div>
+  <nav class="nav" aria-label="Topics">
+    {% for group in groups %}
+    <details class="navgroup">
+      <summary>{{ group.name }}</summary>
+      <ul>
+        {% for slug in group.topics %}
+        <li><a href="/{{ slug }}/">{{ topics[slug].short }}</a></li>
+        {% endfor %}
+      </ul>
+    </details>
+    {% endfor %}
+    <details class="navgroup">
+      <summary>By use</summary>
+      <ul>
+        {% for kind in kind_list %}
+        <li><a href="/kind/{{ kind.slug }}/">{{ kind.name }}</a></li>
+        {% endfor %}
+      </ul>
+    </details>
+    {% if layers %}
+    <details class="navgroup">
+      <summary>Local</summary>
+      <ul>
+        {% for layer in layers %}
+        <li><a href="/local/{{ layer.slug }}/">{{ layer.short_name or layer.name }}</a></li>
+        {% endfor %}
+      </ul>
+    </details>
+    {% endif %}
+  </nav>
+</header>
+
+<main id="main" class="wrap">
+{% block content %}{% endblock %}
+</main>
+
+<footer class="footer wrap">
+  <p class="footer__disclaimer">
+    Templates, not decisions. Every block is a starting point for a clinician who has seen the
+    patient — check it against current guidance and against the person in front of you before it
+    goes in the record.
+  </p>
+  <p>
+    Started from auto-texts written by Dr Angshu Bhowmik for the Homerton respiratory department and
+    shared with his trainees. Evidence links point at
+    <a href="{{ site.trials_site }}">respiratorytrials.org</a>.
+    <a href="/about/">More about this site</a>.
+  </p>
+  <p class="footer__meta">
+    <a href="/autotexts.txt">Every block as plain text</a> ·
+    Built {{ built.strftime('%d %B %Y') }}
+  </p>
+</footer>
+
+<div id="tip" class="tip" role="tooltip" hidden></div>
+<div id="shout" class="shout" role="status" aria-live="polite"></div>
+<script src="/static/js/app.js" defer></script>
+</body>
+</html>

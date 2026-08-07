@@ -1,0 +1,111 @@
+title: COPD review
+topic: copd
+kind: consultation
+summary: >-
+  The review that checks the things that change outcomes before it checks the
+  inhaler, and asks the oxygen and palliative questions on time.
+updated: 2026-08-06
+
+body: |
+  COPD review.
+
+  Since last seen:
+  MRC dyspnoea scale [1 to 5], previously []
+  CAT score [], previously []
+  Exacerbations treated at home: []
+  Exacerbations needing admission: []
+  Any ventilatory support: []
+  Exercise tolerance: [metres on the flat]
+
+  Treatment:
+  Current inhalers: [drug, device, dose, doses per day]
+  Inhaler technique observed today: [adequate, or the specific error seen]
+  Prescription collections in the last 12 months: []
+  Rescue pack: [held, used how many times, and appropriately or not]
+  Nebuliser or home oxygen: []
+  Mucolytic: []
+
+  Fundamentals:
+  Smoking status: [current with pack-years, or ex with quit date]
+  Very brief advice and treatment offered: []
+  Pulmonary rehabilitation: [completed and when, on the waiting list, declined,
+  or due a repeat]
+  Vaccination: [influenza, pneumococcal, COVID-19, RSV]
+  Physical activity: []
+  Weight [] kg, BMI [], any unintentional weight loss []
+  Anxiety or depression screened: []
+
+  Measurements:
+  SpO2 []% on air, at rest
+  Post-bronchodilator FEV1 [] L ([]% predicted)
+  Blood eosinophils [] x10^9/L
+  [walk test result if done]
+
+  Assessments due:
+  Long-term oxygen assessment indicated: [yes if resting SpO2 92% or less on
+  air when stable, or no]
+  Referral for lung volume reduction or valve assessment considered: [yes or no]
+  Alpha-1 antitrypsin checked at least once: [yes or no]
+  Anticipatory care and treatment escalation discussed: [yes or not yet]
+
+  Impression:
+  [stable, deteriorating, or frequent exacerbator], MRC [], FEV1 []% predicted,
+  [] exacerbations in the last 12 months.
+
+  Plan:
+  1. []
+  2. Self-management plan reviewed and reissued: []
+  3. Review in [] months, and sooner if [specific trigger to come back]
+
+notes: >-
+  Frequent exacerbations are the finding that should change the consultation:
+  two or more treated in the year, or one needing admission, moves someone into
+  the group where escalation of inhaled treatment, a rescue pack, and a serious
+  look for bronchiectasis and cardiac disease all become reasonable. Use the
+  blood eosinophil count when deciding about inhaled corticosteroid rather than
+  adding it by reflex, and remember the pneumonia signal that comes with it. Ask
+  the oxygen question by measuring saturation when the person is stable — home
+  oxygen prescribed off an exacerbation reading is common and wrong, and oxygen
+  given for breathlessness without hypoxaemia does not improve survival or
+  symptoms. The anticipatory care line is deliberately on the routine template:
+  the conversation goes far better in a stable outpatient clinic than at two in
+  the morning in resus.
+
+evidence:
+  - name: "NICE NG115 - Chronic obstructive pulmonary disease in over 16s"
+    url: https://www.nice.org.uk/guidance/ng115
+    note: >-
+      Review content, the criteria for referral for oxygen assessment, and the
+      recommendation not to offer long-term oxygen to treat breathlessness in
+      people who are not hypoxaemic.
+  - name: GOLD report - Global Strategy for Prevention, Diagnosis and Management of COPD
+    url: https://goldcopd.org/
+    note: >-
+      Escalation on exacerbations rather than FEV1, and blood eosinophils to
+      guide inhaled corticosteroid: add it at counts of 300 cells per microlitre
+      and above, consider it at 100 and above in people still exacerbating on
+      dual bronchodilation.
+  - name: "BTS guideline for home oxygen use in adults"
+    url: https://thorax.bmj.com/content/70/Suppl_1/i1
+    note: >-
+      Assess when clinically stable, on two occasions at least three weeks apart,
+      not during or shortly after an exacerbation.
+  - name: "BTS quality standards for pulmonary rehabilitation"
+    url: https://www.brit-thoracic.org.uk/quality-improvement/quality-standards/pulmonary-rehabilitation/
+    note: >-
+      Repeat programmes are appropriate; one course completed five years ago is
+      not a reason to leave the box ticked forever.
+
+trials:
+  - IMPACT
+  - ETHOS
+  - FLAME
+  - NOTT
+  - MRC OXYGEN
+  - LOTT
+  - REDOX
+
+see_also:
+  - copd-new-patient
+  - copd-rescue-pack
+  - copd-patient-information

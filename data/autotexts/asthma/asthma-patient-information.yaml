@@ -1,0 +1,116 @@
+title: Asthma - information for patients
+topic: asthma
+kind: patient-info
+summary: >-
+  What asthma is, why the preventer matters more than the reliever, and what to
+  do when it gets worse. Written to go straight into a clinic letter.
+updated: 2026-08-06
+
+body: |
+  About your asthma
+
+  Asthma is a condition where the airways in your lungs become inflamed and
+  narrow. When this happens you may wheeze, cough, feel short of breath, or feel
+  tight in the chest. The inflammation is there even on the days you feel well,
+  which is why treatment works best when it is taken regularly rather than only
+  when you have symptoms.
+
+  Your inhalers
+
+  Your preventer inhaler contains a small dose of steroid. It treats the
+  inflammation and reduces the chance of an asthma attack. It does not give
+  instant relief, and it works only if it is taken as prescribed.
+
+  Your reliever inhaler opens the airways within minutes. It does not treat the
+  underlying inflammation. If you are using a reliever inhaler three or more
+  times a week, your asthma is not as well controlled as it should be, and you
+  should ask for a review rather than simply using more of it.
+
+  Some people are now given a single inhaler that does both jobs. If that is what
+  you have been prescribed, use it as we have written on your action plan and do
+  not use a separate blue inhaler as well unless we have told you to.
+
+  How you take the inhaler matters as much as which one you take. A large amount
+  of the dose is wasted if the technique is not right. Please bring all of your
+  inhalers to every appointment so we can watch you use them. Ask about a spacer
+  if you have not been offered one.
+
+  Things that can make asthma worse
+
+  Colds and chest infections, cigarette smoke including other people's, vaping,
+  pollen, house dust mite, animals, cold air, exercise, damp and mould, air
+  pollution, and some medicines - particularly aspirin, ibuprofen and other
+  anti-inflammatory painkillers, and beta blockers including eye drops. Hay
+  fever, reflux and being overweight all make asthma harder to control, and all
+  of them can be treated.
+
+  If you smoke or vape, stopping is the single most useful thing you can do for
+  your asthma. We can refer you for help with this, and the treatments available
+  make a real difference.
+
+  Vaccination
+
+  Have the influenza vaccine every autumn, and the COVID-19 vaccine when you are
+  offered it. Chest infections are the commonest trigger for an asthma attack.
+
+  When your asthma is getting worse
+
+  Warning signs are needing your reliever more often than usual, waking at night
+  because of coughing or wheezing, being more breathless than usual on your
+  normal activities, and peak flow readings falling below your usual best.
+
+  If you notice these, follow your written action plan and contact your GP
+  practice or asthma nurse the same week.
+
+  Call 999 for an ambulance if you are too breathless to speak in full sentences,
+  if your reliever inhaler is not helping or is not lasting, if your lips or
+  fingers look blue, or if you are frightened by how breathless you are. Do not
+  worry about wasting anyone's time. It is always better to be seen.
+
+  Your written action plan
+
+  We have given you a written asthma action plan. It sets out your usual
+  treatment, what to do when your symptoms get worse, and when to get urgent
+  help. Keep it where you can find it, and bring it to your appointments so we
+  can keep it up to date.
+
+  Further information: Asthma + Lung UK, www.asthmaandlung.org.uk, helpline
+  0300 222 5800.
+
+notes: >-
+  Written for the patient to read in the letter, so the register is second
+  person, sentences are short, and nothing is abbreviated. The paragraph telling
+  people not to add a blue inhaler to a combination inhaler is there because the
+  anti-inflammatory reliever pathway is new to most patients and the failure mode
+  is using both. The 999 paragraph deliberately gives permission to call: the
+  national review of asthma deaths found a pattern of people not wanting to make
+  a fuss.
+
+evidence:
+  - name: "NICE/BTS/SIGN NG245 - Asthma: diagnosis, monitoring and chronic asthma management"
+    url: https://www.nice.org.uk/guidance/ng245
+    note: >-
+      Anti-inflammatory reliever and maintenance-and-reliever therapy as the
+      preferred pathways for adults and young people, replacing short-acting
+      beta agonist monotherapy.
+  - name: GINA global strategy for asthma management and prevention
+    url: https://ginasthma.org/
+    note: >-
+      No adult or adolescent should be treated with a short-acting beta agonist
+      alone, and everyone should have a written action plan.
+  - name: "National Review of Asthma Deaths (RCP, 2014)"
+    url: https://www.rcp.ac.uk/improving-care/resources/why-asthma-still-kills/
+    note: >-
+      Only a minority of those who died had a personal asthma action plan. It is
+      the reason the last section exists.
+  - name: "Asthma + Lung UK patient information"
+    url: https://www.asthmaandlung.org.uk/
+    note: Where to send people for more than a letter can carry.
+
+trials:
+  - SYGMA 1
+  - MANDALA
+
+see_also:
+  - asthma-review
+  - smoking-cessation-record

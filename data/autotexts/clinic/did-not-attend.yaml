@@ -1,0 +1,84 @@
+title: Did not attend - letter before discharge
+topic: clinic
+kind: letter
+summary: >-
+  Gives someone a defined window to get back in touch before they are
+  discharged, rather than removing them silently.
+updated: 2026-08-06
+credit: Angshu Bhowmik's original.
+
+body: |
+  Dear [],
+
+  I see that you did not attend your appointments in my clinic on [] and [].
+
+  I hope that this is not because you have been unwell.
+
+  If you would still like to be seen, please contact us on the number below
+  within the next three months and we will arrange another appointment. You are
+  also welcome to telephone to discuss things instead of coming in, if that is
+  easier.
+
+  If we do not hear from you within three months, you do not need to do anything
+  further and you will be discharged from the clinic. Your GP will be informed.
+  If you need to be seen again after that, your GP can refer you back.
+
+  If any of the following happen, please see your GP without waiting: a cough
+  that will not go away or is getting worse, coughing up blood, worsening
+  breathlessness, chest pain, or losing weight without trying to.
+
+  If there is something that makes it difficult for you to attend - the time of
+  day, getting here, needing an interpreter, or anything else - please tell us.
+  We can usually work around it.
+
+  With all best wishes,
+
+  Yours sincerely,
+
+variants:
+  - title: Straightforward discharge after non-attendance
+    note: >-
+      When the referral question is answered, the risk is low, and there is no
+      reason to hold the slot open.
+    body: |
+      Dear [],
+
+      I see that you did not attend your appointment in my clinic on [].
+
+      I hope this means that your symptoms have settled.
+
+      I am therefore discharging you from the chest clinic, and I have written to
+      your GP to let them know.
+
+      If you develop worsening cough, coughing up blood, worsening
+      breathlessness, chest pain, or weight loss that you cannot explain, please
+      see your GP, who can refer you back to us.
+
+      With all best wishes,
+
+      Yours sincerely,
+
+notes: >-
+  Non-attendance is a marker of risk rather than of disinterest, and it is
+  concentrated in exactly the groups least well served already, so this version
+  keeps a window open and asks what got in the way. The offer of a telephone
+  conversation and the invitation to name the obstacle both exist because the
+  commonest reasons are work, caring, transport and language rather than choice.
+  The safety-netting sentence is the important one clinically: it should be
+  specific, so use the second version only when the referral question has actually
+  been answered. Check local policy — some trusts require a specific number of
+  contacts before discharge, and some require the GP to be copied.
+
+evidence:
+  - name: "NHS England guidance on patient-initiated follow-up and did-not-attend policy"
+    url: https://www.england.nhs.uk/outpatient-transformation-programme/patient-initiated-follow-up-giving-patients-greater-control-over-their-hospital-follow-up-care/
+    note: >-
+      Discharge after non-attendance should follow a policy that accounts for
+      clinical risk and for vulnerability, rather than being automatic.
+  - name: "Academy of Medical Royal Colleges: please write to me"
+    url: https://www.aomrc.org.uk/reports-guidance/please-write-to-me-writing-outpatient-clinic-letters-to-patients/
+    note: Write to the patient directly, in plain English.
+
+see_also:
+  - discharge-after-no-response
+  - respiratory-follow-up

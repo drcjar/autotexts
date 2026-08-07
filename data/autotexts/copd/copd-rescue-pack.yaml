@@ -1,0 +1,107 @@
+title: COPD rescue pack instructions
+topic: copd
+kind: patient-info
+summary: >-
+  When to start the emergency antibiotics and steroids, when not to, and what to
+  do straight afterwards.
+updated: 2026-08-06
+
+body: |
+  Your rescue pack
+
+  You have been given a supply of antibiotics and steroid tablets to keep at
+  home, so that you can start treatment quickly if you have a flare-up. This only
+  works safely if it is used for the right thing at the right time, so please
+  read this carefully and keep it with the tablets.
+
+  How to tell you are having a flare-up
+
+  For at least two days, and clearly worse than your usual day-to-day symptoms:
+
+  - you are more short of breath than normal, or
+  - you are coughing up more phlegm than normal, or
+  - your phlegm has changed colour, usually to yellow, green or brown.
+
+  Feeling a little more breathless on one bad day is not a flare-up. Neither is a
+  runny nose or a sore throat on its own.
+
+  What to take
+
+  If you are more breathless than usual, start the steroid tablets:
+  prednisolone [] mg once a day in the morning, for [] days.
+
+  If your phlegm has increased or changed colour, start the antibiotic:
+  [] [] mg [] times a day, for [] days.
+
+  If both are true, start both.
+
+  Finish the full course of each. Do not stop early because you feel better.
+
+  What to do next
+
+  Tell your GP practice within one or two days of starting the pack, even if you
+  are improving. This is so your treatment can be reviewed, so the flare-up is
+  recorded, and so your pack can be replaced. A rescue pack is meant to be used
+  once and replaced, not kept and reused.
+
+  Get urgent help, or call 999, if:
+
+  - you are severely breathless, or it is getting worse rather than better
+  - you cannot speak in full sentences
+  - you have chest pain
+  - you are coughing up blood
+  - you become drowsy, confused or unusually sleepy
+  - your lips or fingers look blue
+  - you have started the pack and are no better after 48 hours.
+
+  Important safety points
+
+  Steroid tablets can raise your blood sugar. If you have diabetes, test more
+  often while you are taking them and follow the advice you have been given about
+  what to do if the readings are high.
+
+  Steroid tablets can cause indigestion, disturbed sleep and mood changes. Taking
+  them in the morning helps with sleep.
+
+  Repeated courses of steroids carry risks to bones, eyes and blood sugar, which
+  is another reason to tell us every time you use the pack.
+
+  If you use the pack more than twice in a year, please ask for a review. Frequent
+  flare-ups usually mean your treatment needs changing, not that you need more
+  rescue packs.
+
+notes: >-
+  The rescue pack is one of the few things a respiratory clinic hands over that
+  can be used wrongly for years without anyone finding out, so the block is
+  written around the two failure modes: starting it for a head cold, and never
+  telling anyone it was used. The two-symptom threshold, the separate triggers for
+  the steroid and the antibiotic, and the instruction to report use within
+  48 hours are all there for that reason. Blank fields for drug, dose and duration
+  are deliberate — local antimicrobial policy decides the antibiotic, not this
+  block.
+
+evidence:
+  - name: "NICE NG115 - Chronic obstructive pulmonary disease in over 16s"
+    url: https://www.nice.org.uk/guidance/ng115
+    note: >-
+      Offer a short course of an oral corticosteroid and an antibiotic to keep at
+      home, only to people who have had an exacerbation in the last year, remain
+      at risk, understand when to use it, know to tell their clinician, and know
+      to ask for a replacement.
+  - name: "NICE NG114 - Chronic obstructive pulmonary disease (acute exacerbation): antimicrobial prescribing"
+    url: https://www.nice.org.uk/guidance/ng114
+    note: >-
+      Antibiotic only when sputum has become more purulent or there are clinical
+      signs of pneumonia, and choice according to local resistance data.
+  - name: GOLD report - Global Strategy for Prevention, Diagnosis and Management of COPD
+    url: https://goldcopd.org/
+    note: >-
+      Short courses of oral steroid of about five days; longer or repeated courses
+      add harm without adding benefit.
+
+trials:
+  - ANTHONISEN 1987
+
+see_also:
+  - copd-annual-review
+  - copd-patient-information

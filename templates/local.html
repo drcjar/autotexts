@@ -1,0 +1,34 @@
+{% extends "base.html" %}
+{% import "macros.html" as m %}
+
+{% block description %}Local blocks for {{ layer.name }}.{% endblock %}
+
+{% block content %}
+
+<header class="pagehead">
+  <p class="eyebrow">Local</p>
+  <h1>{{ layer.name }}</h1>
+  {% if layer.blurb %}<p class="pagehead__blurb">{{ layer.blurb }}</p>{% endif %}
+  <p class="pagehead__warn">
+    These blocks name one organisation's phone numbers, booking systems and services. They are here
+    because a template with the wrong number in it wastes a patient's morning. If you work somewhere
+    else, take the shape and change every detail.
+  </p>
+</header>
+
+{% for block in layer.blocks %}
+<section class="localblock">
+  <h2>{{ block.title }}</h2>
+  {% if block.note %}<p class="localblock__note">{{ block.note }}</p>{% endif %}
+  {{ m.block(block.body_html, block.field_count, 'local-' ~ block.slug, block.title) }}
+</section>
+{% endfor %}
+
+{% if layer.contact %}
+<section class="localblock">
+  <h2>Kept up to date by</h2>
+  <p>{{ layer.contact }}</p>
+</section>
+{% endif %}
+
+{% endblock %}

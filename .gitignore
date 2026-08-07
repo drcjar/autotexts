@@ -1,0 +1,11 @@
+site/
+__pycache__/
+*.pyc
+.venv/
+.DS_Store
+
+# The source email thread. It is the provenance of half this site, but it is
+# also internal correspondence carrying several colleagues' NHS addresses, so it
+# stays out of a repository that may go public. The credit lines in the blocks
+# and in the README carry what matters from it.
+Angshu templates.docx

@@ -1,0 +1,129 @@
+title: New COPD patient
+topic: copd
+kind: consultation
+summary: >-
+  First assessment, with the spirometry that confirms it, the exacerbation
+  history that grades it, and the interventions that actually change outcomes.
+updated: 2026-08-06
+
+body: |
+  Referred with: []
+
+  History:
+  Breathlessness, MRC dyspnoea scale [1 to 5]
+  Cough and sputum: [daily, colour, volume]
+  Blood in the sputum: [yes or no]
+  Wheeze and chest tightness: []
+  Exercise tolerance: [metres on the flat, and stairs]
+  What they can no longer do that they used to: []
+  Weight change: []
+
+  Exacerbation history in the last 12 months:
+  Courses of antibiotics or steroids: []
+  Hospital admissions: []
+  Any ventilatory support: []
+
+  Risk factors:
+  Smoking: [current or ex, pack-years, quit date]
+  Vaping: []
+  Occupational dust, fume and vapour exposure: []
+  Biomass or indoor cooking fuel exposure: []
+  Childhood chest illness, prematurity, asthma: []
+  Family history of emphysema or liver disease, and age of onset: []
+
+  Comorbidity:
+  Cardiovascular disease: []
+  Osteoporosis and fracture history: []
+  Anxiety and depression: []
+  Nutrition, weight [] kg, BMI []
+  Bronchiectasis symptoms: []
+
+  Current treatment and how it is taken:
+  Inhalers: [drug, device, dose, doses per day]
+  Inhaler technique observed today: [adequate, or the specific error seen]
+  Adherence by prescription collection: []
+  Home oxygen or nebuliser already in place: []
+
+  Examination:
+  SpO2 []% on air   BP [] mmHg   Pulse [] bpm
+  Height [] cm   Weight [] kg   BMI []
+  [barrel chest, accessory muscle use, pursed lip breathing, chest signs, ankle oedema]
+
+  Investigations:
+  Post-bronchodilator spirometry: FEV1 [] L ([]% predicted), FVC [] L, ratio []%
+  Full lung function including gas transfer: []
+  Blood eosinophils [] x10^9/L
+  Alpha-1 antitrypsin level: []
+  Chest x-ray: []
+  CT chest: []
+  ECG and echocardiogram if indicated: []
+  Full blood count for anaemia or polycythaemia: []
+
+  Impression:
+  COPD confirmed on post-bronchodilator ratio below 0.7, FEV1 []% predicted,
+  MRC [], [] exacerbations in the last year, [with or without] a history of
+  hospitalisation.
+
+  Plan:
+  1. Smoking: [very brief advice given, referred to stop smoking service,
+  pharmacotherapy offered]
+  2. Pulmonary rehabilitation: [referred, or reason not]
+  3. Vaccination: [influenza, pneumococcal, COVID-19, RSV as eligible]
+  4. Inhaled treatment: [drug and device, chosen with the patient]
+  5. Inhaler technique taught and checked: []
+  6. Self-management plan and rescue pack: [issued or not, with reason]
+  7. Assessment for long-term oxygen: [not indicated, or arranged]
+  8. Treat comorbidity: []
+  9. Review in [] months
+
+notes: >-
+  The diagnosis needs post-bronchodilator spirometry with a ratio below 0.7 and a
+  history that fits; a ratio alone in a lifelong non-smoker with no exposure
+  history should make you look harder rather than write COPD. Grade the disease on
+  three axes and record all three, because they drive different decisions: how bad
+  the airflow obstruction is, how breathless the person is, and how often they
+  exacerbate. Check alpha-1 antitrypsin at least once — the guidance is to test
+  early-onset disease, a minimal smoking history or a family history, and it is a
+  single tube that occasionally changes a family's future as well as a patient's.
+  The plan is ordered deliberately: stopping smoking and pulmonary rehabilitation
+  do more for symptoms, admissions and survival than any inhaler, and they should
+  not be the ninth thing you get to. [[NETT]] and the long-term oxygen trials are
+  in the evidence panel because both are still routinely misapplied — oxygen for
+  breathlessness without hypoxaemia does not help.
+
+evidence:
+  - name: "NICE NG115 - Chronic obstructive pulmonary disease in over 16s"
+    url: https://www.nice.org.uk/guidance/ng115
+    note: >-
+      Diagnosis on post-bronchodilator spirometry with a FEV1/FVC ratio below 0.7
+      plus symptoms and risk factors; the fundamentals of care are smoking
+      cessation, vaccination, pulmonary rehabilitation and self-management.
+  - name: GOLD report - Global Strategy for Prevention, Diagnosis and Management of COPD
+    url: https://goldcopd.org/
+    note: >-
+      The ABE assessment used here: symptom burden and exacerbation history
+      graded separately from the FEV1, with blood eosinophils used to decide
+      about inhaled corticosteroid.
+  - name: "BTS quality standards for pulmonary rehabilitation"
+    url: https://www.brit-thoracic.org.uk/quality-improvement/quality-standards/pulmonary-rehabilitation/
+    note: >-
+      Referral for anyone functionally limited by breathlessness, which is most
+      of the people in this clinic.
+  - name: "Alpha-1 antitrypsin deficiency testing"
+    url: https://goldcopd.org/
+    note: >-
+      Test at least once in everyone diagnosed with COPD, and particularly with
+      early onset, little smoking, or a family history.
+
+trials:
+  - TORCH
+  - IMPACT
+  - ETHOS
+  - NOTT
+  - MRC OXYGEN
+  - NETT
+
+see_also:
+  - copd-annual-review
+  - copd-patient-information
+  - copd-rescue-pack

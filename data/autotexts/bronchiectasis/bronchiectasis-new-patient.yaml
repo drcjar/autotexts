@@ -1,0 +1,115 @@
+title: New bronchiectasis patient
+topic: bronchiectasis
+kind: consultation
+summary: >-
+  First assessment: the history that points at a cause, the severity markers, and
+  the treatable traits worth finding early.
+updated: 2026-08-06
+
+body: |
+  Referred with: []
+
+  History:
+  Duration of cough: []
+  Daily sputum: [volume, colour when well, colour when unwell]
+  Blood in the sputum: [never, streaking, or frank, and how often]
+  Breathlessness, MRC [1 to 5]
+  Chest pain, fatigue, fevers, weight loss: []
+  Exacerbations in the last 12 months: [number, and how many needed
+  intravenous antibiotics or admission]
+  Antibiotics in the last 12 months: []
+
+  Points to a cause:
+  Childhood pneumonia, whooping cough, measles or tuberculosis: []
+  Recurrent sinus or ear infection since childhood: []
+  Infertility or situs inversus: []
+  Neonatal respiratory distress: []
+  Rheumatoid arthritis or other connective tissue disease: []
+  Inflammatory bowel disease: []
+  Reflux, swallowing difficulty or recurrent aspiration: []
+  Previous or current asthma, and any history of allergic bronchopulmonary
+  aspergillosis: []
+  Smoking and occupational exposure: []
+  Immunosuppressive treatment, past or present: []
+  Family history of bronchiectasis, cystic fibrosis or immunodeficiency: []
+
+  Current treatment:
+  Airway clearance: [technique, taught by whom, how often actually done]
+  Nebulised or inhaled treatment: []
+  Inhaled corticosteroid, and the indication for it: []
+  Long-term antibiotic: []
+  Vaccination: [influenza, pneumococcal, COVID-19]
+
+  Examination:
+  SpO2 []% on air   Height [] cm   Weight [] kg   BMI []
+  [crackles, wheeze, clubbing, nasal disease]
+
+  Investigations:
+  CT chest: [lobes involved, traction bronchiectasis or cystic change, mucus
+  plugging, tree-in-bud]
+  Sputum culture including mycobacteria: []
+  Spirometry: FEV1 [] L ([]%), FVC [] L, ratio []%
+  Aetiology screen: [see the bronchiectasis test bundle]
+
+  Severity:
+  Bronchiectasis Severity Index [] or FACED []
+  Chronic Pseudomonas aeruginosa infection: [yes or no]
+
+  Impression:
+  Bronchiectasis affecting [], with [] exacerbations per year, [chronic
+  infection with organism or no chronic infection], cause [established or under
+  investigation].
+
+  Plan:
+  1. Referral to respiratory physiotherapy for airway clearance: []
+  2. Aetiology screen: [sent, awaited]
+  3. Sputum for culture and mycobacteria: []
+  4. Vaccination brought up to date: []
+  5. Pulmonary rehabilitation if exercise-limited: []
+  6. Self-management plan and exacerbation antibiotic plan: []
+  7. Review in [] months with [sputum, spirometry]
+
+notes: >-
+  Two questions decide most of what happens next: how often does this person
+  exacerbate, and what grows in their sputum. Chronic Pseudomonas infection and a
+  high exacerbation rate are what move someone from airway clearance alone to
+  long-term macrolides or inhaled antibiotics, so both belong in the first letter.
+  Airway clearance is the first line of the plan rather than the last because it
+  is the intervention with the strongest recommendation behind it and the one
+  most often left to a leaflet. Send sputum for mycobacterial culture at the
+  outset: non-tuberculous mycobacterial infection changes the whole management,
+  and long-term macrolide monotherapy started in undiagnosed NTM disease breeds
+  resistance and closes off treatment later.
+
+evidence:
+  - name: "ERS clinical practice guideline for the management of adult bronchiectasis (2025)"
+    url: https://publications.ersnet.org/content/erj/66/6/2501126
+    note: >-
+      Strong recommendations for airway clearance in most patients and for
+      pulmonary rehabilitation in those with impaired exercise capacity; long-term
+      macrolides for people at high risk of exacerbations; inhaled antibiotics for
+      chronic Pseudomonas infection with frequent exacerbations; against routine
+      long-term non-macrolide oral antibiotics and against routine inhaled
+      corticosteroids.
+  - name: "BTS guideline for bronchiectasis in adults (2019)"
+    url: https://thorax.bmj.com/content/74/Suppl_1/1
+    note: >-
+      The baseline aetiological investigation bundle for every adult with a new
+      diagnosis, and the UK framework for severity assessment and follow-up.
+  - name: "Bronchiectasis Severity Index (Chalmers et al, 2014)"
+    url: https://www.atsjournals.org/doi/10.1164/rccm.201309-1575OC
+    note: >-
+      A validated score for mortality and admission risk, so severity is written
+      down as a number rather than an adjective.
+
+trials:
+  - EMBRACE
+  - BLESS
+  - BAT
+  - ASPEN
+  - PROMIS
+
+see_also:
+  - bronchiectasis-test-bundle
+  - bronchiectasis-patient-information
+  - bronchiectasis-exacerbation-plan

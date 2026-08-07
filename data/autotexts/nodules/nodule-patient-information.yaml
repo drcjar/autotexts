@@ -1,0 +1,90 @@
+title: Lung nodules - information for patients
+topic: nodules
+kind: patient-info
+summary: >-
+  Telling someone their scan found a spot that is probably nothing, without
+  making it sound like nothing or like everything.
+updated: 2026-08-06
+
+body: |
+  About the small spot found on your scan
+
+  Your scan has shown a small spot in the lung, which doctors call a nodule.
+
+  Lung nodules are common. They are found in a large proportion of people who
+  have a CT scan of the chest for any reason, and the great majority are not
+  cancer. Most are the scar of an old infection - something that happened years
+  ago and healed - or a small collection of harmless tissue.
+
+  Because a small number do turn out to be important, we do not simply ignore
+  them. The safest and least invasive way to tell the difference is to look
+  again after an interval and see whether the nodule has changed.
+
+  Why we are watching rather than removing it
+
+  An operation to remove a nodule this small is a bigger undertaking than the
+  problem usually warrants. Most nodules of this size are harmless, and surgery
+  carries real risks. Watching is not us doing nothing; it is the test.
+
+  Nodules that are not cancer stay the same size. Nodules that are growing show
+  it on a repeat scan, and if that happens we act on it.
+
+  What happens now
+
+  Your next scan is due in [] .
+
+  It will be arranged by [] .
+
+  If the scans stay unchanged until [] , we will stop scanning and discharge
+  you, because a nodule that has not changed over that period is very unlikely
+  to be anything to worry about.
+
+  If a scan shows a change, we will contact you and arrange to see you in
+  clinic.
+
+  What you should do
+
+  Please do keep the appointments, even if you feel completely well. Feeling well
+  is expected, and it does not tell us anything about the nodule.
+
+  If you smoke, stopping is the most useful thing you can do. It reduces the
+  chance that this nodule, or another one, turns out to matter. We can arrange
+  support and medication.
+
+  Contact your GP or us if you develop a new or changing cough, cough up blood,
+  lose weight without meaning to, or become breathless. These are not expected
+  from a nodule of this size, and they should be looked at rather than waited
+  out.
+
+  It is normal to find this unsettling
+
+  Being told that something has been found, and then being asked to wait, is
+  uncomfortable. Most people find the first few weeks the hardest, and it
+  settles. If it is preying on your mind, tell us - it is a reasonable thing to
+  ring about.
+
+notes: >-
+  The temptation is to reassure so hard that the person stops attending, or to
+  hedge so hard that they spend three years frightened. The block tries to hold
+  both: the nodule is probably nothing, and the scans still matter. Naming
+  surveillance as the test rather than as a delay is the sentence that does most
+  of that work. The last paragraph is there because incidental findings cause
+  measurable and persistent anxiety, and naming it makes it easier to raise.
+
+evidence:
+  - name: "BTS guideline for the investigation and management of pulmonary nodules (2015)"
+    url: https://thorax.bmj.com/content/70/Suppl_2/ii1
+    note: >-
+      Surveillance with interval CT as the primary strategy for nodules above the
+      size threshold, with explicit advice on communicating with patients.
+  - name: "Fleischner Society 2017 guidelines for management of incidental pulmonary nodules"
+    url: https://pubs.rsna.org/doi/10.1148/radiol.2017161659
+    note: The prevalence figures behind the statement that nodules are common.
+
+trials:
+  - NELSON
+  - NLST
+
+see_also:
+  - nodule-surveillance-plan
+  - nodule-follow-up-by-gp

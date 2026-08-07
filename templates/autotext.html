@@ -1,0 +1,109 @@
+{% extends "base.html" %}
+{% import "macros.html" as m %}
+
+{% block description %}{{ record.summary }}{% endblock %}
+
+{% block content %}
+
+<article class="text">
+
+  <header class="text__head">
+    <p class="eyebrow">
+      <a href="/{{ topic.slug }}/">{{ topic.name }}</a>
+      <span class="eyebrow__sep">/</span>
+      <a href="/kind/{{ kind.slug }}/">{{ kind.name }}</a>
+    </p>
+    <h1>{{ record.title }}</h1>
+    <p class="text__summary">{{ record.summary }}</p>
+  </header>
+
+  {{ m.fieldstrip(record.field_labels) }}
+
+  {{ m.block(record.body_html, record.field_count, 'block-main', 'Paste block') }}
+
+  {% if record.variants %}
+  <section class="variants">
+    <h2>Variants</h2>
+    {% for variant in record.variants %}
+    <div class="variant">
+      <h3>{{ variant.title }}</h3>
+      {% if variant.note %}<p class="variant__note">{{ variant.note }}</p>{% endif %}
+      {{ m.block(variant.body_html, variant.field_count, 'block-' ~ variant.slug, variant.title) }}
+    </div>
+    {% endfor %}
+  </section>
+  {% endif %}
+
+  {% if record.notes_html %}
+  <section class="notes">
+    <h2>How to use it</h2>
+    <p>{{ record.notes_html|safe }}</p>
+  </section>
+  {% endif %}
+
+  {% if record.evidence or record.resolved_trials %}
+  <section class="why">
+    <h2>Why it says that</h2>
+    <p class="why__lede">
+      None of this is in the copied text. It is here so you can check the block against its source,
+      and change it when the source changes.
+    </p>
+
+    {% if record.evidence %}
+    <ul class="sources">
+      {% for item in record.evidence %}
+      <li>
+        <span class="sources__name">
+          {% if item.url %}<a href="{{ item.url }}">{{ item.name }}</a>{% else %}{{ item.name }}{% endif %}
+        </span>
+        {% if item.note %}<span class="sources__note">{{ item.note_html|safe }}</span>{% endif %}
+      </li>
+      {% endfor %}
+    </ul>
+    {% endif %}
+
+    {% if record.resolved_trials %}
+    <div class="trials">
+      <h3>Trials behind it</h3>
+      <ul>
+        {% for trial in record.resolved_trials %}
+        <li>
+          <a class="trials__acronym" href="{{ trial.url }}">{{ trial.acronym }}</a>
+          {% if trial.year %}<span class="trials__year">{{ trial.year }}</span>{% endif %}
+          <span class="trials__summary">{{ trial.summary }}</span>
+        </li>
+        {% endfor %}
+      </ul>
+      <p class="trials__source">Records on <a href="{{ site.trials_site }}">respiratorytrials.org</a>.</p>
+    </div>
+    {% endif %}
+  </section>
+  {% endif %}
+
+  {% if record.local %}
+  <section class="localnote">
+    <h2>Local detail</h2>
+    <p>{{ record.local }}</p>
+  </section>
+  {% endif %}
+
+  {% if record.related %}
+  <section class="related">
+    <h2>Use with</h2>
+    <ul class="cards">
+      {% for other in record.related %}
+      {{ m.card(other) }}
+      {% endfor %}
+    </ul>
+  </section>
+  {% endif %}
+
+  <footer class="text__foot">
+    {% if record.credit %}<p>{{ record.credit }}</p>{% endif %}
+    {% if record.updated %}<p>Checked against current guidance {{ record.updated }}.</p>{% endif %}
+    <p><a href="/{{ topic.slug }}/">More {{ topic.name|lower }} blocks</a></p>
+  </footer>
+
+</article>
+
+{% endblock %}

@@ -1,0 +1,104 @@
+title: Indwelling pleural catheter - information for patients
+topic: pleural
+kind: patient-info
+summary: >-
+  What the tube is, how draining at home works, and the signs that mean ring us
+  today.
+updated: 2026-08-06
+
+body: |
+  About your indwelling pleural catheter
+
+  Fluid has been collecting between your lung and your chest wall, and it is
+  making you breathless. Draining it helps, but it tends to come back, and
+  repeated visits for repeated drainage is a poor way to spend the time you have.
+
+  An indwelling pleural catheter is a soft, thin tube placed through the skin
+  into that space, and left in. It is tunnelled a short distance under the skin,
+  which holds it in place and reduces the risk of infection. The end sits under a
+  dressing on your chest.
+
+  You, or a district nurse, or a family member we have trained, can then drain
+  the fluid at home whenever it builds up, without coming into hospital.
+
+  Having it put in
+
+  It is done under local anaesthetic, usually as a day case, and takes about
+  30 minutes. You are awake. You may feel pushing and pressure but should not
+  feel sharp pain - tell us if you do.
+
+  Afterwards you will have a dressing over the site. It is common to feel achy
+  for a few days.
+
+  Draining at home
+
+  We will drain it [] times a week to begin with, and adjust that according to
+  how much fluid comes and how you feel.
+
+  Drain to symptoms rather than to a target: the aim is that you are comfortable,
+  not that a particular amount comes out.
+
+  Stop draining if you develop chest tightness or a persistent cough during the
+  drainage, even if fluid is still coming. That is the lung reaching the end of
+  its stretch, and continuing is uncomfortable and not useful. Try again next
+  time.
+
+  Keep the dressing dry and intact. Do not swim or take baths. Showering is
+  usually fine with the dressing covered - we will show you.
+
+  Over weeks to months, the fluid often reduces and in some people stops
+  altogether, because the two surfaces stick together. If that happens the tube
+  can be removed.
+
+  Contact us the same day if:
+
+  - the skin around the tube becomes red, hot, swollen or painful
+  - there is pus or an unpleasant smell at the site
+  - you have a fever, or feel shivery and unwell
+  - the fluid changes and becomes cloudy or smells
+  - the tube comes out, splits, or leaks around the site
+  - you become more breathless, or the fluid stops draining and you are
+    breathless
+  - you have new chest pain.
+
+  Infection is the main risk with an indwelling catheter, and it is very
+  treatable when it is caught early. It is always better to ring.
+
+  Who to contact
+
+  [team name and number], [hours].
+  Out of hours: [] .
+
+  Practical points
+
+  You can usually carry on with normal daily activities, work and travel with the
+  tube in. Tell us before you fly or travel a long distance, so we can plan.
+
+  Tell any other clinician looking after you that you have a pleural catheter,
+  particularly if you are admitted to hospital or need a scan.
+
+notes: >-
+  The clinical content that most affects how well someone does with a catheter is
+  in two places: drain to symptoms rather than to volume, and stop when the chest
+  tightens. Both are usually explained once, verbally, on the day the tube goes
+  in, when the patient is taking in very little. The list of reasons to ring is
+  written as a list because it will be read in a hurry by a worried person, and
+  infection is named explicitly rather than implied.
+
+evidence:
+  - name: "BTS guideline for pleural disease (2023)"
+    url: https://thorax.bmj.com/content/78/Suppl_3/s1
+    note: >-
+      Indwelling pleural catheters and talc pleurodesis as equivalent first-line
+      options for malignant effusion, with the choice made on what matters to the
+      patient; guidance on catheter care and on managing catheter infection.
+  - name: "BTS clinical statement on pleural procedures (2023)"
+    url: https://thorax.bmj.com/content/78/Suppl_3/s43
+    note: Insertion technique, aftercare and complication management.
+
+trials:
+  - TIME2
+  - AMPLE
+
+see_also:
+  - pleural-effusion-workup

@@ -1,0 +1,117 @@
+title: Bronchiectasis - information for patients
+topic: bronchiectasis
+kind: patient-info
+summary: >-
+  The daily routine that keeps bronchiectasis stable, with airway clearance
+  first because it is the treatment that works.
+updated: 2026-08-06
+credit: >-
+  Rewritten from Angshu Bhowmik's original, which came with a note saying he
+  thought it could be improved.
+
+body: |
+  About your bronchiectasis
+
+  Bronchiectasis means some of the airways in your lungs have become widened and
+  scarred. Widened airways do not clear mucus properly, mucus that sits still
+  becomes infected, and infection causes more damage. Treatment is aimed at
+  breaking that cycle, and it works.
+
+  Most of the treatment is something you do rather than something you take.
+
+  1. Clearing your chest, every day
+
+  This is the most important part of your treatment. A respiratory
+  physiotherapist will teach you a technique that suits you, usually a cycle of
+  relaxed breathing, deeper breaths and huffing, sometimes with a small handheld
+  device, and sometimes with positions that let gravity help.
+
+  Do it every day, usually twice, and for longer when you have an infection. Ten
+  to twenty minutes twice a day is typical. It is not glamorous and it is easy to
+  let slip when you feel well, but it is the single thing that most reduces
+  infections and keeps your lungs in better condition over years.
+
+  If you were shown a technique once and are no longer sure you are doing it
+  right, ask to be referred back. This is normal and worth doing.
+
+  2. Exercise
+
+  Regular aerobic exercise - walking, cycling, swimming, anything that makes you
+  breathe harder - helps clear the chest as well as improving your fitness. If
+  breathlessness limits what you can do, ask about pulmonary rehabilitation.
+
+  3. Vaccination
+
+  Have the influenza vaccine every autumn, and the pneumococcal and COVID-19
+  vaccines when you are offered them.
+
+  4. Treating infections promptly
+
+  You will get chest infections. What matters is recognising and treating them
+  quickly.
+
+  Signs of an infection are: more phlegm than usual, phlegm that changes colour,
+  more breathlessness, more coughing, feeling generally unwell, or a fever, for
+  more than about 24 to 48 hours.
+
+  If this happens, start the plan we have agreed with you, or contact your GP
+  practice. Courses of antibiotics for bronchiectasis are usually 14 days -
+  longer than for an ordinary chest infection - because shorter courses tend to
+  be followed by a rapid relapse.
+
+  Before you start antibiotics, send a sputum sample if you possibly can. Knowing
+  which bacteria are there is what allows us to choose an antibiotic that
+  works, and the sample is much less useful once treatment has begun.
+
+  5. Keeping an eye on things
+
+  We will usually check a sputum sample and your breathing tests at your routine
+  reviews, and arrange a chest x-ray if your symptoms change. Tell us if you
+  cough up blood, lose weight without meaning to, or notice that your usual
+  infections are becoming more frequent.
+
+  When to get help urgently
+
+  Contact us or your GP the same day if you cough up more than streaks of blood,
+  become much more breathless than usual, have chest pain, or are unwell with a
+  high fever. Call 999 if you cough up a large amount of blood or are severely
+  breathless.
+
+  Further information: Asthma + Lung UK, www.asthmaandlung.org.uk, helpline
+  0300 222 5800.
+
+notes: >-
+  The original of this block listed five factors in the order they came to mind
+  and made a strong claim about life expectancy. This version keeps the structure
+  and the emphasis on daily clearance — which was right, and which is now the
+  strongest recommendation in the European guideline — but drops the survival
+  claim, which the evidence does not support at that strength, and adds the two
+  things patients most often get wrong: sending sputum **before** starting
+  antibiotics, and stopping antibiotics at seven days. Haemophilus influenzae
+  type b vaccine has come out of the list: it is a childhood vaccine and is not
+  routinely indicated in adults with bronchiectasis.
+
+evidence:
+  - name: "ERS clinical practice guideline for the management of adult bronchiectasis (2025)"
+    url: https://publications.ersnet.org/content/erj/66/6/2501126
+    note: >-
+      Strong recommendation in favour of airway clearance techniques for most
+      patients, and pulmonary rehabilitation for those with impaired exercise
+      capacity.
+  - name: "BTS guideline for bronchiectasis in adults (2019)"
+    url: https://thorax.bmj.com/content/74/Suppl_1/1
+    note: >-
+      Airway clearance taught by a respiratory physiotherapist for all patients;
+      14 days of antibiotic for an exacerbation; sputum culture before starting
+      treatment.
+  - name: "Asthma + Lung UK bronchiectasis information"
+    url: https://www.asthmaandlung.org.uk/conditions/bronchiectasis
+    note: Patient-facing detail on clearance techniques, with videos.
+
+trials:
+  - EMBRACE
+  - BLESS
+
+see_also:
+  - bronchiectasis-exacerbation-plan
+  - bronchiectasis-test-bundle

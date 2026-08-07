@@ -1,0 +1,71 @@
+title: Bronchoscopy booking checklist
+topic: tests
+kind: admin
+summary: >-
+  Everything the bronchoscopy list needs to know, so nobody has to ring you back
+  the day before.
+updated: 2026-08-06
+credit: Angshu Bhowmik's original.
+
+body: |
+  Bronchoscopy request.
+
+  Patient name and NHS number: []
+  Date of birth: []
+  Contact telephone number: []
+  Referring consultant: []
+  Indication and clinical question: []
+  Relevant imaging, with date and where it can be viewed: []
+  Target [lobe and segment, or lesion location]
+  Procedures requested: [inspection, washings, brushings, endobronchial biopsy,
+  transbronchial biopsy, EBUS with stations, cryobiopsy]
+  Samples required: [microbiology including mycobacteria, cytology, histology,
+  molecular and PD-L1 testing, lymphocyte subsets]
+
+  Safety:
+  Anticoagulant or antiplatelet: [drug, indication, last dose, plan for
+  stopping and restarting]
+  Bleeding history or known coagulopathy: []
+  Platelets and INR if relevant: []
+  Renal function: []
+  Diabetes and treatment, including insulin and GLP-1 agonists: []
+  Ischaemic heart disease, recent acute coronary syndrome or stroke: []
+  Baseline SpO2 and oxygen requirement: []
+  Known difficult airway, or previous problem with sedation: []
+  High risk of tuberculosis or other transmissible respiratory infection: []
+  Pregnancy: []
+  Weight and BMI: []
+
+  Practical:
+  Mobility and whether a hoist is needed: []
+  Interpreter required, and language: []
+  Advocacy or capacity considerations, and who holds a welfare power of
+  attorney: []
+  Hospital transport needed: []
+  Escort home available, and where they will be discharged to: []
+  Inpatient or outpatient: []
+
+  For requests from another organisation:
+  Referring hospital and department: []
+  Address and GP details: []
+  Who should receive the report: []
+
+notes: >-
+  Every line here is one that has caused a cancellation. The anticoagulant field
+  asks for the indication as well as the drug because whether it is safe to stop
+  depends on why it was started, and the answer is not the bronchoscopist's to
+  guess. Recording who to send the report to sounds like clerical detail and is
+  the difference between a result acted on in a week and a result acted on in six.
+
+evidence:
+  - name: "BTS guideline for diagnostic flexible bronchoscopy in adults"
+    url: https://thorax.bmj.com/content/68/Suppl_1/i1
+    note: >-
+      Pre-procedure assessment, consent, and the management of antiplatelet and
+      anticoagulant therapy around bronchoscopic sampling.
+  - name: "BTS guideline for advanced diagnostic and therapeutic flexible bronchoscopy in adults"
+    url: https://thorax.bmj.com/content/66/Suppl_3/iii1
+    note: Requirements around EBUS and transbronchial sampling.
+
+see_also:
+  - bronchoscopy-patient-information

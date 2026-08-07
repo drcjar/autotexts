@@ -1,0 +1,57 @@
+title: Full lung function results
+topic: tests
+kind: results
+summary: >-
+  Every number in the same order in every letter, so a reader can compare across
+  visits without hunting.
+updated: 2026-08-06
+credit: Angshu Bhowmik's original layout, with reference values added.
+
+body: |
+  Full lung function ([date]):
+
+  Height [] cm; weight [] kg; BMI []
+  FEV1 [] L ([]% predicted, z-score [])
+  FVC [] L ([]% predicted, z-score [])
+  FEV1/FVC ratio []% (LLN [])
+  Peak flow [] L/min ([]% predicted)
+  TLC [] L ([]% predicted)
+  RV [] L ([]% predicted)
+  RV/TLC []%
+  TLCO [] ([]% predicted)
+  KCO [] ([]% predicted)
+  Reference equations: [GLI 2012 and GLI 2017 for transfer factor]
+
+  Interpretation:
+  []
+
+notes: >-
+  Keep the order fixed. The value of a results block is that a colleague reading
+  the third letter in a series can run their eye down the same position on the
+  page each time; the moment the order varies, that stops working and everyone
+  goes back to opening the PDF. Percent predicted and z-score are both offered
+  because current standards interpret against the lower limit of normal rather
+  than a flat 80% cut-off, but most people still think in percentages and most
+  MDTs still ask for them. Record which reference equations the laboratory used —
+  a change of equation between visits can move a value by more than the disease
+  did.
+
+evidence:
+  - name: "ERS/ATS technical standards for interpretive strategies for routine lung function tests (Stanojevic et al, 2022)"
+    url: https://publications.ersnet.org/content/erj/60/1/2101499
+    note: >-
+      Interpret against the lower limit of normal using z-scores rather than
+      fixed per cent predicted thresholds, and state the reference equation.
+  - name: "Global Lung Function Initiative reference equations"
+    url: https://gli-calculator.ersnet.org/
+    note: The equations most UK laboratories report against.
+  - name: "ATS/ERS standardisation of the measurement of lung volumes and of the single-breath transfer factor"
+    url: https://publications.ersnet.org/content/erj/49/1/1600016
+    note: How TLC, RV, TLCO and KCO should be measured and reported.
+
+trials:
+  - HYATT 2011
+
+see_also:
+  - hand-held-spirometry
+  - new-respiratory-outpatient

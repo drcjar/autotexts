@@ -1,0 +1,112 @@
+title: Bronchiectasis tests - what we are looking for
+topic: bronchiectasis
+kind: test-info
+summary: >-
+  The baseline aetiology bundle, in two versions: the list for the request form
+  and the explanation for the patient.
+updated: 2026-08-06
+
+body: |
+  Baseline investigation of newly diagnosed bronchiectasis.
+
+  Everyone:
+  Full blood count with differential white cell count
+  Serum immunoglobulins G, A and M
+  Serum electrophoresis
+  Total IgE, and specific IgE or skin prick testing to Aspergillus fumigatus
+  Aspergillus IgG (precipitins)
+  Sputum culture for bacteria, including specific request for Pseudomonas
+  Sputum culture for mycobacteria, including non-tuberculous mycobacteria
+  Sputum for fungal culture
+  CRP
+  Spirometry with reversibility
+
+  Guided by the history and the pattern on CT:
+  Specific antibody responses to pneumococcal capsular polysaccharide, with
+  post-immunisation levels if baseline is low
+  Rheumatoid factor, anti-CCP antibodies, ANA and ANCA
+  Alpha-1 antitrypsin level
+  Cystic fibrosis testing: sweat test and CFTR genetics
+  Testing for primary ciliary dyskinesia: nasal nitric oxide, then referral to a
+  diagnostic centre
+  HIV testing
+  Assessment of aspiration and reflux
+  Bronchoscopy if the disease is focal, to exclude an obstructing lesion
+
+  Findings so far: []
+
+  Cause identified: [], or no cause identified after full assessment.
+
+variants:
+  - title: For the patient
+    note: >-
+      The same bundle, written to go into the clinic letter so that someone
+      handed six blood forms knows what each one is for.
+    body: |
+      About the tests we have arranged
+
+      Bronchiectasis is a description of what your airways look like, not a cause
+      in itself. Something damaged them, and in around half of people we can find
+      out what. It is worth looking, because a few of the causes have specific
+      treatments, and finding one can change what we do next.
+
+      The blood tests look for:
+
+      - problems with the immune system, particularly low levels of antibodies,
+        which can be treated with replacement antibody
+      - an allergic reaction to a common mould called aspergillus, which is
+        treated with steroids and antifungal medicine
+      - conditions such as rheumatoid arthritis, which are associated with
+        bronchiectasis
+      - inherited conditions, including cystic fibrosis and a protein deficiency
+        called alpha-1 antitrypsin deficiency.
+
+      The sputum tests look for the bacteria living in your airways, so that if
+      you need antibiotics we can choose one that will work. We also test
+      specifically for a group of bacteria related to tuberculosis, called
+      non-tuberculous mycobacteria. These are common in soil and water and are
+      usually harmless, but they can settle in damaged airways, and if they are
+      present they change which treatments are safe to use. This test is slow: the
+      bacteria grow very slowly in the laboratory, and it can take up to eight
+      weeks for a final result.
+
+      The breathing tests measure how much your airways are affected, and give us
+      a number to compare with in future.
+
+      In many people, no single cause is ever found. That is a common result
+      rather than a failure of the tests, and it does not change how well the
+      condition can be managed.
+
+notes: >-
+  Angshu's original bronchiectasis block ended with a note hoping someone would
+  improve it, so this is that attempt: the management advice is now its own
+  patient-facing block, and this one covers the investigation the guidelines put
+  at the front of the pathway. The everyone list is the minimum bundle
+  recommended for every newly diagnosed adult; the second list is what a history
+  or a CT pattern should prompt. Two practical points earn their place in the
+  patient version — that a cause is found in only about half of people, and that
+  mycobacterial cultures take weeks — because both otherwise generate an anxious
+  phone call.
+
+evidence:
+  - name: "BTS guideline for bronchiectasis in adults (2019)"
+    url: https://thorax.bmj.com/content/74/Suppl_1/1
+    note: >-
+      The baseline aetiological bundle for all adults with a new diagnosis,
+      including total serum immunoglobulins, and the further tests to be directed
+      by clinical features.
+  - name: "ERS clinical practice guideline for the management of adult bronchiectasis (2025)"
+    url: https://publications.ersnet.org/content/erj/66/6/2501126
+    note: >-
+      Standardised testing to identify treatable causes, specifically
+      immunodeficiency, allergic bronchopulmonary aspergillosis, non-tuberculous
+      mycobacterial infection and cystic fibrosis.
+  - name: "BTS guideline for the management of non-tuberculous mycobacterial pulmonary disease"
+    url: https://thorax.bmj.com/content/72/Suppl_2/ii1
+    note: >-
+      Why the mycobacterial culture is not optional before long-term macrolide
+      treatment is started.
+
+see_also:
+  - bronchiectasis-new-patient
+  - bronchiectasis-patient-information

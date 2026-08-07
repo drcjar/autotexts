@@ -1,0 +1,109 @@
+title: New respiratory outpatient
+short_title: New patient clerking
+topic: clinic
+kind: consultation
+summary: >-
+  The general clerking skeleton every other consultation template on this site
+  is built on, with performance status and a smoking record that counts.
+updated: 2026-08-06
+credit: >-
+  Angshu Bhowmik's original, kept in his order. He apologised for it being very
+  "med school"ish. That is why it works.
+
+body: |
+  History of presenting complaint:
+  []
+
+  Previous medical history:
+  []
+
+  Current medication and allergies:
+  []
+
+  Family history:
+  []
+
+  Personal and social history:
+
+  Smoking status: [current, ex or never] (pack-years [])
+  E-cigarettes or vaping: [device and duration, or no]
+  Recreational drug use: [drug, route, duration, or no]
+  Very brief advice given: [yes, no or not applicable]
+  Referred to stop smoking service: [yes, no or not applicable]
+  Nicotine replacement or pharmacotherapy offered: [type, or no]
+
+  Alcohol: []
+  Occupation, current and previous: []
+  Home circumstances and who else is at home: []
+  Pets and birds: []
+  Recent travel: []
+
+  On examination:
+
+  Height [] cm   Weight [] kg   BMI []
+  SpO2 []% on air   BP [] mmHg   Pulse [] bpm   Respiratory rate []
+
+  ECOG performance status []
+
+  There was no pallor, cyanosis, jaundice, oedema, clubbing or cervical
+  lymphadenopathy.
+
+  Heart sounds: []
+  Breath sounds: []
+  Abdomen: []
+
+  Radiology:
+  []
+
+  Hand-held spirometry:
+  FEV1 [] L ([]% predicted)
+  FVC [] L ([]% predicted)
+  FEV1/FVC ratio []%
+  Peak flow [] L/min ([]% predicted)
+
+  Blood tests:
+  []
+
+  Impression:
+  []
+
+  Management plan:
+  []
+
+notes: >-
+  Record the ECOG performance status in every letter where lung cancer is even a
+  vague possibility. Patients get discussed at a regional lung cancer MDT on the
+  strength of the letter alone, and surgeons and oncologists cannot plan
+  treatment without it — a missing performance status sends the referral back and
+  costs the patient a fortnight. Fill the smoking lines even when the answer is
+  never: **never** is a finding in a breathless patient, and the fields for very
+  brief advice and referral exist so that what you offered is in the record
+  rather than in your memory. The birds, pets, travel and occupation lines are
+  four seconds of dictation that occasionally rewrite the whole diagnosis.
+
+evidence:
+  - name: "ECOG performance status (Oken et al, Am J Clin Oncol 1982)"
+    url: https://ecog-acrin.org/resources/ecog-performance-status/
+    note: >-
+      The scale itself, unchanged since 1982 and still the one every lung cancer
+      MDT, trial protocol and systemic anticancer therapy decision runs on.
+  - name: "NICE NG122 - Lung cancer: diagnosis and management"
+    url: https://www.nice.org.uk/guidance/ng122
+    note: >-
+      Performance status drives what treatment can be offered, so it belongs in
+      the first letter rather than the third.
+  - name: "NICE NG209 - Tobacco: preventing uptake, promoting quitting"
+    url: https://www.nice.org.uk/guidance/ng209
+    note: >-
+      Very brief advice at every contact, with an offer of treatment and referral
+      rather than advice alone. The three fields make the offer auditable.
+  - name: "ATS/ERS technical standard on spirometry (Graham et al, 2019)"
+    url: https://www.atsjournals.org/doi/10.1164/rccm.201908-1590ST
+    note: >-
+      Report FEV1, FVC and the ratio with per cent predicted, so the numbers can
+      be compared with the ones in the last letter.
+
+see_also:
+  - full-lung-function
+  - hand-held-spirometry
+  - smoking-cessation-record

@@ -1,0 +1,122 @@
+title: Bronchoscopy - information for patients
+topic: tests
+kind: test-info
+summary: What the test involves, what to do about food and tablets, and what happens after.
+updated: 2026-08-06
+
+body: |
+  About your bronchoscopy
+
+  A bronchoscopy lets us look directly inside your airways and take samples. A
+  thin flexible tube with a camera on the end is passed through your nose or
+  mouth, down past the vocal cords and into the airways of the lungs. The tube is
+  about the width of a pencil.
+
+  The test usually takes 20 to 30 minutes, and you will be in the department for
+  around half a day.
+
+  Before you come
+
+  Do not eat for [] hours before the test. You may drink clear fluids until []
+  hours before.
+
+  Take your usual medicines with a small sip of water, unless we have told you
+  otherwise.
+
+  If you take a blood thinner - warfarin, apixaban, rivaroxaban, edoxaban,
+  dabigatran, clopidogrel, ticagrelor or prasugrel - contact us before the test,
+  because it may need to be stopped for a few days first. Do not stop it on your
+  own.
+
+  If you have diabetes, contact us for advice about your medication and the
+  fasting.
+
+  You must bring someone who can take you home, and you should not be alone for
+  the first 12 hours afterwards.
+
+  On the day
+
+  We will check who you are and what we have planned, and answer your questions
+  before you sign a consent form.
+
+  Your throat and nose are numbed with a local anaesthetic spray, which tastes
+  bitter and makes your throat feel strange. Most people are also offered
+  sedation through a small needle in the back of the hand. It does not put you to
+  sleep, but it makes you drowsy and relaxed, and most people remember little
+  about the test.
+
+  You will be given oxygen, and your heart rate and oxygen level are monitored
+  throughout.
+
+  You will be able to breathe normally the whole time. The tube does not block
+  your airway. Coughing during the test is common and expected.
+
+  Afterwards
+
+  You will rest in the department until the sedation wears off, usually one to
+  two hours.
+
+  Do not eat or drink anything for [] hours after the test, until the throat
+  anaesthetic has worn off, because you could choke.
+
+  For 24 hours after sedation, do not drive, cycle, operate machinery, drink
+  alcohol, sign legal documents or look after young children on your own.
+
+  A sore throat, a hoarse voice, a mild cough and small streaks of blood in the
+  phlegm for a day or two are all normal.
+
+  Risks
+
+  Bronchoscopy is a commonly performed and generally safe test, but no procedure
+  is without risk.
+
+  Common and usually minor: sore throat, hoarse voice, cough, small amounts of
+  blood in the phlegm, a temporary fall in oxygen level, and a temperature on the
+  evening of the test.
+
+  Uncommon: bleeding needing treatment, chest infection.
+
+  Rare: a collapsed lung, needing a drain, which is a particular risk when a
+  sample is taken from the lung tissue itself; a reaction to the sedation;
+  and very rarely a serious complication of the heart or lungs.
+
+  We will explain which of these apply to the specific samples we plan to take,
+  because the risk depends on what is done.
+
+  When to get help afterwards
+
+  Contact us or go to your nearest emergency department if you cough up more than
+  streaks of blood, become breathless, develop chest pain, or become feverish and
+  unwell in the days after the test.
+
+  Your results
+
+  Some results are available within a few days. Samples sent for growing bacteria
+  take longer, and tests for tuberculosis and related organisms can take up to
+  eight weeks. We will contact you with the results and arrange follow-up as we
+  have discussed.
+
+notes: >-
+  Fill the fasting and post-procedure times from your own unit's policy rather
+  than leaving assumed values in the letter. The instruction not to stop
+  anticoagulants unprompted is deliberate: patients told a blood thinner "may
+  need stopping" sometimes stop it a fortnight early, which is the more dangerous
+  error. The risks paragraph separates pneumothorax out because it belongs to
+  transbronchial sampling in particular, and quoting a single overall figure for
+  "bronchoscopy" misleads in both directions.
+
+evidence:
+  - name: "BTS guideline for diagnostic flexible bronchoscopy in adults"
+    url: https://thorax.bmj.com/content/68/Suppl_1/i1
+    note: >-
+      Consent, sedation, fasting, monitoring and the complication rates this
+      information is based on.
+  - name: "BTS guideline for advanced diagnostic and therapeutic flexible bronchoscopy in adults"
+    url: https://thorax.bmj.com/content/66/Suppl_3/iii1
+    note: Risks specific to transbronchial biopsy and endobronchial ultrasound.
+  - name: "Academy of Medical Royal Colleges: safe sedation practice"
+    url: https://www.aomrc.org.uk/reports-guidance/safe-sedation-practice-for-healthcare-procedures/
+    note: The 24-hour post-sedation restrictions.
+
+see_also:
+  - bronchoscopy-booking

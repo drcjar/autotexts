@@ -1,0 +1,77 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<header class="pagehead">
+  <p class="eyebrow">About</p>
+  <h1>What this is</h1>
+  <p class="pagehead__blurb">
+    {{ total }} text blocks for respiratory clinics, each one showing the guideline or trial it
+    rests on. Search, copy, paste into the record.
+  </p>
+</header>
+
+<div class="prose">
+
+  <h2>Where it came from</h2>
+  <p>
+    In April 2024 Dr Angshu Bhowmik sent a new registrar at the Homerton a set of the auto-texts he
+    used with his dictation software, with a note saying they were by no means perfect, that he
+    changed them from time to time, and that if we all helped each other out with good examples of
+    letters this might be a good thing. That is the whole idea of this site. His originals are the
+    seed: the clerking skeleton, the bronchiectasis advice, the sputum collection instructions and
+    the discharge letters started as his.
+  </p>
+  <p>
+    What has been added is the sourcing. Every clinical block here names the national or
+    international guideline it follows, and where a specific trial is the reason a sentence says
+    what it says, that trial is linked to its record on
+    <a href="{{ site.trials_site }}">respiratorytrials.org</a>. The point is not that these blocks
+    are right. It is that when one of them is wrong, you can see where it came from and fix it.
+  </p>
+
+  <h2>How the blocks are meant to be used</h2>
+  <p>
+    Square brackets are fields, left empty on purpose. Angshu's convention was the empty pair
+    <code>[]</code>, because Dragon's "Manage auto-texts" function treats it as a stop you jump
+    between with F1 and F2. Some blocks name the field inside the brackets when the name is not
+    obvious from the line it sits on. Either way, what the copy button puts on your clipboard is
+    exactly the plain text you see, with nothing added — no formatting, no citations, no
+    attribution line.
+  </p>
+  <p>
+    Patient-facing blocks are written to be read by the patient in a clinic letter: plain English,
+    no abbreviations, and instructions someone can actually act on. Clinician-facing blocks are
+    written for the record.
+  </p>
+
+  <h2>What it is not</h2>
+  <p>
+    It is not a guideline, not a protocol, and not a substitute for having thought about the
+    patient. A template makes it easy to write a fluent letter about a consultation that did not
+    happen; that risk is the price of the time it saves, and it is yours to manage. Nothing here is
+    approved by any trust, college or society.
+  </p>
+  <p>
+    It holds no patient data and asks for none. Nothing is typed into this site — you copy from it,
+    and the filling in happens in your own record system.
+  </p>
+
+  <h2>How it is built</h2>
+  <p>
+    A static site generated from plain YAML by a Python script, the same way its sister site is
+    built. One file per block. Nothing is checked in that has not passed
+    <code>validate.py</code>, which fails the build on a block missing its evidence, a trial
+    reference that does not exist on respiratorytrials.org, a stray smart quote that would arrive
+    in a letter as a replacement character, or a block no one has reviewed for eighteen months.
+  </p>
+
+  <h2>Corrections</h2>
+  <p>
+    Blocks go out of date the moment a guideline moves. If something here is wrong, or if you have a
+    better version of it, that is the most useful thing you can send.
+  </p>
+
+</div>
+
+{% endblock %}

@@ -1,0 +1,43 @@
+title: Hand-held spirometry results
+topic: tests
+kind: results
+summary: The short clinic-room block, with a line for how good the effort actually was.
+updated: 2026-08-06
+credit: Angshu Bhowmik's original.
+
+body: |
+  Hand-held spirometry in clinic ([date]):
+
+  FEV1 [] L ([]% predicted)
+  FVC [] L ([]% predicted)
+  FEV1/FVC ratio []%
+  Peak flow [] L/min ([]% predicted)
+  Best of [] attempts; technique [acceptable and repeatable, or the limitation]
+  [pre-bronchodilator, or post-bronchodilator with drug and dose]
+
+  Interpretation:
+  []
+
+notes: >-
+  The two lines that make this block worth more than the numbers are the effort
+  quality and whether it was pre- or post-bronchodilator. A clinic FEV1 with no
+  note of how many attempts were made and whether they agreed will be treated by
+  the next reader as if it were laboratory-grade, and a post-bronchodilator value
+  filed as if it were baseline is how someone acquires a diagnosis of COPD they
+  do not have. Hand-held spirometry is for monitoring and for supporting a
+  diagnosis, not for making a marginal one: send equivocal cases to the
+  laboratory.
+
+evidence:
+  - name: "ATS/ERS technical standard on spirometry (Graham et al, 2019)"
+    url: https://www.atsjournals.org/doi/10.1164/rccm.201908-1590ST
+    note: >-
+      Acceptability and repeatability criteria, and the requirement to report
+      whether measurements are pre- or post-bronchodilator.
+  - name: "ARTP practice standards for spirometry"
+    url: https://www.artp.org.uk/
+    note: The UK standard for who may perform and interpret spirometry.
+
+see_also:
+  - full-lung-function
+  - new-respiratory-outpatient

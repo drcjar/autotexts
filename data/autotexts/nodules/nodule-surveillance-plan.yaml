@@ -1,0 +1,82 @@
+title: Pulmonary nodule surveillance plan
+topic: nodules
+kind: consultation
+summary: >-
+  The record of what was found, what the risk score said, and exactly when the
+  next scan is due and who is arranging it.
+updated: 2026-08-06
+
+body: |
+  Pulmonary nodule assessment.
+
+  Nodule found on: [scan type and date, and why it was done]
+  Comparison with previous imaging: [date of earliest available prior imaging,
+  and whether the nodule was present]
+
+  Nodule characteristics:
+  Site: [lobe and segment]
+  Size: [] mm maximum diameter, volume [] mm3
+  Character: [solid, part-solid with solid component of, or pure ground glass]
+  Margins: [smooth, lobulated, spiculated]
+  Number: [solitary, or number and distribution]
+  Other findings: [emphysema, fibrosis, lymphadenopathy]
+
+  Risk:
+  Age [], smoking [current, ex with quit date, or never], pack-years []
+  Asbestos or other occupational exposure: []
+  Previous malignancy: []
+  Family history of lung cancer: []
+  Brock model risk of malignancy: []%
+  Herder model risk after PET-CT: []%
+
+  Assessment:
+  [below the size threshold for follow-up, or under surveillance, or being
+  worked up for possible malignancy]
+
+  Plan:
+  1. [discharge with no further imaging, interval CT, PET-CT, biopsy, or
+  referral for treatment]
+  2. Next scan due: [month and year], to be requested by [chest clinic, GP, or
+  radiology recall]
+  3. Surveillance ends: [month and year] if stable
+  4. Patient informed of the plan and the reason for it: [yes]
+  5. Smoking cessation offered: []
+
+  If the nodule grows on any interval scan, the patient should be referred back
+  to the chest clinic rather than continuing surveillance.
+
+notes: >-
+  The failure mode with nodules is not misjudging one scan; it is losing the
+  person between scans. So the block records the month the next scan is due, who
+  is responsible for requesting it, and the date surveillance ends — three facts
+  that are usually implied and therefore lost when the letter is read by someone
+  else two years later. Record the earliest prior imaging you could find: a nodule
+  unchanged for two years is a different object from the same nodule seen once.
+  Write the Brock score as a number rather than describing the risk as low, so the
+  next reader can see what it was based on.
+
+evidence:
+  - name: "BTS guideline for the investigation and management of pulmonary nodules (2015)"
+    url: https://thorax.bmj.com/content/70/Suppl_2/ii1
+    note: >-
+      Size and volume thresholds for surveillance, volume doubling time on repeat
+      CT, the Brock model before PET-CT and the Herder model after it, and the
+      separate pathway for subsolid nodules.
+  - name: "Fleischner Society 2017 guidelines for management of incidental pulmonary nodules"
+    url: https://pubs.rsna.org/doi/10.1148/radiol.2017161659
+    note: >-
+      The international counterpart, and the one many radiology reports quote.
+      Where the two differ, say in the letter which you are following.
+  - name: "NHS England lung cancer screening programme protocol"
+    url: https://www.england.nhs.uk/cancer/lung-cancer-screening/
+    note: >-
+      Nodules found through screening follow the programme's own protocol rather
+      than this pathway.
+
+trials:
+  - NELSON
+  - NLST
+
+see_also:
+  - nodule-patient-information
+  - nodule-follow-up-by-gp

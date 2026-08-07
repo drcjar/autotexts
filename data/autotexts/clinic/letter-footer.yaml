@@ -1,0 +1,85 @@
+title: Letter footer - dictation note and signature
+topic: clinic
+kind: letter
+summary: >-
+  The blocks that sit at the bottom of every letter: the voice recognition
+  note, the signature, and how to reach the department.
+updated: 2026-08-06
+credit: Angshu Bhowmik's originals.
+
+body: |
+  Yours sincerely,
+
+  []
+  [post-nominal qualifications]
+  Consultant in Respiratory Medicine
+  [department and organisation]
+
+  Tel: []
+  Email: []
+
+  Copy to: [patient, GP, others]
+
+  This letter was created using voice recognition software. This occasionally
+  produces errors in spelling or wording. I apologise if any have occurred, and
+  I would be grateful if you would let me know so that they can be corrected.
+
+variants:
+  - title: Safety-netting block
+    note: >-
+      For the end of a letter to a patient being discharged or left on
+      patient-initiated follow-up.
+    body: |
+      Please contact your GP, or contact us on the number above, if you develop
+      any of the following: a cough that persists or worsens, coughing up blood,
+      breathlessness that is getting worse, chest pain, fevers or night sweats, or
+      weight loss that you cannot explain.
+
+      If you become severely breathless, cough up a large amount of blood, or have
+      chest pain with sweating or faintness, call 999.
+
+  - title: Patient-initiated follow-up block
+    note: >-
+      For a patient being left to contact the service themselves rather than
+      given a fixed appointment.
+    body: |
+      Rather than giving you a routine appointment, we are leaving your care under
+      an arrangement called patient-initiated follow-up.
+
+      This means you do not need to attend unless you need to. If your symptoms
+      change, or you become worried, you can contact us directly on the number
+      above and we will arrange to see you, usually within [] weeks. This
+      arrangement lasts for [] months.
+
+      You do not need to go through your GP for this, although you are welcome to
+      see them as well.
+
+      If we have not heard from you by [], we will discharge you and write to
+      your GP. You can be referred back at any time after that.
+
+notes: >-
+    The voice recognition note is worth keeping. It is honest about how the letter
+    was produced, and it explicitly invites correction — which matters when the
+    patient is a recipient of the letter and is best placed to spot that their
+    occupation or their medication has been transcribed wrongly. Angshu included
+    post-nominals on the advice of a patient who was a lawyer, on the grounds that
+    people are entitled to know the qualifications of the clinician writing to
+    them; that is a reasonable position and the field is left for you to fill.
+    Keep the copy-to line: a letter that names its recipients is far easier to
+    audit than one that does not.
+
+evidence:
+  - name: "Academy of Medical Royal Colleges: please write to me"
+    url: https://www.aomrc.org.uk/reports-guidance/please-write-to-me-writing-outpatient-clinic-letters-to-patients/
+    note: >-
+      Write to the patient, copy the GP, avoid abbreviations, and state clearly
+      what happens next and who to contact.
+  - name: "NHS England guidance on patient-initiated follow-up"
+    url: https://www.england.nhs.uk/outpatient-transformation-programme/patient-initiated-follow-up-giving-patients-greater-control-over-their-hospital-follow-up-care/
+    note: >-
+      Patients on patient-initiated follow-up must be told how to make contact,
+      how quickly they will be seen, and how long the arrangement lasts.
+
+see_also:
+  - respiratory-follow-up
+  - discharge-after-no-response

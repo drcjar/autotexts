@@ -1,0 +1,105 @@
+title: Difficult asthma assessment
+topic: asthma
+kind: consultation
+summary: >-
+  The systematic assessment that has to be done before asthma is called severe,
+  and before anyone uses the word biologic.
+updated: 2026-08-06
+
+body: |
+  Assessment of difficult-to-treat asthma.
+
+  Is it asthma?
+  Objective evidence of variable airflow obstruction, and when: []
+  Alternative or additional diagnoses considered: [inducible laryngeal
+  obstruction, dysfunctional breathing, bronchiectasis, COPD, heart failure,
+  ABPA, eosinophilic granulomatosis with polyangiitis, tracheobronchomalacia]
+  Investigations done to exclude them: []
+
+  Is the treatment being taken?
+  Prescribed regimen: []
+  Prescription collections in the last 12 months: [preventer collections of 12]
+  Inhaler technique observed today: [adequate, or the specific error seen]
+  Adherence discussed without blame, and what the patient says: []
+  FeNO suppression test done: [yes with result, or no]
+
+  What else is driving it?
+  Nasal disease or polyps: []
+  Reflux: []
+  Obesity, BMI []
+  Obstructive sleep apnoea, Epworth []
+  Smoking or vaping, pack-years []
+  Occupational exposure, and whether symptoms improve away from work: []
+  Aspirin or NSAID sensitivity: []
+  Beta blockers: []
+  Anxiety, depression or panic: []
+  Ongoing allergen exposure at home, including pets and damp: []
+
+  Attack and steroid burden:
+  Oral steroid courses in the last 12 months: []
+  Maintenance prednisolone, dose and duration: []
+  Cumulative steroid exposure and its consequences: [bone density, diabetes,
+  cataract, weight, adrenal suppression]
+  Admissions, HDU or ITU care: []
+
+  Phenotype:
+  Highest blood eosinophil count, and when taken: [] x10^9/L
+  FeNO off or on steroids: [] ppb
+  Total IgE [] kU/L, aeroallergen specific IgE or skin prick: []
+  Aspergillus IgE and IgG: []
+  Age of onset: []
+  Sputum culture: []
+  CT chest: []
+
+  Impression:
+  [difficult-to-treat asthma with modifiable factors, or severe asthma meeting
+  criteria for specialist therapy]
+
+  Plan:
+  1. []
+  2. Referral to severe asthma multidisciplinary team: [yes or no, with reason]
+  3. Biologic considered: [drug and the eligibility criterion met, or not yet]
+
+notes: >-
+  Most difficult asthma is not severe asthma. The distinction is whether the
+  disease stays uncontrolled once the diagnosis is confirmed, the treatment is
+  actually being taken, and the contributing factors have been treated — and each
+  of those three has a section here because skipping one is how someone ends up
+  on a monoclonal antibody for untreated rhinitis and a poor inhaler technique.
+  Record the highest blood eosinophil count and the date: eligibility for the
+  anti-interleukin-5 agents is judged on a peak count, and a single suppressed
+  value taken during a steroid course can wrongly close a door. FeNO suppression
+  testing — observed inhaled steroid dosing with serial FeNO — is the practical
+  way to separate refractory disease from non-adherence when prescription records
+  are ambiguous.
+
+evidence:
+  - name: "NICE/BTS/SIGN NG245 - Asthma: diagnosis, monitoring and chronic asthma management"
+    url: https://www.nice.org.uk/guidance/ng245
+    note: >-
+      Refer adults whose asthma is uncontrolled on moderate-dose MART after trials
+      of a leukotriene receptor antagonist and a long-acting muscarinic antagonist.
+  - name: "ERS/ATS guideline on severe asthma (Holguin et al, 2020)"
+    url: https://publications.ersnet.org/content/erj/55/1/1900588
+    note: >-
+      The definition this block is built on: severe asthma is what remains after
+      adherence, technique, comorbidity and diagnosis have been dealt with.
+  - name: "BTS/SIGN difficult asthma assessment and the UK severe asthma registry"
+    url: https://www.brit-thoracic.org.uk/
+    note: >-
+      Systematic assessment before escalation is the model of care the registry
+      data support.
+  - name: GINA severe asthma guide
+    url: https://ginasthma.org/severeasthma/
+    note: Phenotyping and biologic selection by eosinophils, FeNO, IgE and age of onset.
+
+trials:
+  - MENSA
+  - QUEST
+  - NAVIGATOR
+  - SIROCCO
+  - AMAZES
+
+see_also:
+  - asthma-review
+  - asthma-new-patient

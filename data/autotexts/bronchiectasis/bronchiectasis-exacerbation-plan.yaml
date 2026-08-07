@@ -1,0 +1,97 @@
+title: Bronchiectasis exacerbation plan
+topic: bronchiectasis
+kind: patient-info
+summary: >-
+  The written plan the patient keeps: what counts as an exacerbation, which
+  antibiotic, for how long, and when 14 days is not enough.
+updated: 2026-08-06
+
+body: |
+  Your plan for chest infections
+
+  What counts as an infection needing treatment
+
+  A change from your usual state, lasting more than 48 hours, with any of:
+
+  - more phlegm than usual, or thicker phlegm
+  - phlegm that has changed colour
+  - more coughing
+  - more breathlessness
+  - feeling unwell, feverish or unusually tired
+  - coughing up blood.
+
+  What to do
+
+  1. Send a sputum sample before you start antibiotics. You have been given pots
+  for this. Even if you have already started, still send one.
+
+  2. Increase your airway clearance. Do it more often than usual - three or four
+  times a day if you can manage it - and for longer. This is as important as the
+  antibiotic.
+
+  3. Start your antibiotic:
+
+  First choice: [] [] mg [] times a day for 14 days.
+  If you are allergic to it, or it has not worked before: [] [] mg [] times a
+  day for 14 days.
+
+  Take the full 14 days. Courses of 5 or 7 days often leave the infection
+  smouldering, and it comes back within a few weeks.
+
+  4. Drink plenty of fluid, and rest.
+
+  5. Tell your GP practice or the respiratory team that you have started the
+  plan.
+
+  If you are not improving
+
+  Contact us if you are no better after 5 to 7 days of antibiotics, or if you get
+  worse at any point. You may need a different antibiotic based on your sputum
+  result, or treatment through a drip.
+
+  Get help urgently, or call 999, if you are severely breathless, have chest pain,
+  are coughing up a large amount of blood, are confused or drowsy, or cannot keep
+  fluids down.
+
+  How often is too often
+
+  If you are needing this plan three or more times a year, please ask for a
+  review rather than simply repeating it. Frequent infections mean there is more
+  we should be doing - which may be a change in your clearance regime, a
+  long-term antibiotic, or treatment aimed at a specific organism in your
+  sputum.
+
+notes: >-
+  Fourteen days is the number that most often gets shortened by someone
+  unfamiliar with bronchiectasis, so it appears three times in the block. The
+  sputum-before-antibiotics instruction is first for the same reason it is first
+  in the guideline: it is the only step that becomes impossible once treatment
+  starts. The last section exists so that a self-management plan does not quietly
+  substitute for escalation — three exacerbations a year is the threshold at
+  which long-term macrolide or inhaled antibiotic treatment should be
+  considered, and the patient is the person best placed to notice they have hit
+  it.
+
+evidence:
+  - name: "BTS guideline for bronchiectasis in adults (2019)"
+    url: https://thorax.bmj.com/content/74/Suppl_1/1
+    note: >-
+      Sputum culture before starting antibiotics; 14 days of treatment for an
+      exacerbation; self-management plans for suitable patients.
+  - name: "ERS clinical practice guideline for the management of adult bronchiectasis (2025)"
+    url: https://publications.ersnet.org/content/erj/66/6/2501126
+    note: >-
+      Long-term macrolides for patients at high risk of exacerbation, and inhaled
+      antibiotics for chronic Pseudomonas infection with frequent exacerbations —
+      the reason the block ends by asking the patient to trigger a review.
+
+trials:
+  - EMBRACE
+  - BAT
+  - BLESS
+  - ASPEN
+  - PROMIS
+
+see_also:
+  - bronchiectasis-patient-information
+  - sputum-sample-for-mycobacteria
