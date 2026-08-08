@@ -121,7 +121,6 @@ def main():
         record["body_html"] = render_body(record["body"], f"{context}:body")
         record["field_count"] = lib.count_fields(record["body"])
         record["field_labels"] = lib.field_strip(record["body"], record["kind"])
-        record["word_count"] = lib.word_count(record["body"])
         record["notes_html"] = (
             render_prose(record["notes"], trials, f"{context}:notes", trials_site)
             if record["notes"] else ""

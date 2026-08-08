@@ -22,7 +22,6 @@ LOCAL_DIR = DATA / "local"
 # not, so a thin record is still a useful record.
 FIELDS = [
     "title",
-    "short_title",
     "topic",
     "kind",
     "summary",
@@ -149,10 +148,6 @@ def normalise_body(text):
 
 def count_fields(text):
     return len(FIELD_RE.findall(text or ""))
-
-
-def word_count(text):
-    return len(str(text).split())
 
 
 def field_labels(text, limit=40):

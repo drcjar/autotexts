@@ -6,7 +6,6 @@
 # patient, or for the person booking the test.
 
 title: Respiratory Autotexts
-short_title: Autotexts
 tagline: Evidence-based text blocks for the respiratory clinic
 description: >-
   Ready-to-paste consultation templates, patient information and test explainers
@@ -22,12 +21,11 @@ trials_site: https://respiratorytrials.org
 # The block the front page opens with. It should be the one most people came for.
 hero: new-respiratory-outpatient
 
-# The placeholder convention. Angshu's originals use empty square brackets
-# because Dragon's "Manage auto-texts" treats them as fields you jump between
-# with F1 and F2; keeping the convention means these paste into an existing
-# Dragon workflow unchanged.
-field_open: "["
-field_close: "]"
+# The placeholder convention is square brackets, because Dragon's "Manage
+# auto-texts" treats them as fields you jump between with F1 and F2; keeping
+# Angshu's convention means these paste into an existing Dragon workflow
+# unchanged. It is fixed rather than configurable — it is baked into FIELD_RE in
+# sitelib.py, and into every block already written.
 
 groups:
   - name: Airways
