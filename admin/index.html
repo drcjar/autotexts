@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>Edit — Respiratory Autotexts</title>
+
+<!-- The editor's config is generated at build time from data/site.yaml, so the
+     topic list and the "what it is for" options in the form can never drift from
+     the ones the site is actually built with. See write_admin_config in build.py. -->
+<link href="/admin/config.yml" type="text/yaml" rel="cms-config-url">
+
+<style>
+  /* Shown until the editor takes over the page, and again if it cannot load —
+     a blank white screen on hospital wifi is indistinguishable from a broken
+     site, so say what is happening. */
+  body {
+    margin: 0;
+    font: 16px/1.55 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+    color: #14181b;
+    background: #f0f2ee;
+  }
+  .boot {
+    max-width: 34rem;
+    margin: 12vh auto;
+    padding: 0 1.25rem;
+  }
+  .boot h1 { font-size: 1.3rem; letter-spacing: -0.02em; margin: 0 0 0.5rem; }
+  .boot p { color: #59636c; }
+  .boot code {
+    font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+    font-size: 0.85em; background: #fff; border: 1px solid #e5e8e3;
+    border-radius: 2px; padding: 0 0.25em;
+  }
+  .boot a { color: #14554c; }
+  @media (prefers-color-scheme: dark) {
+    body { background: #11151a; color: #e4e8e6; }
+    .boot p { color: #94a0a8; }
+    .boot code { background: #181d23; border-color: #202730; }
+    .boot a { color: #63c9b5; }
+  }
+</style>
+</head>
+<body>
+
+<div class="boot" id="boot">
+  <h1>Loading the editor…</h1>
+  <p>
+    If this message stays put, the editor script could not load — usually a
+    blocked content delivery network on a hospital network. You can always edit
+    the files directly on
+    <a href="https://github.com/drcjar/autotexts/tree/main/data/autotexts">GitHub</a>
+    instead.
+  </p>
+  <p>
+    Sign in with a GitHub personal access token. It needs
+    <code>Contents: read and write</code> and <code>Pull requests: read and
+    write</code> on the <code>drcjar/autotexts</code> repository, and nothing
+    else.
+  </p>
+</div>
+
+<!-- Pinned deliberately. Sveltia CMS is pre-1.0 and minor releases have made
+     breaking changes; upgrading should be a decision someone makes and tests,
+     not something that happens to the editor overnight. -->
+<script src="https://unpkg.com/@sveltia/cms@0.181.1/dist/sveltia-cms.js" type="module"></script>
+
+<script>
+  // The CMS replaces the document body once it mounts. If it has not done so
+  // after a few seconds, the boot message above is the useful thing on screen.
+  setTimeout(function () {
+    var boot = document.getElementById('boot');
+    if (boot && document.body.contains(boot)) {
+      boot.querySelector('h1').textContent = 'The editor did not load.';
+    }
+  }, 8000);
+</script>
+
+</body>
+</html>

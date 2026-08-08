@@ -14,6 +14,7 @@ import re
 import shutil
 import sys
 
+import yaml
 from jinja2 import Environment, FileSystemLoader, StrictUndefined
 
 import sitelib as lib
@@ -21,6 +22,7 @@ import sitelib as lib
 ROOT = pathlib.Path(__file__).resolve().parent
 TEMPLATES = ROOT / "templates"
 STATIC = ROOT / "static"
+ADMIN = ROOT / "admin"
 
 INLINE_LINK = re.compile(r"\[\[([^\]|]+?)(?:\|([^\]]+))?\]\]")
 INLINE_BOLD = re.compile(r"\*\*(.+?)\*\*")
@@ -82,6 +84,166 @@ def render_prose(text, trials, context, trials_site):
 def write(path, content):
     path.parent.mkdir(parents=True, exist_ok=True)
     path.write_text(content, encoding="utf-8")
+
+
+def admin_config(site):
+    """Build the browser editor's configuration from the site taxonomy.
+
+    Generated rather than committed, so the topics and the "what it is for"
+    options in the edit form cannot drift from the ones the site is built with.
+    Adding a topic to data/site.yaml adds it to the editor.
+
+    One collection per topic rather than one nested collection, because it puts
+    the topics down the editor's sidebar in the same order as the navigation, and
+    because it lets each collection pin its own `topic` value as a hidden field —
+    a block filed under Asthma cannot be saved claiming to be about COPD.
+    """
+    kind_options = [{"label": kind["name"], "value": kind["slug"]} for kind in site["kinds"]]
+
+    def fields(topic_slug):
+        return [
+            {"name": "title", "label": "Title", "widget": "string"},
+            # Fixed by the collection: the folder decides the topic.
+            {"name": "topic", "widget": "hidden", "default": topic_slug},
+            {
+                "name": "kind",
+                "label": "What it is for",
+                "widget": "select",
+                "options": kind_options,
+            },
+            {
+                "name": "summary",
+                "label": "One-line summary",
+                "widget": "text",
+                "hint": "Shown on cards and in search results. One sentence.",
+            },
+            {
+                "name": "updated",
+                "label": "Checked against current guidance on",
+                "widget": "datetime",
+                "date_format": "YYYY-MM-DD",
+                "time_format": False,
+                "format": "YYYY-MM-DD",
+                "hint": "The build warns when a block has not been checked for 18 months.",
+            },
+            {
+                "name": "body",
+                "label": "Paste block",
+                "widget": "text",
+                "hint": (
+                    "Plain text only - this is what lands on the clipboard. "
+                    "Square brackets are fields: [] for a bare one, or [a short hint] "
+                    "where the line does not make it obvious. No bold, no bullets with "
+                    "asterisks, and no curly quotes: type them, do not paste from Word."
+                ),
+            },
+            {
+                "name": "notes",
+                "label": "How to use it",
+                "widget": "text",
+                "required": False,
+                "hint": (
+                    "Editorial. Why the block says what it says, and the mistake it "
+                    "exists to prevent. Supports **bold** and [[TRIAL]] links."
+                ),
+            },
+            {
+                "name": "evidence",
+                "label": "Evidence",
+                "widget": "list",
+                "required": False,
+                "label_singular": "source",
+                "summary": "{{fields.name}}",
+                "hint": "The guideline or paper behind the block. Never copied with the text.",
+                "fields": [
+                    {"name": "name", "label": "Name", "widget": "string"},
+                    {"name": "url", "label": "Link", "widget": "string", "required": False},
+                    {
+                        "name": "note",
+                        "label": "What it says that this block depends on",
+                        "widget": "text",
+                        "required": False,
+                    },
+                ],
+            },
+            {
+                "name": "trials",
+                "label": "Trials",
+                "widget": "list",
+                "required": False,
+                "field": {"name": "acronym", "label": "Acronym", "widget": "string"},
+                "hint": (
+                    "Acronyms as they appear on respiratorytrials.org. "
+                    "One that does not exist there fails the build."
+                ),
+            },
+            {
+                "name": "variants",
+                "label": "Variants",
+                "widget": "list",
+                "required": False,
+                "label_singular": "variant",
+                "summary": "{{fields.title}}",
+                "collapsed": True,
+                "fields": [
+                    {"name": "title", "label": "Title", "widget": "string"},
+                    {"name": "note", "label": "When to use it", "widget": "text", "required": False},
+                    {"name": "body", "label": "Paste block", "widget": "text"},
+                ],
+            },
+            {
+                "name": "see_also",
+                "label": "Use with",
+                "widget": "list",
+                "required": False,
+                "field": {"name": "slug", "label": "Block filename", "widget": "string"},
+                "hint": "Filenames without .yaml, e.g. asthma-review. A wrong one fails the build.",
+            },
+            {
+                "name": "credit",
+                "label": "Credit",
+                "widget": "string",
+                "required": False,
+                "hint": "Whose block this started as, where that is worth recording.",
+            },
+        ]
+
+    collections = [
+        {
+            "name": topic["slug"],
+            "label": topic["name"],
+            "label_singular": f"{topic['name']} block",
+            "description": topic["blurb"],
+            "folder": f"data/autotexts/{topic['slug']}",
+            "extension": "yaml",
+            "format": "yaml",
+            "create": True,
+            "slug": "{{title}}",
+            "summary": "{{title}}",
+            "sortable_fields": ["title", "updated", "kind"],
+            "fields": fields(topic["slug"]),
+        }
+        for topic in site["topics"]
+    ]
+
+    editor = site.get("editor") or {}
+    return {
+        "backend": {
+            "name": "github",
+            "repo": editor["repo"],
+            "branch": editor.get("branch", "main"),
+        },
+        # Every edit opens a pull request instead of committing to main, so
+        # nothing reaches a clinic letter without a second pair of eyes. The
+        # validator runs on the pull request, so format errors show up as a
+        # failed check before anyone merges.
+        "publish_mode": "editorial_workflow",
+        "site_url": site["base_url"],
+        "display_url": site["base_url"],
+        "media_folder": "static/img",
+        "public_folder": "/static/img",
+        "collections": collections,
+    }
 
 
 def main():
@@ -308,6 +470,19 @@ def main():
         else:
             target.parent.mkdir(parents=True, exist_ok=True)
             shutil.copy2(item, target)
+
+    # --- browser editor --------------------------------------------------
+    # Its page is static; its config is generated from the taxonomy above so the
+    # form's topic and kind options cannot drift from the site's own.
+    if ADMIN.is_dir():
+        if not (site.get("editor") or {}).get("repo"):
+            raise BuildError("site.yaml: admin/ exists but `editor.repo` is not set")
+        shutil.copytree(ADMIN, out / "admin")
+        write(
+            out / "admin" / "config.yml",
+            "# Generated by build.py from data/site.yaml. Do not edit by hand.\n"
+            + yaml.safe_dump(admin_config(site), sort_keys=False, allow_unicode=True, width=100),
+        )
 
     if site.get("domain"):
         write(out / "CNAME", site["domain"] + "\n")

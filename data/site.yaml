@@ -21,6 +21,14 @@ trials_site: https://respiratorytrials.org
 # The block the front page opens with. It should be the one most people came for.
 hero: new-respiratory-outpatient
 
+# The browser editor at /admin/. Its form is generated from the topics and kinds
+# below, so the two cannot drift. Editors sign in with a GitHub personal access
+# token scoped to this repository; every edit opens a pull request rather than
+# committing to the branch, so the validator runs before anything is merged.
+editor:
+  repo: drcjar/autotexts
+  branch: main
+
 # The placeholder convention is square brackets, because Dragon's "Manage
 # auto-texts" treats them as fields you jump between with F1 and F2; keeping
 # Angshu's convention means these paste into an existing Dragon workflow

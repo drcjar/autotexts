@@ -84,6 +84,45 @@ crept into a paste block, or a smart quote — curly quotes and en dashes arrive
 replacement characters, so they are an error rather than a style preference. It warns on a clinical
 block with no evidence cited, and on anything not reviewed for 18 months.
 
+## Editing in a browser
+
+There is a form-based editor at [`/admin/`](https://autotexts.respiratorytrials.org/admin/), running
+[Sveltia CMS](https://sveltiacms.app/en/). It edits the YAML files in this repository directly —
+there is no separate content database.
+
+Every edit **opens a pull request** rather than committing to `main`, so `validate.py` runs on it and
+someone approves the diff before it reaches the site. Format errors show as a failed check; clinical
+errors need the human.
+
+**One-off setup per editor.** Sign in with a GitHub fine-grained personal access token:
+
+1. [github.com/settings/personal-access-tokens/new](https://github.com/settings/personal-access-tokens/new)
+2. Repository access: **Only select repositories** → `drcjar/autotexts`
+3. Permissions → Repository permissions:
+   - **Contents**: Read and write
+   - **Pull requests**: Read and write
+4. Set an expiry you are comfortable with, generate, and copy it
+5. At `/admin/`, choose **Sign In Using Access Token** and paste it
+
+Nothing else. No OAuth app, no proxy, no third-party service holding your credentials — the token
+lives in your own browser and you can revoke it from GitHub at any time. If you would rather have a
+**Sign in with GitHub** button, that needs a small [Cloudflare Worker](https://github.com/sveltia/sveltia-cms-auth)
+holding the OAuth secret; worth doing only if the token step becomes a nuisance across more editors.
+
+The editor's form is generated at build time from `data/site.yaml` by `admin_config()` in
+`build.py`, so the topic list and the "what it is for" options cannot drift from the ones the site is
+built with. Adding a topic to `site.yaml` adds it to the editor. `admin/index.html` is the only
+hand-written part, and the Sveltia version in it is pinned deliberately — it is pre-1.0 and minor
+releases have made breaking changes.
+
+Two things to expect:
+
+- The first time a block is saved through the editor, its YAML is reformatted by the CMS's own
+  serialiser, so the diff will be larger than the change. Harmless — the text itself is unchanged,
+  and `tools/check_paste.py` proves it.
+- Editing files directly on GitHub still works, and the **Work with Local Repository** button in the
+  editor edits your local checkout with no token at all.
+
 ## The local layer
 
 `data/local/*.yaml` holds organisation-specific blocks: phone numbers, booking systems, where to
