@@ -1,0 +1,23 @@
+# Cloudflare Worker that lets editors sign in to /admin/ with Google.
+# See gateway/README.md. Deploy with:  npx wrangler deploy  (from this directory)
+
+name = "autotexts-editor"
+main = "worker.mjs"
+compatibility_date = "2026-09-01"
+
+[vars]
+GITHUB_REPO = "drcjar/autotexts"
+BASE_BRANCH = "main"
+# Where the editor page is served from. The sign-in popup hands its token only
+# to these origins, and the API answers cross-origin requests only from them.
+SITE_ORIGINS = "https://autotexts.respiratorytrials.org,http://localhost:8000"
+# The editor may only create, change or delete files under these folders.
+EDITABLE_PATHS = "data/autotexts/"
+
+# Set with `npx wrangler secret put NAME`, never committed:
+#   GOOGLE_CLIENT_ID        OAuth client from Google Cloud console
+#   GOOGLE_CLIENT_SECRET
+#   GITHUB_APP_ID           numeric App ID
+#   GITHUB_APP_PRIVATE_KEY  the App's private key, converted to PKCS#8
+#   SESSION_SECRET          any long random string
+#   ALLOWED_EMAILS          comma-separated Google addresses allowed to edit

@@ -32,6 +32,11 @@ jobs:
       - name: Validate data
         run: python3 validate.py
 
+      # The sign-in gateway is what stops the editor writing to main; check it
+      # still refuses what it should.
+      - name: Test editor gateway
+        run: node gateway/test.mjs
+
       - name: Build site
         run: python3 build.py
 

@@ -90,24 +90,25 @@ There is a form-based editor at [`/admin/`](https://autotexts.respiratorytrials.
 [Sveltia CMS](https://sveltiacms.app/en/). It edits the YAML files in this repository directly —
 there is no separate content database.
 
-Every edit **opens a pull request** rather than committing to `main`, so `validate.py` runs on it and
+Editors **sign in with a Google account**. A small Cloudflare Worker in [`gateway/`](gateway/)
+checks the address against a list, then does the GitHub side on their behalf with a GitHub App that
+only it holds — nobody needs a GitHub account or a token.
+
+Every save **opens a pull request** rather than committing to `main`, so `validate.py` runs on it and
 someone approves the diff before it reaches the site. Format errors show as a failed check; clinical
-errors need the human.
+errors need the human. The gateway enforces this: it moves each save onto its own `edit/…` branch,
+refuses any other kind of write, and only lets the editor touch files under `data/autotexts/`. The
+editor's name and address go in the commit and the pull request.
 
-**One-off setup per editor.** Sign in with a GitHub fine-grained personal access token:
+**Adding an editor** is adding their Google address to the Worker's `ALLOWED_EMAILS` secret.
+Removing them takes effect on their next request. Setup, from nothing, is in
+[`gateway/README.md`](gateway/README.md).
 
-1. [github.com/settings/personal-access-tokens/new](https://github.com/settings/personal-access-tokens/new)
-2. Repository access: **Only select repositories** → `drcjar/autotexts`
-3. Permissions → Repository permissions:
-   - **Contents**: Read and write
-   - **Pull requests**: Read and write
-4. Set an expiry you are comfortable with, generate, and copy it
-5. At `/admin/`, choose **Sign In Using Access Token** and paste it
+Sveltia's button still says **Sign In with GitHub** — its label is fixed — but it opens Google.
 
-Nothing else. No OAuth app, no proxy, no third-party service holding your credentials — the token
-lives in your own browser and you can revoke it from GitHub at any time. If you would rather have a
-**Sign in with GitHub** button, that needs a small [Cloudflare Worker](https://github.com/sveltia/sveltia-cms-auth)
-holding the OAuth secret; worth doing only if the token step becomes a nuisance across more editors.
+After saving, the change is in a pull request, not yet on the site. Until that is merged, reopening
+the editor shows the old text, and a second edit to the same block starts from the old text too —
+merge first, then edit again.
 
 The editor's form is generated at build time from `data/site.yaml` by `admin_config()` in
 `build.py`, so the topic list and the "what it is for" options cannot drift from the ones the site is
@@ -121,7 +122,10 @@ Two things to expect:
   serialiser, so the diff will be larger than the change. Harmless — the text itself is unchanged,
   and `tools/check_paste.py` proves it.
 - Editing files directly on GitHub still works, and the **Work with Local Repository** button in the
-  editor edits your local checkout with no token at all.
+  editor edits your local checkout with no sign-in at all.
+- Without `editor.gateway` in `data/site.yaml`, the editor falls back to asking for a GitHub token,
+  and then **commits straight to `main`**: Sveltia has no pull-request workflow of its own, and
+  silently ignores `publish_mode: editorial_workflow`.
 
 ## The local layer
 

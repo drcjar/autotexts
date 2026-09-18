@@ -227,17 +227,21 @@ def admin_config(site):
     ]
 
     editor = site.get("editor") or {}
+    backend = {
+        "name": "github",
+        "repo": editor["repo"],
+        "branch": editor.get("branch", "main"),
+    }
+    # With a gateway, editors sign in with Google and the editor talks to the
+    # gateway instead of api.github.com. The gateway is also what turns each save
+    # into a pull request: Sveltia has no editorial workflow of its own, and
+    # without the gateway it commits straight to the branch. See gateway/.
+    if editor.get("gateway"):
+        gateway = editor["gateway"].rstrip("/")
+        # Sveltia derives {gateway}/api/v3 and {gateway}/api/graphql from api_root.
+        backend.update(base_url=gateway, auth_endpoint="auth", api_root=gateway)
     return {
-        "backend": {
-            "name": "github",
-            "repo": editor["repo"],
-            "branch": editor.get("branch", "main"),
-        },
-        # Every edit opens a pull request instead of committing to main, so
-        # nothing reaches a clinic letter without a second pair of eyes. The
-        # validator runs on the pull request, so format errors show up as a
-        # failed check before anyone merges.
-        "publish_mode": "editorial_workflow",
+        "backend": backend,
         "site_url": site["base_url"],
         "display_url": site["base_url"],
         "media_folder": "static/img",

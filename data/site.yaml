@@ -22,12 +22,14 @@ trials_site: https://respiratorytrials.org
 hero: new-respiratory-outpatient
 
 # The browser editor at /admin/. Its form is generated from the topics and kinds
-# below, so the two cannot drift. Editors sign in with a GitHub personal access
-# token scoped to this repository; every edit opens a pull request rather than
-# committing to the branch, so the validator runs before anything is merged.
+# below, so the two cannot drift. With `gateway` set, editors sign in with a
+# Google account and every save opens a pull request, so the validator runs and
+# someone reads the diff before anything is merged. Without it, the editor asks
+# for a GitHub token and commits straight to `branch`. See gateway/README.md.
 editor:
   repo: drcjar/autotexts
   branch: main
+  # gateway: https://autotexts-editor.<your-subdomain>.workers.dev
 
 # The placeholder convention is square brackets, because Dragon's "Manage
 # auto-texts" treats them as fields you jump between with F1 and F2; keeping
